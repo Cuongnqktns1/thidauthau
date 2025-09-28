@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn Luyện Trắc Nghiệm</title>
+    
+    <!-- 💖 THÊM CÁC THẺ META PWA ĐỂ TỐI ƯU TRÊN DI ĐỘNG 💖 -->
+    <!-- Màu sắc cho thanh tiêu đề trình duyệt (chỉ Android) -->
+    <meta name="theme-color" content="#2563EB"> 
+    <!-- Chế độ xem độc lập (ẩn thanh URL) cho iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Quiz App">
+
+    <!-- Tải Tailwind CSS để đảm bảo giao diện đẹp và responsive trên di động -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Tùy chỉnh font cho toàn bộ ứng dụng */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f9;
+        }
+        /* Custom scrollbar cho các nội dung dài trên thiết bị di động */
+        .custom-scroll::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scroll::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 3px;
+        }
+        /* Hiệu ứng chọn đáp án */
+        .option-item {
+            transition: all 0.2s;
+        }
+        .option-item:not(.answered):hover {
+            background-color: #f0f4f7;
+            cursor: pointer;
+        }
+        /* Icon placeholder cho PWA (không dùng ảnh thật) */
+        .app-icon {
+            display: inline-block;
+            font-size: 2.5rem;
+            line-height: 1;
+            text-align: center;
+            width: 64px;
+            height: 64px;
+            border-radius: 16px;
+            background-color: #2563EB;
+            color: white;
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- 🌟 MANIFEST.JSON MÔ PHỎNG (Inline Script) 🌟 -->
+    <!-- Trong môi trường 1 file HTML, chúng ta không thể tạo file manifest.json, 
+         nhưng các thẻ meta PWA ở trên đã giúp trình duyệt nhận diện được các thông tin cơ bản. -->
+    
+    <div id="app" class="flex-grow flex flex-col items-center justify-start p-4 sm:p-6">
+        <!-- Nội dung sẽ được render tại đây -->
+    </div>
+
+    <!-- Modal thông báo tùy chỉnh (Thay thế cho alert/confirm) -->
+    <div id="modal-backdrop" class="hidden fixed inset-0 bg-black bg-opacity-50 z-40 items-center justify-center">
+        <div class="bg-white rounded-xl p-6 max-w-sm w-full shadow-2xl">
+            <h3 id="modal-title" class="text-xl font-bold text-gray-800 mb-4">Thông báo</h3>
+            <p id="modal-message" class="text-gray-700 mb-6"></p>
+            <div class="flex justify-end space-x-3">
+                <button id="modal-cancel-btn" class="hidden px-4 py-2 text-gray-600 bg-gray-200 rounded-lg font-semibold hover:bg-gray-300 transition duration-150">Hủy</button>
+                <button id="modal-confirm-btn" class="px-4 py-2 text-white bg-blue-600 rounded-lg font-semibold hover:bg-blue-700 transition duration-150">Đồng ý</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- CẤU HÌNH ỨNG DỤNG (Giống file Python) ---
+        const NUM_QUESTIONS = 70;
+        const TIME_LIMIT_MINUTES = 60;
+        const PASS_SCORE = 7.0; 
+        
+        const COLOR_CORRECT = "text-green-700"; // Xanh lá đậm
+        const COLOR_INCORRECT = "text-red-700"; // Đỏ đậm
+        const COLOR_ACCENT = "text-blue-600";
+        // ---------------------------------------------
+
+        // --- BIẾN TOÀN CỤC ---
+        let username = "";
+        let questions = [];
+        let currentQuestion = 0;
+        let userAnswers = []; // Lưu index đáp án đã chọn (0, 1, 2, 3) hoặc -1
+        let isAnswered = []; // True/False: Câu hỏi đã được phản hồi (trong chế độ luyện tập)
+        let timeLimit = TIME_LIMIT_MINUTES * 60;
+        let timeLeft = timeLimit;
+        let timerInterval;
+        let allQuestions = []; // Dữ liệu câu hỏi gốc
+        
+        // Hàm hiển thị Modal (thay thế messagebox)
+        function showModal(title, message, isConfirm = false, onConfirm = null) {
+            const backdrop = document.getElementById('modal-backdrop');
+            const titleEl = document.getElementById('modal-title');
+            const messageEl = document.getElementById('modal-message');
+            const confirmBtn = document.getElementById('modal-confirm-btn');
+            const cancelBtn = document.getElementById('modal-cancel-btn');
+
+            titleEl.textContent = title;
+            messageEl.textContent = message;
+
+            backdrop.classList.remove('hidden');
+            backdrop.classList.add('flex');
+
+            confirmBtn.onclick = () => {
+                backdrop.classList.add('hidden');
+                backdrop.classList.remove('flex');
+                if (isConfirm && onConfirm) {
+                    onConfirm();
+                }
+            };
+
+            if (isConfirm) {
+                cancelBtn.classList.remove('hidden');
+                cancelBtn.onclick = () => {
+                    backdrop.classList.add('hidden');
+                    backdrop.classList.remove('flex');
+                };
+                confirmBtn.textContent = "Nộp bài";
+            } else {
+                cancelBtn.classList.add('hidden');
+                confirmBtn.textContent = "Đóng";
+            }
+        }
+
+        // Đọc dữ liệu từ file JSON (mô phỏng load_questions)
+        async function loadQuestions() {
+            if (allQuestions.length > 0) return allQuestions;
+            try {
+                // Tên file JSON đã được tải lên trong Canvas
+                const response = await fetch('de_full.json'); 
+                if (!response.ok) {
+                    showModal("Lỗi dữ liệu", "Không thể tải file 'de_full.json'. Vui lòng đảm bảo file đã được tải lên đúng.");
+                    return [];
+                }
+                allQuestions = await response.json();
+                return allQuestions;
+            } catch (error) {
+                showModal("Lỗi hệ thống", `Lỗi khi tải câu hỏi: ${error.message}`);
+                return [];
+            }
+        }
+
+        // Ghi kết quả (trong Web App, chúng ta chỉ hiển thị, không lưu vào CSV)
+        function saveResult(name, correct, total, score, status) {
+            // Trong môi trường Web App đơn giản, chúng ta không có quyền ghi file
+            console.log(`Kết quả của ${name}: Đúng ${correct}/${total}, Điểm: ${score.toFixed(2)}, Xếp loại: ${status}`);
+        }
+
+        // --- QUẢN LÝ GIAO DIỆN ---
+
+        function clearWindow() {
+            document.getElementById('app').innerHTML = '';
+        }
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            const timeText = `⏰ Thời gian còn lại: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            const timerEl = document.getElementById('timer-label');
+            if (timerEl) {
+                timerEl.textContent = timeText;
+            }
+        }
+
+        function startTimer() {
+            if (timerInterval) clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                if (timeLeft > 0) {
+                    timeLeft--;
+                    updateTimerDisplay();
+                } else {
+                    clearInterval(timerInterval);
+                    showModal("Hết giờ", "Bạn đã hết thời gian làm bài. Bài làm sẽ được tự động nộp.", false, submitQuiz);
+                    submitQuiz();
+                }
+            }, 1000);
+        }
+
+        // --- XỬ LÝ LƯU ĐÁP ÁN VÀ PHẢN HỒI ---
+        function handleAnswerSelection(selectedOptionIndex) {
+            const qIndex = currentQuestion;
+            
+            if (isAnswered[qIndex]) {
+                return; // Đã trả lời, không làm gì nữa
+            }
+
+            // BƯỚC 1: Xử lý dữ liệu
+            userAnswers[qIndex] = selectedOptionIndex;
+            isAnswered[qIndex] = true;
+            
+            // BƯỚC 2: PHẢN HỒI TRỰC QUAN
+            showQuestion(); // VẼ LẠI để áp dụng màu sắc phản hồi
+        }
+
+        // --- CÁC MÀN HÌNH CHÍNH ---
+
+        function showHome() {
+            clearWindow();
+            if (timerInterval) clearInterval(timerInterval);
+
+            const content = `
+                <div class="max-w-xl w-full text-center bg-white p-8 rounded-xl shadow-lg mt-10">
+                    <span class="app-icon mb-4">📝</span>
+                    <h1 class="text-2xl sm:text-3xl font-bold ${COLOR_ACCENT} mb-3">ÔN LUYỆN TRẮC NGHIỆM</h1>
+                    <h2 class="text-lg sm:text-xl font-semibold text-gray-700 mb-6 italic">Chế độ Luyện tập (Phản hồi ngay)</h2>
+                    
+                    <label for="name-entry" class="block text-left text-gray-700 font-semibold mb-2 text-lg">Nhập tên của bạn:</label>
+                    <input type="text" id="name-entry" placeholder="Ví dụ: Nguyễn Văn A"
+                           class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 text-lg mb-8" />
+                    
+                    <button id="start-quiz-btn"
+                            class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-xl transition duration-300 shadow-md">
+                        Bắt đầu làm bài (${NUM_QUESTIONS} câu, ${TIME_LIMIT_MINUTES} phút)
+                    </button>
+                    <p class="text-sm text-gray-500 mt-4">Dữ liệu được lấy từ file de_full.json</p>
+                </div>
+            `;
+            document.getElementById('app').innerHTML = content;
+            
+            document.getElementById('start-quiz-btn').addEventListener('click', startQuiz);
+        }
+
+        async function startQuiz() {
+            const nameEntry = document.getElementById('name-entry');
+            const name = nameEntry.value.trim();
+
+            if (!name) {
+                showModal("Thiếu tên", "Vui lòng nhập tên của bạn.");
+                return;
+            }
+
+            username = name;
+            
+            allQuestions = await loadQuestions();
+
+            if (allQuestions.length === 0) return;
+             
+            if (allQuestions.length < NUM_QUESTIONS) {
+                showModal("Lỗi", `Ngân hàng câu hỏi phải có ít nhất ${NUM_QUESTIONS} câu. Hiện có ${allQuestions.length} câu.`);
+                return;
+            }
+
+            // Lấy ngẫu nhiên câu hỏi (Sử dụng Fisher-Yates shuffle để đảm bảo tính ngẫu nhiên)
+            const shuffledQuestions = [...allQuestions];
+            for (let i = shuffledQuestions.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
+            }
+
+            questions = shuffledQuestions.slice(0, NUM_QUESTIONS);
+
+            userAnswers = Array(questions.length).fill(-1); 
+            isAnswered = Array(questions.length).fill(false); 
+            currentQuestion = 0;
+            timeLeft = timeLimit;
+
+            startTimer();
+            showQuestion();
+        }
+
+
+        function showQuestion() {
+            clearWindow();
+            const question = questions[currentQuestion];
+            const selectedAnswer = userAnswers[currentQuestion];
+            const correctIndex = question.correct_answer_index;
+            const isCurrentQAnswered = isAnswered[currentQuestion];
+            const alphabet = 'ABCD';
+
+            const header = `
+                <div class="fixed top-0 left-0 w-full bg-white shadow-md p-4 flex justify-between items-center z-10">
+                    <div class="text-sm sm:text-base font-medium text-gray-600">Thí sinh: ${username}</div>
+                    <div id="timer-label" class="text-sm sm:text-base font-bold text-red-600"></div>
+                </div>
+                <div class="h-16 w-full"></div> <!-- Khoảng đệm cho header fixed -->
+            `;
+
+            const questionContent = `
+                <div class="w-full max-w-2xl bg-white p-6 rounded-xl shadow-lg flex-grow flex flex-col mb-4">
+                    <h2 class="text-xl sm:text-2xl font-extrabold ${COLOR_ACCENT} mb-4">
+                        Câu ${currentQuestion + 1}/${questions.length}
+                    </h2>
+                    
+                    <p class="text-gray-800 text-lg sm:text-xl font-semibold mb-6">
+                        ${question.question}
+                    </p>
+
+                    <!-- Khung chứa các lựa chọn -->
+                    <div id="options-container" class="space-y-4 flex-grow custom-scroll overflow-y-auto pb-4">
+                        ${question.options.map((option, i) => {
+                            let optionClasses = 'option-item p-4 rounded-lg border border-gray-200 shadow-sm transition duration-150';
+                            let icon = '<span class="text-gray-400 font-bold mr-3 text-lg">◻</span>'; // Mặc định là ô vuông
+
+                            if (isCurrentQAnswered) {
+                                // Nếu đã trả lời và ĐÚNG
+                                if (i === correctIndex) {
+                                    optionClasses += ` bg-green-100 border-green-400 ${COLOR_CORRECT} answered font-bold`;
+                                    icon = '<span class="text-green-600 font-extrabold mr-3 text-lg">✅</span>';
+                                } 
+                                // Nếu đã trả lời và SAI (và đó là đáp án người dùng chọn)
+                                else if (i === selectedAnswer && i !== correctIndex) {
+                                    optionClasses += ` bg-red-100 border-red-400 ${COLOR_INCORRECT} answered font-bold`;
+                                    icon = '<span class="text-red-600 font-extrabold mr-3 text-lg">❌</span>';
+                                } 
+                                // Các đáp án còn lại (đã trả lời)
+                                else {
+                                     optionClasses += ` bg-gray-50 text-gray-600 answered`;
+                                }
+                            } else {
+                                // Chưa trả lời
+                                optionClasses += ' hover:bg-blue-50';
+                                if (i === selectedAnswer) {
+                                     optionClasses += ' bg-blue-100 border-blue-400 font-bold';
+                                     icon = '<span class="text-blue-600 font-extrabold mr-3 text-lg">●</span>';
+                                } else {
+                                    icon = '<span class="text-gray-500 font-bold mr-3 text-lg">○</span>'; // Chưa chọn
+                                }
+                            }
+
+                            return `
+                                <div id="option-${i}" data-index="${i}" 
+                                     class="${optionClasses} flex items-start text-base sm:text-lg"
+                                     onclick="handleAnswerSelection(${i})">
+                                    ${icon}
+                                    <span class="font-bold mr-2 text-gray-700">${alphabet[i]}.</span>
+                                    <span class="flex-grow text-gray-800">${option}</span>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                </div>
+            `;
+
+            const footer = `
+                <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 p-4 flex justify-center items-center space-x-4 z-10 shadow-md">
+                    <button id="prev-btn" 
+                            class="flex-1 max-w-[150px] bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-lg transition duration-150 text-base sm:text-lg">
+                        ← Quay lại
+                    </button>
+                    
+                    ${currentQuestion < questions.length - 1 ? 
+                        `<button id="next-btn" 
+                                 class="flex-1 max-w-[150px] bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-150 text-base sm:text-lg">
+                            Tiếp theo →
+                        </button>`
+                        :
+                        `<button id="submit-btn" 
+                                 class="flex-1 max-w-[150px] bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg transition duration-150 text-base sm:text-lg">
+                            Nộp bài
+                        </button>`
+                    }
+                </div>
+            `;
+            
+            document.getElementById('app').innerHTML = header + questionContent + footer;
+
+            // Cập nhật lại Timer
+            updateTimerDisplay();
+
+            // Cài đặt sự kiện
+            const prevBtn = document.getElementById('prev-btn');
+            if (currentQuestion === 0) {
+                prevBtn.disabled = true;
+                prevBtn.classList.add('opacity-50', 'cursor-not-allowed');
+            } else {
+                prevBtn.addEventListener('click', prevQuestion);
+            }
+
+            if (currentQuestion < questions.length - 1) {
+                document.getElementById('next-btn').addEventListener('click', nextQuestion);
+            } else {
+                document.getElementById('submit-btn').addEventListener('click', confirmSubmit);
+            }
+        }
+
+        function nextQuestion() {
+            currentQuestion = Math.min(currentQuestion + 1, questions.length - 1);
+            showQuestion();
+        }
+
+        function prevQuestion() {
+            currentQuestion = Math.max(currentQuestion - 1, 0);
+            showQuestion();
+        }
+
+        function confirmSubmit() {
+            const unansweredCount = userAnswers.filter(a => a === -1).length;
+            
+            let confirmMessage = `Bạn có chắc chắn muốn nộp bài không?`;
+            if (unansweredCount > 0) {
+                 confirmMessage += `\n(Bạn còn ${unansweredCount} câu chưa chọn đáp án.)`;
+            }
+            
+            showModal("Xác nhận nộp bài", confirmMessage, true, submitQuiz);
+        }
+
+        function submitQuiz() {
+            if (timerInterval) clearInterval(timerInterval);
+            
+            let correct = 0;
+            const total = questions.length;
+
+            for (let i = 0; i < total; i++) {
+                const userChoice = userAnswers[i];
+                const correctIndex = questions[i].correct_answer_index; 
+
+                if (userChoice !== -1 && userChoice === correctIndex) {
+                    correct++;
+                }
+            }
+
+            const score = correct / total * 10; 
+            const status = score >= PASS_SCORE ? "ĐẠT" : "KHÔNG ĐẠT";
+
+            saveResult(username, correct, total, score, status); // Lưu kết quả vào console log
+            showResult(correct, total, score, status);
+        }
+
+        function showResult(correct, total, score, status) {
+            clearWindow();
+            
+            const statusColor = status === "ĐẠT" ? COLOR_CORRECT : COLOR_INCORRECT;
+            const statusBg = status === "ĐẠT" ? "bg-green-50" : "bg-red-50";
+
+            const content = `
+                <div class="w-full max-w-md text-center bg-white p-8 rounded-xl shadow-2xl mt-10">
+                    <h1 class="text-3xl font-bold ${COLOR_ACCENT} mb-2">🎉 KẾT QUẢ BÀI THI 🎉</h1>
+                    <p class="text-lg text-gray-600 mb-6">Thí sinh: <span class="font-semibold text-gray-800">${username}</span></p>
+
+                    <!-- Khung chi tiết điểm -->
+                    <div class="border-2 border-dashed border-gray-300 rounded-xl p-5 mb-8 space-y-3">
+                        <div class="flex justify-between text-xl">
+                            <span class="font-medium text-gray-700">Tổng số câu:</span>
+                            <span class="font-bold text-gray-800">${total}</span>
+                        </div>
+                        <div class="flex justify-between text-xl border-b pb-3">
+                            <span class="font-medium text-gray-700">Số câu trả lời đúng:</span>
+                            <span class="font-bold ${COLOR_CORRECT}">${correct}</span>
+                        </div>
+                        <div class="flex justify-between items-center pt-3">
+                            <span class="text-2xl font-bold text-gray-800">Điểm số:</span>
+                            <span class="text-3xl font-extrabold ${COLOR_INCORRECT}">${score.toFixed(2)}/10</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Xếp loại -->
+                    <div class="p-3 rounded-lg ${statusBg} ${statusColor} text-2xl font-black mb-8 border border-dashed border-current">
+                        XẾP LOẠI: ${status}
+                    </div>
+
+                    <button onclick="showReview()"
+                            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 shadow-md mb-4">
+                        XEM LẠI BÀI THI CHI TIẾT
+                    </button>
+                    
+                    <button onclick="showHome()"
+                            class="w-full bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-bold py-3 px-6 rounded-lg text-lg transition duration-300">
+                        Về trang chủ
+                    </button>
+                </div>
+            `;
+            document.getElementById('app').innerHTML = content;
+        }
+
+        function showReview() {
+            clearWindow();
+            
+            const reviewContent = questions.map((q, i) => {
+                const userChoice = userAnswers[i];
+                const correctIndex = q.correct_answer_index;
+                const alphabet = 'ABCD';
+                
+                const isCorrect = (userChoice !== -1 && userChoice === correctIndex);
+                const statusText = isCorrect ? "✅ ĐÚNG" : "❌ SAI";
+                const statusColor = isCorrect ? "text-green-700" : "text-red-700";
+
+                const optionsHtml = q.options.map((option, j) => {
+                    let optionClasses = 'p-3 rounded-lg border text-base flex items-start';
+                    let icon = '<span class="mr-2 text-gray-500">○</span>'; // Mặc định chưa chọn
+
+                    if (j === correctIndex) {
+                        // Đáp án đúng
+                        optionClasses += ' bg-green-100 border-green-400 text-green-700 font-semibold';
+                        icon = '<span class="mr-2 text-green-700 font-extrabold">✅</span>';
+                    } else if (j === userChoice && j !== correctIndex) {
+                        // Đáp án sai đã chọn
+                        optionClasses += ' bg-red-100 border-red-400 text-red-700 font-semibold';
+                        icon = '<span class="mr-2 text-red-700 font-extrabold">❌</span>';
+                    } else {
+                        // Đáp án còn lại
+                        optionClasses += ' bg-white border-gray-200 text-gray-700';
+                    }
+
+                    return `
+                        <div class="${optionClasses}">
+                            ${icon}
+                            <span class="font-bold mr-2">${alphabet[j]}.</span>
+                            <span>${option}</span>
+                        </div>
+                    `;
+                }).join('');
+
+                return `
+                    <div class="bg-white p-6 rounded-xl shadow-lg mb-6 border-l-4 border-gray-400">
+                        <h3 class="text-xl font-bold mb-3 flex justify-between items-center">
+                            <span>Câu ${i + 1}:</span>
+                            <span class="${statusColor} text-lg">${statusText}</span>
+                        </h3>
+                        <p class="text-gray-800 text-lg mb-4">${q.question}</p>
+                        <div class="space-y-3">
+                            ${optionsHtml}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            // Tính lại điểm để đảm bảo tính chính xác
+            let correctCount = 0;
+            const total = questions.length;
+            for (let i = 0; i < total; i++) {
+                const userChoice = userAnswers[i];
+                const correctIndex = questions[i].correct_answer_index; 
+                if (userChoice !== -1 && userChoice === correctIndex) {
+                    correctCount++;
+                }
+            }
+            const score = correctCount / total * 10;
+            const status = score >= PASS_SCORE ? "ĐẠT" : "KHÔNG ĐẠT";
+
+            const content = `
+                <div class="w-full max-w-3xl flex-grow flex flex-col pt-4 pb-20">
+                    <h1 class="text-2xl sm:text-3xl font-bold ${COLOR_ACCENT} mb-6 text-center">XEM LẠI BÀI THI</h1>
+                    
+                    <div class="flex-grow custom-scroll overflow-y-auto space-y-6">
+                        ${reviewContent}
+                    </div>
+
+                    <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 p-4 flex justify-center z-10 shadow-md">
+                        <button onclick="showResult(${correctCount}, ${total}, ${score}, '${status}')"
+                                class="w-full max-w-md bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-bold py-3 px-6 rounded-lg text-lg transition duration-300">
+                            Về màn hình kết quả
+                        </button>
+                    </div>
+                </div>
+            `;
+            document.getElementById('app').innerHTML = content;
+        }
+
+
+        // --- KHỞI TẠO ---
+        document.addEventListener('DOMContentLoaded', showHome);
+
+    </script>
+</body>
+</html>
