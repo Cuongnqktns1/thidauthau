@@ -1,9 +1,10 @@
 [
   {
     "id": 1,
-    "question": "Trường hợp nào sau đây bắt buộc phải lựa chọn nhà thầu theo quy định tại Luật Đấu thầu?",
+    "question": "Trường hợp nào sau đây bắt buộc phải lựa chọn nhà thầu theo quy định tại Luật Đấu
+thầu?",
     "options": [
-      "Gói thầu thuộc dự án sử dụng vốn ngân sách nhà nước của cơ quan nhà nước",
+      "Gói thầu thuộc dự án sử dụng vốn ngân sách nhà nước của cơ quan nhà nước (K1 Điều 2 Luật 22-57-90)",
       "Lựa chọn nhà thầu của doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước",
       "Lựa chọn nhà thầu của đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên không sử dụng ngân sách nhà nước",
       "Gói thầu mua sắm điện nước, xăng dầu của cơ quan nhà nước"
@@ -18,7 +19,7 @@
       "Quy định về quản lý nhà nước đối với hoạt động đấu thầu",
       "Quy định về thẩm quyền và trách nhiệm của các cơ quan, tổ chức, cá nhân trong hoạt động đấu thầu",
       "Quy định về hoạt động lựa chọn nhà thầu thực hiện gói thầu, hoạt động lựa chọn nhà đầu tư thực hiện dự án đầu tư kinh doanh",
-      "Tất cả phương án trên đều đúng"
+      "Tất cả phương án trên đều đúng "
     ],
     "correct_answer_index": 3,
     "source": "(Điều 1 Luật 22)"
@@ -452,7 +453,7 @@
       "Giám sát hoạt động đấu thầu",
       "Cả 3 phương án trên đều đúng"
     ],
-    "correct_answer_index": 3,
+    "correct_answer_index": 0,
     "source": ""
   },
   {
@@ -959,1385 +960,1254 @@
     "correct_answer_index": 0,
     "source": "(K6a Điều 68 Luật 22)"
   },
+  [
   {
     "id": 81,
-    "question": "Trường hợp nào sau đây phải áp dụng bảo",
+    "question": "Trường hợp nào sau đây phải áp dụng bảo đảm thực hiện hợp đồng?",
     "options": [
-      "Bảo hành đối với gói thầu xây lắp",
-      "Bảo hành đối với gói thầu mua sắm hàng hoá",
-      "Bảo hành đối với gói thầu EPC",
-      "Tất cả các phương án trên đều đúng"
+      "Nhà thầu cung dịch vụ phi tư vấn",
+      "Nhà thầu thực hiện gói thầu có giá gói thầu thuộc hạn mức chỉ định thầu",
+      "Nhà thầu cung cấp dịch vụ tư vấn",
+      "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
     ],
-    "correct_answer_index": 3,
-    "source": ""
+    "correct_answer_index": 0,
+    "source": "(K2 Điều 68 Luật 22)"
   },
   {
     "id": 82,
-    "question": "Trường hợp nào sau đây không được áp dụng thương thảo hợp đồng?",
+    "question": "Hồ sơ hợp đồng bao gồm các tài liệu nào sau đây?",
     "options": [
-      "Gói thầu áp dụng phương pháp giá thấp nhất",
-      "Gói thầu áp dụng phương pháp giá cố định",
-      "Gói thầu áp dụng phương pháp kết hợp giữa kỹ thuật và giá",
-      "Tất cả các phương án trên đều sai"
+      "Văn bản hợp đồng",
+      "Phụ lục hợp đồng gồm danh mục chi tiết về phạm vi công việc, biểu giá, tiến độ thực hiện (nếu có)",
+      "Quyết định phê duyệt kết quả lựa chọn nhà thầu",
+      "Tất cả các phương án trên"
     ],
     "correct_answer_index": 3,
-    "source": "(K1 Điều 107 NĐ214)"
-  },
-  {
-    "id": 83,
-    "question": "Khi thương thảo hợp đồng, các bên không được thay đổi nội dung nào?",
-    "options": [
-      "Yêu cầu về kỹ thuật, tài chính, nguyên tắc đánh giá hồ sơ dự thầu",
-      "Thứ tự ưu tiên của các nội dung trong hợp đồng",
-      "Địa điểm thi công",
-      "Phương án A và B đều đúng"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K2 Điều 108 NĐ214)"
+    "source": "(k1, đ65 NĐ 214)."
   },
   {
     "id": 84,
-    "question": "Kết quả lựa chọn nhà thầu được đăng tải lên Hệ thống mạng đấu thầu quốc gia khi nào?",
+    "question": "Hãy chọn phương án đúng về đấu thầu trước?",
     "options": [
-      "Ngay sau khi có thông báo của Chủ đầu tư",
-      "Chậm nhất là 05 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu",
-      "Chậm nhất là 07 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu",
-      "Chậm nhất là 10 ngày làm việc kể từ ngày phê duyệt kết quả lựa chọn nhà thầu"
+      "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án được phê duyệt đầu tư nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, trừ gói thầu cần thực hiện trước khi phê duyệt dự án",
+      "Đấu thầu trước là việc thực hiện các gói thầu thuộc giai đoạn chuẩn bị đầu tư",
+      "Đấu thầu trước là việc lựa chọn nhà thầu không cần phê duyệt kế hoạch lựa chọn nhà thầu để đẩy nhanh tiến độ thực hiện",
+      "Đấu thầu trước là việc thực hiện trước một số thủ tục trước khi dự án, dự toán mua sắm được phê duyệt nhằm mục đích đẩy nhanh tiến độ thực hiện dự án, trừ gói thầu cần thực hiện trước khi phê duyệt dự án"
     ],
-    "correct_answer_index": 1,
-    "source": "(K5 Điều 8 Luật 22)"
+    "correct_answer_index": 0,
+    "source": "(k1, đ42 LĐT)"
   },
   {
     "id": 85,
-    "question": "Sau khi phê duyệt kết quả lựa chọn nhà thầu đối với gói thầu áp dụng hình thức đấu thầu rộng rãi qua mạng, tổ chức/cá nhân nào có trách nhiệm gửi thông báo kết quả lựa chọn nhà thầu đến tất cả các nhà thầu đã tham dự thầu?",
+    "question": "Quy trình, thủ tục lựa chọn nhà thầu đối với mua sắm trực tiếp không bao gồm bước nào sau đây?",
     "options": [
-      "Bên mời thầu",
-      "Chủ đầu tư",
-      "Người có thẩm quyền",
-      "Không phải gửi, chỉ cần đăng tải kết quả lựa chọn nhà thầu trên Hệ thống mạng đấu thầu quốc gia"
-    ],
-    "correct_answer_index": 3,
-    "source": ""
-  },
-  {
-    "id": 86,
-    "question": "Trong mọi trường hợp, nhà thầu trúng thầu có được yêu cầu Chủ đầu tư chuyển giao công nghệ kèm theo khi bàn giao hàng hóa không?",
-    "options": [
-      "Được",
-      "Không được",
-      "Chỉ được trong trường hợp chuyển giao công nghệ trong nước",
-      "Việc chuyển giao công nghệ do các bên thỏa thuận, ký kết trong hợp đồng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K4 Điều 64 Luật 22)"
-  },
-  {
-    "id": 87,
-    "question": "Trong trường hợp nào, nhà thầu trúng thầu có thể bị hủy kết quả lựa chọn nhà thầu?",
-    "options": [
-      "Có hành vi vi phạm quy định về đấu thầu dẫn đến trúng thầu",
-      "Vi phạm pháp luật khác dẫn đến không còn đủ điều kiện thực hiện gói thầu",
-      "Có vi phạm quy định về bảo đảm cạnh tranh trong đấu thầu",
-      "Phương án A và B đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K3 Điều 17 Luật 22)"
-  },
-  {
-    "id": 88,
-    "question": "Trường hợp hồ sơ dự thầu không hợp lệ do nhà thầu không ký tên, đóng dấu đầy đủ theo quy định của pháp luật thì có được làm rõ hồ sơ dự thầu không?",
-    "options": [
-      "Được làm rõ hồ sơ dự thầu",
-      "Không được làm rõ hồ sơ dự thầu",
-      "Do người có thẩm quyền quyết định",
-      "Tùy vào quy định của Bộ, ngành"
-    ],
-    "correct_answer_index": 1,
-    "source": ""
-  },
-  {
-    "id": 89,
-    "question": "Trường hợp nào sau đây được áp dụng hình thức lựa chọn nhà thầu trong trường hợp đặc biệt (không phải theo một trong các hình thức quy định của Luật Đấu thầu)?",
-    "options": [
-      "Gói thầu bảo trì, bảo dưỡng, vận hành đối với công trình, hệ thống thiết bị đã hết thời hạn bảo hành theo quy định của pháp luật nhưng cần bảo đảm tính kế thừa, thống nhất về công nghệ",
-      "Gói thầu cần thực hiện để kịp thời khắc phục hậu quả thiên tai, dịch bệnh, sự cố",
-      "Gói thầu thuộc dự án có yêu cầu bảo đảm quốc phòng, an ninh, bí mật nhà nước",
-      "Gói thầu mua thuốc, hóa chất, vật tư xét nghiệm, thiết bị y tế để triển khai công tác phòng, chống dịch bệnh"
+      "Thẩm định hồ sơ yêu cầu",
+      "Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu",
+      "Phát hành hồ sơ yêu cầu",
+      "Phê duyệt và công khai kết quả mua sắm trực tiếp"
     ],
     "correct_answer_index": 0,
-    "source": "(K2 Điều 28 Luật 22)"
+    "source": "(k2b, đ82 NĐ 214)"
   },
   {
     "id": 90,
-    "question": "Quy định về bảo hành áp dụng đối với gói thầu mua sắm hàng hóa nào?",
+    "question": "Danh mục hàng hóa, dịch vụ áp dụng mua sắm tập trung do Bộ trưởng Bộ Y tế ban hành:",
     "options": [
-      "Gói thầu mua sắm hàng hóa thông thường, có sẵn trên thị trường, có bảo hành của nhà sản xuất",
-      "Gói thầu mua sắm hàng hóa có yêu cầu cao về kỹ thuật, công nghệ",
-      "Gói thầu mua sắm hàng hóa phức tạp cần gắn trách nhiệm của nhà thầu đối với chất lượng hàng hóa, không phân biệt là hàng hóa thông thường hay hàng hóa có yêu cầu cao về kỹ thuật, công nghệ",
-      "Tất cả các gói thầu mua sắm hàng hóa"
+      "Danh mục mua sắm tập trung cấp quốc gia đối với ô tô trong trường hợp cần thiết",
+      "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với thiết bị công nghệ thông tin trong trường hợp cần thiết",
+      "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với dịch vụ đơn giản trong trường hợp cần thiết",
+      "Danh mục mua sắm tập trung cấp quốc gia đối với thuốc; danh mục mua sắm tập trung cấp quốc gia đối với thiết bị y tế, vật tư xét nghiệm trong trường hợp cần thiết"
     ],
     "correct_answer_index": 3,
-    "source": "(K1 Điều 68 Luật 22)"
+    "source": "(K2a Điều 53 Luật 22)"
   },
   {
     "id": 91,
-    "question": "Trường hợp người quyết định đầu tư, chủ đầu tư, bên mời thầu làm lộ thông tin, tài liệu về đấu thầu thì bị xử lý vi phạm hành chính hay vi phạm hình sự?",
+    "question": "Hình thức lựa chọn nhà thầu khi áp dụng mua sắm tập trung bảo hiểm tài sản cho các cơ quan thuộc tỉnh Y",
     "options": [
-      "Bị xử lý vi phạm hành chính, không bị xử lý vi phạm hình sự",
-      "Bị xử lý vi phạm hình sự, không bị xử lý vi phạm hành chính",
-      "Tùy thuộc vào mức độ vi phạm, có thể bị xử lý vi phạm hành chính hoặc vi phạm hình sự",
-      "Do pháp luật quản lý ngành, lĩnh vực quy định"
+      "Đấu thầu rộng rãi",
+      "Đấu thầu hạn chế",
+      "Đàm phán giá",
+      "Đấu thầu rộng rãi và đàm phán giá"
     ],
-    "correct_answer_index": 2,
-    "source": "(Điều 16 Luật 22)"
+    "correct_answer_index": 0,
+    "source": "(K3 Điều 89 ND214)"
   },
   {
     "id": 92,
-    "question": "Hành vi nào sau đây là hành vi bị cấm trong đấu thầu?",
+    "question": "Đơn vị mua sắm tập trung",
     "options": [
-      "Bao gồm hành vi đưa, nhận, môi giới hối lộ",
-      "Bao gồm hành vi thông thầu",
-      "Bao gồm hành vi can thiệp trái pháp luật vào hoạt động đấu thầu",
-      "Tất cả các phương án trên đều đúng"
+      "Thực hiện việc lựa chọn nhà thầu trên cơ sở nhiệm vụ được giao",
+      "Thực hiện việc lựa chọn nhà thầu trên cơ sở hợp đồng ký với các đơn vị có nhu cầu",
+      "Thực hiện việc lựa chọn nhà thầu trên cơ sở nhiệm vụ được giao hoặc hợp đồng ký với các đơn vị có nhu cầu",
+      "Không được thực hiện việc lựa chọn nhà thầu"
     ],
-    "correct_answer_index": 3,
-    "source": "(Điều 16 Luật 22)"
+    "correct_answer_index": 2,
+    "source": "(K6 Điều 53 Luật 22)"
   },
   {
     "id": 93,
-    "question": "Trường hợp nào sau đây nhà thầu bị cấm tham dự thầu?",
+    "question": "Thời hạn của thỏa thuận khung",
     "options": [
-      "Từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực",
-      "Vi phạm về chất lượng hàng hóa, dịch vụ theo hợp đồng đã ký kết",
-      "Hợp đồng đã có hiệu lực bị hủy bỏ do lỗi của nhà thầu",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 2,
-    "source": "(K3, K4 Điều 16 Luật 22)"
-  },
-  {
-    "id": 94,
-    "question": "Trường hợp Chủ đầu tư yêu cầu nhà thầu thay đổi nhân sự chủ chốt để thực hiện gói thầu thì nhà thầu có bị cấm tham dự thầu không?",
-    "options": [
-      "Không bị cấm tham dự thầu",
-      "Bị cấm tham dự thầu 01 năm",
-      "Bị cấm tham dự thầu từ 03 năm đến 05 năm",
-      "Bị cấm tham dự thầu từ 01 năm đến 05 năm"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K3, K4 Điều 16 Luật 22)"
-  },
-  {
-    "id": 95,
-    "question": "Người quyết định đầu tư có trách nhiệm giải quyết kiến nghị về kết quả lựa chọn nhà thầu không?",
-    "options": [
-      "Có",
-      "Không",
-      "Do người có thẩm quyền quyết định",
-      "Do chủ đầu tư quyết định"
-    ],
-    "correct_answer_index": 1,
-    "source": "(Điều 137 NĐ214)"
-  },
-  {
-    "id": 96,
-    "question": "Thời hạn gửi văn bản kiến nghị đến Chủ đầu tư, Người có thẩm quyền về kết quả lựa chọn nhà thầu là bao lâu?",
-    "options": [
-      "05 ngày làm việc kể từ ngày có thông báo kết quả lựa chọn nhà thầu",
-      "07 ngày làm việc kể từ ngày có thông báo kết quả lựa chọn nhà thầu",
-      "10 ngày kể từ ngày có thông báo kết quả lựa chọn nhà thầu",
-      "05 ngày làm việc kể từ ngày ký kết hợp đồng"
-    ],
-    "correct_answer_index": 2,
-    "source": "(K2 Điều 137 NĐ214)"
-  },
-  {
-    "id": 97,
-    "question": "Thời hạn giải quyết kiến nghị về kết quả lựa chọn nhà thầu của Bên mời thầu là bao lâu?",
-    "options": [
-      "05 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "07 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "10 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "Tùy vào quy mô, tính chất của gói thầu"
-    ],
-    "correct_answer_index": 1,
-    "source": "(K2 Điều 137 NĐ214)"
-  },
-  {
-    "id": 98,
-    "question": "Thời hạn giải quyết kiến nghị về kết quả lựa chọn nhà thầu của Chủ đầu tư là bao lâu?",
-    "options": [
-      "05 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "07 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "10 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "Tùy vào quy mô, tính chất của gói thầu"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K3 Điều 137 NĐ214)"
-  },
-  {
-    "id": 99,
-    "question": "Thời hạn giải quyết kiến nghị của Người có thẩm quyền về kết quả lựa chọn nhà thầu là bao lâu?",
-    "options": [
-      "05 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "07 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "10 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "Tùy vào quy mô, tính chất của gói thầu"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K4 Điều 137 NĐ214)"
-  },
-  {
-    "id": 100,
-    "question": "Thời hạn giải quyết kiến nghị về kết quả lựa chọn nhà thầu của Hội đồng tư vấn là bao lâu?",
-    "options": [
-      "05 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "07 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "10 ngày làm việc kể từ ngày nhận được văn bản kiến nghị",
-      "20 ngày kể từ ngày nhận được văn bản kiến nghị"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K5 Điều 137 NĐ214)"
-  },
-  {
-    "id": 101,
-    "question": "Trường hợp nào người có thẩm quyền thành lập Hội đồng tư vấn giải quyết kiến nghị?",
-    "options": [
-      "Kiến nghị của nhà thầu đối với quyết định giải quyết kiến nghị của Chủ đầu tư",
-      "Kiến nghị của nhà thầu đối với kết quả đánh giá hồ sơ đề xuất về kỹ thuật",
-      "Kiến nghị của nhà thầu đối với hồ sơ mời thầu",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K1 Điều 137 NĐ214)"
-  },
-  {
-    "id": 102,
-    "question": "Thời gian tối đa để thực hiện lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu dịch vụ phi tư vấn đấu thầu rộng rãi, đấu thầu hạn chế không quá bao nhiêu ngày?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K1 Điều 138 NĐ214)"
-  },
-  {
-    "id": 103,
-    "question": "Thời gian tối đa để thực hiện lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu xây lắp đấu thầu rộng rãi, đấu thầu hạn chế không quá bao nhiêu ngày?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K1 Điều 138 NĐ214)"
-  },
-  {
-    "id": 104,
-    "question": "Thời gian tối đa để thực hiện lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu mua sắm hàng hóa đấu thầu rộng rãi, đấu thầu hạn chế không quá bao nhiêu ngày?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K1 Điều 138 NĐ214)"
-  },
-  {
-    "id": 105,
-    "question": "Thời gian tối đa để thực hiện lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu dịch vụ tư vấn đấu thầu rộng rãi, đấu thầu hạn chế không quá bao nhiêu ngày?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 1,
-    "source": "(K1 Điều 138 NĐ214)"
-  },
-  {
-    "id": 106,
-    "question": "Thời gian tối đa để thực hiện lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn áp dụng chào hàng cạnh tranh không quá bao nhiêu ngày?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 2,
-    "source": "(K2 Điều 138 NĐ214)"
-  },
-  {
-    "id": 107,
-    "question": "Thời gian tối đa để thực hiện lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu xây lắp áp dụng chào hàng cạnh tranh không quá bao nhiêu ngày?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 2,
-    "source": "(K2 Điều 138 NĐ214)"
-  },
-  {
-    "id": 108,
-    "question": "Thời gian tối đa để thực hiện lựa chọn nhà thầu theo quy trình rút gọn đối với gói thầu mua sắm hàng hóa áp dụng chào hàng cạnh tranh không quá bao nhiêu ngày?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K3 Điều 138 NĐ214)"
-  },
-  {
-    "id": 109,
-    "question": "Thời gian tối đa để thực hiện lựa chọn nhà thầu theo quy trình rút gọn đối với gói thầu xây lắp áp dụng chào hàng cạnh tranh không quá bao nhiêu ngày?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K3 Điều 138 NĐ214)"
-  },
-  {
-    "id": 110,
-    "question": "Thời gian tối đa để thực hiện lựa chọn nhà thầu theo quy trình rút gọn đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn áp dụng chỉ định thầu không quá bao nhiêu ngày?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K4 Điều 138 NĐ214)"
-  },
-  {
-    "id": 111,
-    "question": "Thời gian tối đa để thực hiện lựa chọn nhà thầu theo quy trình rút gọn đối với gói thầu xây lắp áp dụng chỉ định thầu không quá bao nhiêu ngày?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K4 Điều 138 NĐ214)"
-  },
-  {
-    "id": 112,
-    "question": "Nhà thầu được hoàn trả bảo đảm dự thầu trong trường hợp nào?",
-    "options": [
-      "Nhà thầu từ chối gia hạn hiệu lực của hồ sơ dự thầu",
-      "Đơn dự thầu không hợp lệ",
-      "Nhà thầu không được lựa chọn trúng thầu",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K8 Điều 13 Luật 22)"
-  },
-  {
-    "id": 113,
-    "question": "Trường hợp nào nhà thầu không được nhận lại bảo đảm dự thầu?",
-    "options": [
-      "Rút hồ sơ dự thầu sau thời điểm đóng thầu",
-      "Không ký hợp đồng",
-      "Không thực hiện biện pháp bảo đảm thực hiện hợp đồng",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K9 Điều 13 Luật 22)"
-  },
-  {
-    "id": 114,
-    "question": "Thời gian để thực hiện biện pháp bảo đảm dự thầu là bao lâu?",
-    "options": [
-      "05 ngày làm việc kể từ ngày mở thầu",
-      "07 ngày kể từ ngày mở thầu",
-      "Từ ngày nộp hồ sơ dự thầu đến hết ngày thứ 28 kể từ ngày mở thầu",
-      "Từ ngày nộp hồ sơ dự thầu đến hết ngày thứ 30 kể từ ngày mở thầu"
-    ],
-    "correct_answer_index": 2,
-    "source": "(K6 Điều 13 Luật 22)"
-  },
-  {
-    "id": 115,
-    "question": "Thời gian thực hiện biện pháp bảo đảm thực hiện hợp đồng là bao lâu?",
-    "options": [
-      "Từ khi ký hợp đồng đến khi hoàn thành các nghĩa vụ theo hợp đồng",
-      "Từ khi ký hợp đồng đến khi hết thời gian bảo hành",
-      "Đến khi chuyển sang nghĩa vụ bảo hành (nếu có)",
-      "Từ khi ký hợp đồng đến khi bàn giao công trình"
-    ],
-    "correct_answer_index": 2,
-    "source": "(K5 Điều 68 Luật 22)"
-  },
-  {
-    "id": 116,
-    "question": "Trường hợp nào nhà thầu bị tịch thu bảo đảm thực hiện hợp đồng?",
-    "options": [
-      "Từ chối thực hiện hợp đồng khi hợp đồng đã có hiệu lực",
-      "Vi phạm thỏa thuận trong hợp đồng",
-      "Vi phạm pháp luật về đấu thầu",
-      "Tất cả các phương án trên đều sai"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K6 Điều 68 Luật 22)"
-  },
-  {
-    "id": 117,
-    "question": "Trường hợp nào không bắt buộc phải áp dụng bảo đảm dự thầu?",
-    "options": [
-      "Chào hàng cạnh tranh rút gọn",
-      "Chỉ định thầu",
-      "Mua sắm trực tiếp",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K4 Điều 13 Luật 22)"
-  },
-  {
-    "id": 118,
-    "question": "Trường hợp nào phải áp dụng bảo đảm dự thầu?",
-    "options": [
-      "Đấu thầu rộng rãi",
-      "Đấu thầu hạn chế",
-      "Chào hàng cạnh tranh theo quy trình thông thường",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K4 Điều 13 Luật 22)"
-  },
-  {
-    "id": 119,
-    "question": "Bảo đảm dự thầu được thực hiện dưới hình thức nào?",
-    "options": [
-      "Thư bảo lãnh của tổ chức tín dụng hoặc chi nhánh ngân hàng nước ngoài được thành lập theo pháp luật Việt Nam",
-      "Đặt cọc bằng séc có bảo chi của tổ chức tín dụng hoặc chi nhánh ngân hàng nước ngoài được thành lập theo pháp luật Việt Nam",
-      "Đặt cọc bằng tiền mặt",
-      "Phương án A và C đều đúng"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K7 Điều 13 Luật 22)"
-  },
-  {
-    "id": 120,
-    "question": "Bảo đảm thực hiện hợp đồng được thực hiện dưới hình thức nào?",
-    "options": [
-      "Thư bảo lãnh của tổ chức tín dụng hoặc chi nhánh ngân hàng nước ngoài được thành lập theo pháp luật Việt Nam",
-      "Đặt cọc bằng tiền mặt",
-      "Đặt cọc bằng séc có bảo chi của tổ chức tín dụng hoặc chi nhánh ngân hàng nước ngoài được thành lập theo pháp luật Việt Nam",
-      "Phương án A và C đều đúng"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K4 Điều 68 Luật 22)"
-  },
-  {
-    "id": 121,
-    "question": "Nội dung nào không thuộc nội dung báo cáo đánh giá hồ sơ dự thầu?",
-    "options": [
-      "Giải trình của bên mời thầu về việc tuân thủ quy định về đấu thầu, các căn cứ để đánh giá hồ sơ dự thầu",
-      "Danh sách nhà thầu bị loại, tóm tắt về lý do loại bỏ nhà thầu",
-      "Nội dung cần sửa đổi, bổ sung so với hồ sơ mời thầu",
-      "Tóm tắt quá trình lựa chọn nhà thầu, bao gồm cả việc giải quyết kiến nghị (nếu có)"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K1 Điều 136 NĐ214)"
-  },
-  {
-    "id": 122,
-    "question": "Trong trường hợp nào, tổ chuyên gia được phép làm rõ hồ sơ dự thầu?",
-    "options": [
-      "Nhà thầu không đáp ứng yêu cầu về năng lực, kinh nghiệm",
-      "Nhà thầu không đáp ứng yêu cầu về kỹ thuật",
-      "Nhà thầu không đáp ứng yêu cầu về tư cách hợp lệ",
-      "Phương án A và B đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": ""
-  },
-  {
-    "id": 123,
-    "question": "Khi làm rõ hồ sơ dự thầu, tổ chuyên gia/bên mời thầu có được phép yêu cầu nhà thầu bổ sung tài liệu nào?",
-    "options": [
-      "Tài liệu về năng lực, kinh nghiệm đã nộp",
-      "Tài liệu về kỹ thuật đã nộp",
-      "Cam kết bảo đảm dự thầu, bảo đảm thực hiện hợp đồng",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 2,
-    "source": ""
-  },
-  {
-    "id": 124,
-    "question": "Nhà thầu có trách nhiệm làm rõ hồ sơ dự thầu trong khoảng thời gian nào?",
-    "options": [
-      "03 ngày làm việc kể từ ngày nhận được yêu cầu làm rõ",
-      "05 ngày làm việc kể từ ngày nhận được yêu cầu làm rõ",
-      "Do bên mời thầu quyết định, nhưng không ít hơn 03 ngày làm việc kể từ ngày nhận được yêu cầu làm rõ",
-      "Do bên mời thầu quyết định, nhưng không ít hơn 05 ngày làm việc kể từ ngày nhận được yêu cầu làm rõ"
-    ],
-    "correct_answer_index": 2,
-    "source": ""
-  },
-  {
-    "id": 125,
-    "question": "Việc giải quyết kiến nghị phải tuân thủ nguyên tắc nào?",
-    "options": [
-      "Độc lập, công khai, minh bạch, khách quan",
-      "Kịp thời, không làm cản trở tiến độ của gói thầu",
-      "Phương án A và B đều đúng",
-      "Do bên mời thầu quyết định"
-    ],
-    "correct_answer_index": 2,
-    "source": "(K1 Điều 137 NĐ214)"
-  },
-  {
-    "id": 126,
-    "question": "Trong mọi trường hợp, nhà thầu có được yêu cầu Chủ đầu tư chuyển giao công nghệ kèm theo khi bàn giao hàng hóa không?",
-    "options": [
-      "Được",
-      "Không được",
-      "Chỉ được trong trường hợp chuyển giao công nghệ trong nước",
-      "Việc chuyển giao công nghệ do các bên thỏa thuận, ký kết trong hợp đồng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K4 Điều 64 Luật 22)"
-  },
-  {
-    "id": 127,
-    "question": "Trường hợp nào sau đây không thuộc đối tượng áp dụng của đấu thầu qua mạng?",
-    "options": [
-      "Đấu thầu rộng rãi",
-      "Đấu thầu hạn chế",
-      "Chỉ định thầu",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 2,
-    "source": ""
-  },
-  {
-    "id": 128,
-    "question": "Hệ thống mạng đấu thầu quốc gia phải có chức năng nào sau đây?",
-    "options": [
-      "Đăng ký thông tin của cơ quan, tổ chức, cá nhân tham gia hoạt động đấu thầu",
-      "Đăng tải thông tin về đấu thầu",
-      "Cung cấp bản điện tử hồ sơ mời thầu, hồ sơ yêu cầu",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K1 Điều 59 Luật 22)"
-  },
-  {
-    "id": 129,
-    "question": "Thời gian tối thiểu để nhà thầu chuẩn bị E-HSDT đối với gói thầu xây lắp đấu thầu rộng rãi qua mạng là bao lâu?",
-    "options": [
-      "05 ngày làm việc",
-      "10 ngày làm việc",
-      "15 ngày",
-      "20 ngày"
-    ],
-    "correct_answer_index": 4,
-    "source": ""
-  },
-  {
-    "id": 130,
-    "question": "Thời gian tối thiểu để nhà thầu chuẩn bị E-HSDT đối với gói thầu mua sắm hàng hóa đấu thầu rộng rãi qua mạng là bao lâu?",
-    "options": [
-      "05 ngày làm việc",
-      "10 ngày làm việc",
-      "15 ngày",
-      "20 ngày"
-    ],
-    "correct_answer_index": 3,
-    "source": ""
-  },
-  {
-    "id": 131,
-    "question": "Thời gian tối thiểu để nhà thầu chuẩn bị E-HSDT đối với gói thầu dịch vụ tư vấn đấu thầu rộng rãi qua mạng là bao lâu?",
-    "options": [
-      "05 ngày làm việc",
-      "10 ngày làm việc",
-      "15 ngày",
-      "20 ngày"
-    ],
-    "correct_answer_index": 2,
-    "source": ""
-  },
-  {
-    "id": 132,
-    "question": "Thời gian tối thiểu để nhà thầu chuẩn bị E-HSDT đối với gói thầu xây lắp áp dụng chào hàng cạnh tranh qua mạng theo quy trình thông thường là bao lâu?",
-    "options": [
-      "05 ngày làm việc",
-      "10 ngày làm việc",
-      "15 ngày",
-      "20 ngày"
-    ],
-    "correct_answer_index": 1,
-    "source": ""
-  },
-  {
-    "id": 133,
-    "question": "Thời gian tối thiểu để nhà thầu chuẩn bị E-HSDT đối với gói thầu mua sắm hàng hóa áp dụng chào hàng cạnh tranh qua mạng theo quy trình thông thường là bao lâu?",
-    "options": [
-      "05 ngày làm việc",
-      "10 ngày làm việc",
-      "15 ngày",
-      "20 ngày"
-    ],
-    "correct_answer_index": 1,
-    "source": ""
-  },
-  {
-    "id": 134,
-    "question": "Thời gian tối thiểu để nhà thầu chuẩn bị E-HSDT đối với gói thầu mua sắm hàng hóa áp dụng chào hàng cạnh tranh qua mạng theo quy trình rút gọn là bao lâu?",
-    "options": [
-      "05 ngày làm việc",
-      "10 ngày làm việc",
-      "15 ngày",
-      "20 ngày"
-    ],
-    "correct_answer_index": 0,
-    "source": ""
-  },
-  {
-    "id": 135,
-    "question": "Thời gian tối thiểu để nhà thầu chuẩn bị E-HSDT đối với gói thầu xây lắp áp dụng chào hàng cạnh tranh qua mạng theo quy trình rút gọn là bao lâu?",
-    "options": [
-      "05 ngày làm việc",
-      "10 ngày làm việc",
-      "15 ngày",
-      "20 ngày"
-    ],
-    "correct_answer_index": 0,
-    "source": ""
-  },
-  {
-    "id": 136,
-    "question": "Nội dung nào không thuộc nội dung đấu thầu qua mạng?",
-    "options": [
-      "Lập, thẩm định, phê duyệt kế hoạch lựa chọn nhà thầu",
-      "Đăng tải thông báo mời thầu, hồ sơ mời thầu, hồ sơ yêu cầu",
-      "Nộp, tiếp nhận, mở hồ sơ dự thầu, hồ sơ đề xuất",
-      "Đánh giá hồ sơ dự thầu, hồ sơ đề xuất"
-    ],
-    "correct_answer_index": 0,
-    "source": ""
-  },
-  {
-    "id": 137,
-    "question": "Đối với đấu thầu qua mạng, thời điểm đóng thầu là gì?",
-    "options": [
-      "Thời điểm kết thúc việc nộp hồ sơ dự thầu, hồ sơ đề xuất",
-      "Thời điểm kết thúc việc nộp hồ sơ dự thầu, hồ sơ đề xuất được xác định bằng hệ thống máy tính",
-      "Thời điểm kết thúc việc nộp hồ sơ dự thầu, hồ sơ đề xuất được xác định bằng hệ thống mạng đấu thầu quốc gia",
-      "Thời điểm kết thúc việc nộp hồ sơ dự thầu, hồ sơ đề xuất được xác định bằng đồng hồ của bên mời thầu"
-    ],
-    "correct_answer_index": 2,
-    "source": "(K5 Điều 60 Luật 22)"
-  },
-  {
-    "id": 138,
-    "question": "Trường hợp hồ sơ dự thầu được nộp không đúng thời điểm đóng thầu đối với đấu thầu qua mạng thì xử lý như thế nào?",
-    "options": [
-      "Bị loại",
-      "Vẫn được xem xét, đánh giá",
-      "Chủ đầu tư xem xét, quyết định",
-      "Tùy vào quy mô, tính chất của gói thầu"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K3 Điều 60 Luật 22)"
-  },
-  {
-    "id": 139,
-    "question": "Trường hợp nhà thầu đề nghị rút hồ sơ dự thầu đối với đấu thầu qua mạng thì xử lý như thế nào?",
-    "options": [
-      "Bị loại",
-      "Được chấp nhận, nếu có văn bản đề nghị trước thời điểm đóng thầu",
-      "Không được chấp nhận, do đã nộp trên hệ thống",
-      "Chủ đầu tư xem xét, quyết định"
-    ],
-    "correct_answer_index": 1,
-    "source": "(K3 Điều 60 Luật 22)"
-  },
-  {
-    "id": 140,
-    "question": "Trường hợp nhà thầu không nộp bảo đảm dự thầu đối với đấu thầu qua mạng thì xử lý như thế nào?",
-    "options": [
-      "Bị loại",
-      "Vẫn được xem xét, đánh giá",
-      "Chủ đầu tư xem xét, quyết định",
-      "Tùy vào quy mô, tính chất của gói thầu"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K3 Điều 60 Luật 22)"
-  },
-  {
-    "id": 141,
-    "question": "Trường hợp gói thầu mua sắm hàng hóa áp dụng đấu thầu rộng rãi qua mạng theo quy trình một giai đoạn một túi hồ sơ thì khi đánh giá hồ sơ dự thầu, tổ chuyên gia có được phép làm rõ các thông tin về nhân sự chủ chốt, thiết bị chủ yếu không?",
-    "options": [
-      "Không được làm rõ",
-      "Được làm rõ, nếu các thông tin này chưa được kê khai đầy đủ",
-      "Chỉ được làm rõ, nếu nhà thầu trúng thầu",
+      "Thời hạn áp dụng thỏa thuận khung được quy định là 40 tháng",
+      "Thời hạn áp dụng thỏa thuận khung được quy định trong kế hoạch lựa chọn nhà thầu nhưng không quá 36 tháng",
+      "Thời hạn áp dụng thỏa thuận khung do người có thẩm quyền quyết định trong kế hoạch lựa chọn nhà thầu",
       "Phương án B và C đều đúng"
     ],
     "correct_answer_index": 1,
-    "source": ""
+    "source": "(K3 Điều 54 Luật 22)"
+  },
+  {
+    "id": 94,
+    "question": "Tại bước hoàn thiện, ký kết và thực hiện hợp đồng với nhà thầu đối với gói thầu mua sắm tập trung",
+    "options": [
+      "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước hoặc cùng thời điểm hợp đồng có hiệu lực cho đơn vị mua sắm tập trung",
+      "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước hoặc cùng thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm",
+      "Nhà thầu đã ký kết thỏa thuận khung không phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước thời điểm hợp đồng có hiệu lực cho đơn vị có nhu cầu mua sắm",
+      "Nhà thầu đã ký kết thỏa thuận khung phải thực hiện biện pháp bảo đảm thực hiện hợp đồng sau thời điểm hợp đồng có hiệu lực cho đơn vị mua sắm tập trung"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K1g Điều 91 ND214)"
+  },
+  {
+    "id": 95,
+    "question": "Đối với các gói thầu mua sắm tập trung, trách nhiệm cung cấp thông tin về kết quả thực hiện hợp đồng của nhà thầu do ai thực hiện?",
+    "options": [
+      "Đơn vị có nhu cầu mua sắm",
+      "Bên mời thầu",
+      "Đơn vị tư vấn được thuê làm bên mời thầu",
+      "Không phải đăng tải thông tin"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K4 Điều 20 ND214)"
+  },
+  {
+    "id": 96,
+    "question": "Áp dụng hình thức lựa chọn nhà thầu nào khi mua sắm tập trung đối với gói thầu điều hòa không khí thông dụng, sẵn có trên thị trường, có giá gói thầu là 03 tỷ đồng cho các cơ quan thuộc tỉnh X?",
+    "options": [
+      "Đấu thầu rộng rãi hoặc mua sắm trực tiếp",
+      "Đấu thầu rộng rãi hoặc chỉ định thầu theo hạn mức",
+      "Đấu thầu rộng rãi hoặc chào hàng cạnh tranh",
+      "Đấu thầu rộng rãi hoặc chỉ định thầu hoặc đám phán giá"
+    ],
+    "correct_answer_index": 2,
+    "source": "(K3 Điều 89 NĐ214)"
+  },
+  {
+    "id": 97,
+    "question": "Trách nhiệm trong mua sắm tập trung",
+    "options": [
+      "Đơn vị mua sắm tập trung thực hiện trách nhiệm của người có thẩm quyền theo quy định của Luật Đấu thầu",
+      "Đơn vị mua sắm tập trung thực hiện trách nhiệm của chủ đầu tư quy định của Luật Đấu thầu",
+      "Đơn vị mua sắm tập trung thực hiện trách nhiệm của bên mời thầu quy định của Luật Đấu thầu",
+      "Đơn vị mua sắm tập trung thực hiện trách nhiệm của tổ chuyên gia theo quy định của Luật Đấu thầu"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K1 Điều 90 NĐ214)"
+  },
+  {
+    "id": 98,
+    "question": "Nhà thầu đã ký thỏa thuận khung và được đơn vị có nhu cầu mua sắm yêu cầu ký hợp đồng nhưng không ký hợp đồng, không thực hiện biện pháp bảo đảm thực hiện hợp đồng sẽ bị xử lý như thế nào?",
+    "options": [
+      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị có nhu cầu mua sắm công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
+      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia, trừ trường hợp bất khả kháng",
+      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
+      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K1g Điều 91 NĐ214)"
+  },
+  {
+    "id": 99,
+    "question": "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ theo khả năng cung cấp và áp dụng phương pháp giá thấp nhất, việc lựa chọn danh sách nhà thầu trúng thầu được thực hiện như thế nào?",
+    "options": [
+      "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu tối thiểu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu tốt nhất",
+      "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu cao nhất",
+      "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu tối thiểu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đề nghị trúng thầu của gói thầu thấp nhất",
+      "Phải đảm bảo tổng số lượng hàng hóa mà các nhà thầu trúng thầu chào thầu bằng số lượng hàng hóa nêu trong hồ sơ mời thầu, đồng thời bảo đảm tổng giá đánh giá của gói thầu là thấp nhất"
+    ],
+    "correct_answer_index": 3,
+    "source": "(K3a Điều 91 NĐ214)"
+  },
+  {
+    "id": 100,
+    "question": "Đối với gói thầu mua sắm tập trung áp dụng lựa chọn nhà thầu căn cứ khối lượng mời thầu, danh sách phê duyệt nhà thầu trúng thầu bao gồm:",
+    "options": [
+      "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách dự bị (nhà thầu xếp thứ 2 trở đi)",
+      "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách nhà thầu không đáp ứng yêu cầu của hồ sơ mời thầu",
+      "Danh sách các nhà thầu đáp ứng yêu cầu về năng lực và kinh nghiệm theo yêu cầu của hồ sơ mời thầu",
+      "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi)"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K3b Điều 91 NĐ214)"
+  },
+  {
+    "id": 101,
+    "question": "Đối với hàng hóa, dịch vụ không thuộc danh mục mua sắm tập trung do Chủ tịch UBND tỉnh X ban hành nhưng nhiều cơ quan, tổ chức, đơn vị trong tỉnh X có nhu cầu mua sắm hàng hóa, dịch vụ cùng loại thì thực hiện như thế nào?",
+    "options": [
+      "Từng cơ quan, tổ chức, đơn vị trong tỉnh X căn cứ vào thỏa thuận khung do UBND tỉnh X đã ký kết trước đó để mua sắm tập trung đối với các hàng hóa, dịch vụ này",
+      "Có thể gộp thành một gói thầu để một trong các cơ quan, tổ chức, đơn vị mua sắm hoặc để đơn vị có chức năng mua sắm tập trung thực hiện việc mua sắm đối với các hàng hóa, dịch vụ này",
+      "Sở Tài chính thuộc tỉnh X có trách nhiệm thực hiện mua sắm tập trung đối với các hàng hóa, dịch vụ này",
+      "Các cơ quan, tổ chức, đơn vị báo cáo lên người có thẩm quyền để phê duyệt kế hoạch chọn nhà thầu theo hình thức mua sắm tập trung đối với các hàng hóa, dịch vụ này"
+    ],
+    "correct_answer_index": 1,
+    "source": "(k1a, đ53 LĐT)"
+  },
+  {
+    "id": 102,
+    "question": "Thẩm quyền phê duyệt kế hoạch tổng thể lựa chọn nhà thầu thuộc chủ thể nào?",
+    "options": [
+      "Người có thẩm quyền",
+      "Chủ đầu tư (trường hợp xác định được chủ đầu tư)",
+      "Người đứng đầu cơ quan được giao chuẩn bị dự án",
+      "Bên mời thầu"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K1 Điều 77 Luật 22)"
+  },
+  {
+    "id": 103,
+    "question": "Trường hợp thuê đơn vị tư vấn lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu; đánh giá hồ sơ quan tâm, hồ sơ dự sơ tuyển, hồ sơ dự thầu, hồ sơ đề xuất, tổ chuyên gia được thành lập bởi?",
+    "options": [
+      "Người có thẩm quyền",
+      "Chủ đầu tư",
+      "Bên mời thầu",
+      "Đơn vị tư vấn được chủ đầu tư lựa chọn"
+    ],
+    "correct_answer_index": 3,
+    "source": "(K4 Điều 78 Luật 22-57-90)"
+  },
+  {
+    "id": 104,
+    "question": "Nhiệm vụ nào sau đây không thuộc trách nhiệm của người có thẩm quyền?",
+    "options": [
+      "Phê duyệt kế hoạch lựa chọn nhà thầu",
+      "Giải quyết kiến nghị và xử lý các vi phạm pháp luật về đấu thầu",
+      "Quyết định việc hủy thầu khi thay đổi mục tiêu đầu tư trong quyết định đầu tư",
+      "Quyết định việc hủy thầu, đình chỉ cuộc đấu thầu, không công nhận kết quả lựa chọn nhà thầu khi phát hiện có hành vi vi phạm pháp luật về đấu thầu"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K1a Điều 78 Luật 22-57-90)"
+  },
+  {
+    "id": 106,
+    "question": "Việc chấp thuận hoặc không chấp thuận việc điều chuyển khối lượng, phạm vi công việc của nhà thầu phụ cho tổ chức, đơn vị khác khi cần đáp ứng yêu cầu về tiến độ, chất lượng gói thầu khi nhà thầu chính đề xuất thuộc trách nhiệm của ai?",
+    "options": [
+      "Tổ chuyên gia",
+      "Chủ đầu tư",
+      "Người có thẩm quyền",
+      "Tổ thẩm định"
+    ],
+    "correct_answer_index": 1,
+    "source": "(k13a, đ78 LĐT)"
+  },
+  {
+    "id": 107,
+    "question": "Nội dung nào không thuộc nội dung quản lý nhà nước đối với hoạt động đấu thầu?",
+    "options": [
+      "Quản lý hệ thống thông tin và cơ sở dữ liệu về đấu thầu trên phạm vi cả nước.",
+      "Lập hồ sơ mời quan tâm, hồ sơ mời sơ tuyển, hồ sơ mời thầu, hồ sơ yêu cầu.",
+      "Đào tạo, bồi dưỡng kiến thức, nghiệp vụ chuyên môn về đấu thầu.",
+      "Hợp tác quốc tế về đấu thầu"
+    ],
+    "correct_answer_index": 1,
+    "source": "(Điều 83 Luật 22)"
+  },
+  {
+    "id": 108,
+    "question": "Theo quy định pháp luật về đấu thầu, kiểm tra hoạt động đấu thầu được tiến hành theo hình thức nào?",
+    "options": [
+      "Kiểm tra trực tiếp",
+      "Báo cáo bằng văn bản",
+      "Kết hợp giữa kiểm tra trực tiếp và báo cáo bằng văn bản",
+      "Kiểm tra định kỳ hoặc đột xuất"
+    ],
+    "correct_answer_index": 3,
+    "source": "(K2a Điều 86 Luật 22)"
+  },
+  {
+    "id": 109,
+    "question": "Thời hiệu áp dụng biện pháp cấm tham gia hoạt động đấu thầu là bao lâu?",
+    "options": [
+      "10 năm tính từ ngày xảy ra hành vi vi phạm",
+      "10 năm tính từ ngày phát hiện ra hành vi vi phạm",
+      "05 năm tính từ ngày phát hiện ra hành vi vi phạm",
+      "05 năm tính từ ngày xảy ra hành vi vi phạm"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K3 Điều 133 ND214)"
+  },
+  {
+    "id": 110,
+    "question": "Chủ thể nào không có quyền cấm tham gia hoạt động đấu thầu?",
+    "options": [
+      "Người có thẩm quyền",
+      "Chủ đầu tư",
+      "Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, cơ quan thuộc Chính phủ, cơ quan khác ở Trung ương",
+      "Chủ tịch Ủy ban nhân dân cấp tỉnh"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K2 Điều 133 ND214)"
+  },
+  {
+    "id": 111,
+    "question": "Người có thẩm quyền ban hành quyết định cấm tham gia hoạt động đấu thầu với thời gian cấm bao lâu đối với trường hợp tổ chức, cá nhân có từ 02 hành vi vi phạm trở lên thuộc cùng phạm vi quản lý của người có thẩm quyền và các hành vi này chưa bị cấm tham gia hoạt động đấu thầu?",
+    "options": [
+      "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối thiểu trên 05 năm",
+      "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối đa không quá 03 năm",
+      "Bằng tổng thời gian cấm của các hành vi vi phạm nhưng tối đa không quá 05 năm",
+      "Bằng thời gian cấm của hành vi vi phạm có thời gian bị cấm cao nhất"
+    ],
+    "correct_answer_index": 2,
+    "source": "(K2 Điều 133 ND214)"
+  },
+  {
+    "id": 112,
+    "question": "Hành vi gian lận trong hoạt động đấu thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
+    "options": [
+      "Từ 06 tháng đến 01 năm",
+      "02 năm",
+      "Từ 01 năm đến 02 năm",
+      "Từ 03 năm đến 05 năm"
+    ],
+    "correct_answer_index": 3,
+    "source": "(K1a Điều 133 ND214)"
+  },
+  {
+    "id": 113,
+    "question": "Hành vi cản trở trong hoạt động đấu thầu sẽ bị cấm tham gia hoạt động đấu thầu trong thời gian bao lâu?",
+    "options": [
+      "06 tháng",
+      "Từ 06 tháng đến dưới 1 năm",
+      "Từ 01 năm đến 03 năm",
+      "05 năm"
+    ],
+    "correct_answer_index": 2,
+    "source": "(K1b Điều 133 ND214)"
+  },
+  {
+    "id": 114,
+    "question": "Thành viên A trong nhà thầu liên danh A-B thực hiện hành vi \"làm giả hoặc làm sai lệch thông tin, hồ sơ, tài liệu trong đấu thầu\" thì việc cấm tham gia hoạt động đấu thầu được xử lý như thế nào?",
+    "options": [
+      "Cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm đối với thành viên A",
+      "Cấm tham gia hoạt động đấu thầu từ 01 năm đến dưới 03 năm đối với thành viên A",
+      "Cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm đối với tất cả thành viên trong nhà thầu liên danh A-B",
+      "Cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm đối với tất cả thành viên trong nhà thầu liên danh A-B"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K1a Điều 133 + K20c Điều 140 ND214)"
+  },
+  {
+    "id": 115,
+    "question": "Đình chỉ cuộc thầu được thực hiện trong thời gian nào?",
+    "options": [
+      "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
+      "Trong quá trình tổ chức lựa chọn nhà thầu cho đến trước khi phê duyệt kết quả lựa chọn nhà thầu",
+      "Sau khi phê duyệt kết quả lựa chọn nhà thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
+      "Trong quá trình thực hiện hợp đồng"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K1a Điều 18 Luật 22)"
+  },
+  {
+    "id": 116,
+    "question": "Biện pháp nào sau đây được thực hiện trong quá trình thực hiện hợp đồng?",
+    "options": [
+      "Hủy thầu",
+      "Đình chỉ cuộc thầu",
+      "Không công nhận kết quả lựa chọn nhà thầu",
+      "Phương án A và B đều đúng"
+    ],
+    "correct_answer_index": 2,
+    "source": "(K1b Điều 18 Luật 22)"
+  },
+  {
+    "id": 117,
+    "question": "Đối với việc giải quyết kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
+    "options": [
+      "Chủ đầu tư, người có thẩm quyền",
+      "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
+      "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
+      "Chủ đầu tư, tổ chuyên gia"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K1 Điều 138 ND214)"
+  },
+  {
+    "id": 118,
+    "question": "Đối với việc giải quyết kiến nghị về kết quả lựa chọn nhà thầu, cá nhân, đơn vị nào sau đây có trách nhiệm giải quyết kiến nghị?",
+    "options": [
+      "Chủ đầu tư, người có thẩm quyền",
+      "Chủ đầu tư, Hội đồng giải quyết kiến nghị",
+      "Người có thẩm quyền, Hội đồng giải quyết kiến nghị",
+      "Chủ đầu tư, tổ chuyên gia"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K2 Điều 138 ND214)"
+  },
+  {
+    "id": 120,
+    "question": "Chi phí giải quyết kiến nghị được nhà thầu nộp cho chủ thể nào sau đây?",
+    "options": [
+      "Chủ tịch Hội đồng tư vấn giải quyết kiến nghị",
+      "Bộ phận thường trực giúp việc cho Chủ tịch Hội đồng giải quyết kiến nghị",
+      "Chủ đầu tư",
+      "Người có thẩm quyền"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K2đ Điều 137 ND214)"
+  },
+  {
+    "id": 121,
+    "question": "Các trường hợp nào sau đây nhà thầu không được hoàn trả chi phí giải quyết kiến nghị",
+    "options": [
+      "Kiến nghị của nhà thầu được kết luận là đúng",
+      "Một hoặc các nội dung kiến nghị của nhà thầu được kết luận là không đúng",
+      "Nhà thầu rút đơn kiến nghị trong quá trình giải quyết kiến nghị",
+      "Phương án B và C đều đúng"
+    ],
+    "correct_answer_index": 3,
+    "source": "(K3 Điều 15 ND214)"
+  },
+  {
+    "id": 122,
+    "question": "Đối với kiến nghị về kết quả lựa chọn nhà thầu, Hội đồng giải quyết kiến nghị phải có văn bản giải quyết kiến nghị trong thời hạn bao nhiêu ngày kể từ ngày Hội đồng được thành lập?",
+    "options": [
+      "25 ngày",
+      "30 ngày",
+      "35 ngày",
+      "20 ngày"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K2 Điều 138 ND214)"
+  },
+  {
+    "id": 123,
+    "question": "Phương án nào sau đây là đúng trong việc giải quyết kiến nghị đối với gói thầu sử dụng vốn sản xuất kinh doanh của doanh nghiệp nhà nước?",
+    "options": [
+      "Hội đồng giải quyết kiến nghị do Sở Tài chính thành lập có trách nhiệm giải quyết kiến nghị cho gói thầu",
+      "Hội đồng giải quyết kiến nghị do Bộ trưởng Bộ Tài chính thành lập có trách nhiệm giải quyết kiến nghị cho gói thầu",
+      "Người đứng đầu doanh nghiệp nhà nước tự ban hành điều kiện, quy trình về giải quyết kiến nghị trong đơn vị mình",
+      "Tất cả phương án A, B, C đều sai"
+    ],
+    "correct_answer_index": 2,
+    "source": "(K7 Điều 138 ND214)"
+  },
+  {
+    "id": 124,
+    "question": "Đối với kiến nghị về các vấn đề trước khi có thông báo kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến người có thẩm quyền và chủ đầu tư thì chủ thể nào có trách nhiệm giải quyết kiến nghị?",
+    "options": [
+      "Người có thẩm quyền",
+      "Chủ đầu tư",
+      "Bộ phận thường trực",
+      "Hội đồng giải quyết kiến nghị"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K1 Điều 138 ND214)"
+  },
+  {
+    "id": 125,
+    "question": "Đối với kiến nghị về kết quả lựa chọn nhà thầu, trường hợp nhà thầu gửi đơn kiến nghị đồng thời đến bộ phận thường trực và chủ đầu tư, thì chủ thể nào có trách nhiệm giải quyết kiến nghị?",
+    "options": [
+      "Người có thẩm quyền",
+      "Chủ đầu tư",
+      "Bộ phận thường trực",
+      "Hội đồng giải quyết kiến nghị"
+    ],
+    "correct_answer_index": 3,
+    "source": "(K2 Điều 138 ND214)"
+  },
+  {
+    "id": 127,
+    "question": "Hội đồng giải quyết kiến nghị có quyền thực hiện việc nào sau đây?",
+    "options": [
+      "Hủy thầu",
+      "Yêu cầu chủ đầu tư tạm dừng, ký kết hợp đồng",
+      "Yêu cầu nhà thầu, chủ đầu tư và các cơ quan liên quan cung cấp thông tin của gói thầu, dự án và các thông tin liên quan khác để thực hiện nhiệm vụ",
+      "Không công nhận kết quả lựa chọn nhà thầu"
+    ],
+    "correct_answer_index": 2,
+    "source": "(K3c Điều 139 ND214)"
+  },
+  {
+    "id": 128,
+    "question": "Đối với kiến nghị về quá trình tổ chức lựa chọn nhà thầu (không phải kiến nghị về nội dung hồ sơ mời thầu) , đơn kiến nghị phải là của chủ thể nào?",
+    "options": [
+      "Cá nhân quan tâm đến gói thầu",
+      "Nhà thầu tham dự thầu",
+      "Cơ quan, tổ chức quan tâm đến gói thầu",
+      "Phương án B và C đều đúng"
+    ],
+    "correct_answer_index": 1,
+    "source": "(k1, k2 đ137 NĐ 214)"
+  },
+  {
+    "id": 129,
+    "question": "Các tài liệu, thông tin nào sau đây trong việc giải quyết kiến nghị được công khai trên Hệ thống mạng đấu thầu quốc gia?",
+    "options": [
+      "Nội dung kiến nghị kết quả lựa chọn nhà thầu",
+      "Văn bản giải quyết kiến nghị của chủ đầu tư",
+      "Văn bản giải quyết kiến nghị của người có thẩm quyền",
+      "Tất cả phương án trên đều đúng"
+    ],
+    "correct_answer_index": 3,
+    "source": "(Đ138 NĐ214)"
+  },
+  {
+    "id": 130,
+    "question": "Nhà thầu có trách nhiệm nộp chi phí giải quyết kiến nghị trong thời hạn bao lâu kể từ ngày nhận được thông báo của bộ phận thường trực?",
+    "options": [
+      "03 ngày làm việc",
+      "02 ngày làm việc",
+      "04 ngày làm việc",
+      "05 ngày làm việc"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K2đ, đ137 NĐ 214)"
+  },
+  {
+    "id": 131,
+    "question": "Trường hợp hồ sơ mời thầu cho phép nhà thầu đề xuất biện pháp thi công khác với biện pháp thi công nêu trong hồ sơ mời thầu thì phần sai khác giữa khối lượng công việc theo biện pháp thi công nêu trong hồ sơ mời thầu và khối lượng công việc theo biện pháp thi công do nhà thầu đề xuất được xem xét thế nào?",
+    "options": [
+      "Bị hiểu chỉnh sai lệch, phần sai khác được tính là sai lệch thừa",
+      "Không bị hiệu chỉnh sai lệch, phần sai khác không được tính là sai lệch thừa",
+      "Bị hiệu chỉnh sai lệch, phần sai khác được tính là sai lệch thiếu",
+      "Không bị hiệu chỉnh sai lệch, phần sai khác không bị tính là sai lệch thiếu"
+    ],
+    "correct_answer_index": 3,
+    "source": "(k13, đ140, NĐ 214)"
+  },
+  {
+    "id": 132,
+    "question": "Trường hợp hồ sơ dự thầu có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá (nếu có) thấp khác thường thì chủ đầu tư có thể quy định giá trị bảo đảm thực hiện hợp đồng tối đa là bao nhiêu để đề phòng rủi ro?",
+    "options": [
+      "30% giá hợp đồng",
+      "35% giá hợp đồng",
+      "40% giá hợp đồng",
+      "45% giá hợp đồng"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K11b, K17 Điều 140 ND214)"
+  },
+  {
+    "id": 133,
+    "question": "Đối với gói thầu chia phần, chủ đầu tư có thể phê duyệt kết quả lựa chọn nhà thầu cho từng phần hay không?",
+    "options": [
+      "Không thể",
+      "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá gói thầu",
+      "Có thể nhưng phải bảo đảm tỷ lệ tiết kiệm tối thiểu 5%",
+      "Có thể nhưng phải bảo đảm điều kiện giá đề nghị trúng thầu không vượt giá của phần đó trong giá gói thầu"
+    ],
+    "correct_answer_index": 3,
+    "source": "(K10d Điều 140 ND214)"
+  },
+  {
+    "id": 134,
+    "question": "Đối với gói thầu chia phần, trường hợp một phần của gói thầu không có nhà thầu tham dự thầu thì chủ đầu tư xử lý thế nào?",
+    "options": [
+      "Tách phần đó ra thành gói thầu riêng biệt để tổ chức lựa chọn nhà thầu theo quy định",
+      "Hủy thầu",
+      "Đàm phán với nhà thầu trúng thầu của phần khác để thực hiện",
+      "Phương án B và C đều đúng"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K10a Điều 140 ND214)"
+  },
+  {
+    "id": 135,
+    "question": "Thẩm quyền xử lý tình huống phức tạp trong đấu thầu?",
+    "options": [
+      "Chủ đầu tư quyết định xử lý tình huống sau khi có ý kiến của người có thẩm quyền",
+      "Người có thẩm quyền quyết định xử lý tình huống sau khi có ý kiến của Tổ chuyên gia",
+      "Người có thẩm quyền quyết định xử lý tình huống sau khi có ý kiến của chủ đầu tư",
+      "Người có thẩm quyền quyết định xử lý tình huống sau khi có ý kiến của chủ đầu tư và Tổ chuyên gia"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K34 Điều 140 ND214)"
+  },
+  {
+    "id": 136,
+    "question": "Trường hợp một hoặc một số thành viên liên danh vi phạm hợp đồng, không còn năng lực để tiếp tục thực hiện hợp đồng, làm ảnh hưởng nghiêm trọng đến tiến độ, chất lượng, hiệu quả của gói thầu thì việc đánh giá uy tín của nhà thầu trong việc thực hiện hợp đồng được xử lý như nào?",
+    "options": [
+      "Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
+      "Chỉ một hoặc một số thành viên liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị chủ đầu tư đăng tải thông tin thành viên liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
+      "Chỉ một hoặc một số thành viên liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị bên mời thầu đăng tải thông tin thành viên liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia",
+      "Nhà thầu liên danh vi phạm hợp đồng bị coi là không hoàn thành hợp đồng và bị bên mời thầu đăng tải thông tin nhà thầu liên danh vi phạm hợp đồng trên Hệ thống mạng đấu thầu quốc gia"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K22c Điều 140 ND214)"
+  },
+  {
+    "id": 137,
+    "question": "Trường hợp phải chấm dứt hợp đồng với nhà thầu vi phạm hợp đồng để thay thế nhà thầu mới thì phần công việc chưa thực hiện được áp dụng hình thức chỉ định thầu cho nhà thầu khác với giá trị được tính như nào?",
+    "options": [
+      "Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện, được nghiệm thu trước đó",
+      "Bằng giá trị ghi trong hợp đồng được cập nhật giá tại thời điểm áp dụng hình thức chỉ định thầu trừ đi giá trị của phần công việc đã thực hiện, được nghiệm thu trước đó",
+      "Bằng giá trị của phần công việc còn lại được cập nhật giá tại thời điểm áp dụng hình thức chỉ định thầu",
+      "Bằng giá trị ghi trong hợp đồng trừ đi giá trị của phần công việc đã thực hiện trước đó theo dự toán được duyệt"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K22c Điều 140 ND214)"
+  },
+  {
+    "id": 138,
+    "question": "Đối với nhà thầu liên danh, trường hợp trong quá trình thực hiện hợp đồng cần đẩy nhanh tiến độ thực hiện so với hợp đồng đã ký (cần sửa đổi hợp đồng) thì cần thực hiện như thế nào?",
+    "options": [
+      "Các thành viên liên danh thỏa thuận, điều chỉnh về phạm vi công việc, tiến độ được rút ngắn và không phải thông báo cho chủ đầu tư",
+      "Các thành viên liên danh thỏa thuận, điều chỉnh về phạm vi công việc, tiến độ được rút ngắn và thông báo cho chủ đầu tư",
+      "Phải được người có thẩm quyền cho phép chủ đầu tư và nhà thầu thỏa thuận, điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn",
+      "Chủ đầu tư và nhà thầu được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh phù hợp với tiến độ hoặc tiến độ được rút ngắn"
+    ],
+    "correct_answer_index": 3,
+    "source": "(K24 Điều 140 ND214)"
+  },
+  {
+    "id": 139,
+    "question": "Trường hợp nhà thầu có nhân sự (ký kết hợp đồng lao động với nhà thầu tại thời điểm nhân sự thực hiện hành vi vi phạm) bị cơ quan điều tra kết luận có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng theo quy định pháp luật về hình sự nhằm mục đích cho nhà thầu trúng thầu nhưng nhân sự của nhà thầu chưa bị Tòa án kết án hoặc nhà thầu chưa bị người có thẩm quyền ra quyết định cấm tham gia hoạt động đấu thầu thì tại thời điểm này, nhà thầu có được tham dự thầu hay không?",
+    "options": [
+      "Nhà thầu không được tham dự thầu",
+      "Hồ sơ dự thầu, hồ sơ đề xuất của nhà thầu sẽ được mở nhưng không được xem xét, đánh giá",
+      "Hồ sơ dự thầu, hồ sơ đề xuất của nhà thầu không được mở thầu và trả lại theo nguyên trạng",
+      "Nhà thầu vẫn được tiếp tục tham dự thầu"
+    ],
+    "correct_answer_index": 3,
+    "source": "(K26 Điều 140 ND214)"
+  },
+  {
+    "id": 140,
+    "question": "Trường hợp nào là một trong những điều kiện để chủ đầu tư chấp thuận đề xuất của nhà thầu trong quá trình thực hiện hợp đồng về việc thay đổi các hàng hóa có phiên bản sản xuất, năm sản xuất mới hơn so với hàng hóa ghi trong hợp đồng?",
+    "options": [
+      "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng bắt buộc phải cùng hãng sản xuất và xuất xứ",
+      "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng, phải cùng hãng sản xuất nhưng không bắt buộc cùng xuất xứ",
+      "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng, phải cùng xuất xứ nhưng không bắt buộc cùng hãng sản xuất",
+      "Hàng hóa thay thế có tính năng kỹ thuật, cấu hình, thông số và các yêu cầu kỹ thuật khác tương đương hoặc tốt hơn hàng hóa ghi trong hợp đồng nhưng không bắt buộc cùng hãng sản xuất và cùng xuất xứ"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K27 Điều 140 ND214)"
+  },
+  {
+    "id": 141,
+    "question": "Trường hợp gói thầu có tính chất đặc thù và áp dụng hình thức chỉ định thầu hoặc lựa chọn nhà thầu trong trường hợp đặc biệt, nhà thầu nước ngoài có yêu cầu ràng buộc chỉ ký hợp đồng khi không phải đăng ký trên Hệ thống mạng đấu thầu quốc gia thì chủ đầu tư xử lý như thế nào?",
+    "options": [
+      "Không cần yêu cầu nhà thầu nước ngoài đăng ký khi đăng tải kết quả lựa chọn nhà thầu",
+      "Yêu cầu nhà thầu nước ngoài đăng ký khi đăng tải kết quả lựa chọn nhà thầu",
+      "Nhà thầu không được chấp nhận và bị loại",
+      "Hủy thầu"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K31 Điều 140 ND214)"
   },
   {
     "id": 142,
-    "question": "Đối với đấu thầu qua mạng, thời điểm mở thầu là gì?",
+    "question": "Đối với trường hợp hủy thầu thì phải thực hiện giải pháp nào sau đây?",
     "options": [
-      "Thời điểm kết thúc việc nộp hồ sơ dự thầu, hồ sơ đề xuất",
-      "Thời điểm mở hồ sơ dự thầu, hồ sơ đề xuất được xác định bằng hệ thống mạng đấu thầu quốc gia",
-      "Thời điểm mở hồ sơ dự thầu, hồ sơ đề xuất được xác định bằng hệ thống máy tính",
-      "Thời điểm mở hồ sơ dự thầu, hồ sơ đề xuất được xác định bằng đồng hồ của bên mời thầu"
+      "Phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
+      "Phải điều chỉnh thời gian thực hiện gói thầu trong kế hoạch lựa chọn nhà thầu",
+      "Không phải điều chỉnh thời gian bắt đầu tổ chức lựa chọn nhà thầu trong kế hoạch lựa chọn nhà thầu",
+      "Tất cả các đáp án trên đều không đúng"
     ],
-    "correct_answer_index": 1,
-    "source": "(K5 Điều 60 Luật 22)"
+    "correct_answer_index": 2,
+    "source": "(K6,Điều 140 ND214)"
   },
   {
     "id": 143,
-    "question": "Đối với đấu thầu qua mạng, việc sửa đổi, bổ sung E-HSMT được thực hiện như thế nào?",
+    "question": "Hủy thầu được thực hiện trong thời gian nào?",
     "options": [
-      "Đăng tải thông báo sửa đổi, bổ sung E-HSMT trên Hệ thống mạng đấu thầu quốc gia",
-      "Gửi thông báo sửa đổi, bổ sung E-HSMT đến các nhà thầu đã tải E-HSMT",
-      "Đăng tải thông báo sửa đổi, bổ sung E-HSMT trên Hệ thống mạng đấu thầu quốc gia và gửi thông báo đến các nhà thầu đã tải E-HSMT",
-      "Phương án A và C đều đúng"
+      "Từ ngày có thời điểm đóng thầu đến khi có kết quả lựa chọn nhà thầu",
+      "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu đến trước khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
+      "Từ ngày có thời điểm đóng thầu đến khi ký kết hợp đồng, thỏa thuận khung đối với mua sắm tập trung",
+      "Từ ngày phát hành hồ sơ mời sơ tuyển, hồ sơ mời quan tâm, hồ sơ mời thầu, hồ sơ yêu cầu kể cả sau khi đã ký hợp đồng"
     ],
-    "correct_answer_index": 0,
-    "source": ""
+    "correct_answer_index": 1,
+    "source": "(K3 Điều 17 Luật 22)"
   },
   {
     "id": 144,
-    "question": "Trường hợp E-HSMT được sửa đổi, bổ sung thì thời điểm đóng thầu có bị thay đổi không?",
+    "question": "Đối với gói thầu tổ chức lựa chọn nhà thầu qua mạng, trường hợp trong quá trình đánh giá E-HSDT mà chưa có kết quả lựa chọn nhà thầu, nhà thầu có tên trong biên bản mở thầu bị khóa tài khoản theo quy định của pháp luật về đấu thầu thì chủ đầu tư xử lý như thế nào?",
     "options": [
-      "Không bị thay đổi",
-      "Bị thay đổi, nếu thời gian chuẩn bị E-HSDT còn lại nhỏ hơn 03 ngày làm việc",
-      "Bị thay đổi, nếu thời gian chuẩn bị E-HSDT còn lại nhỏ hơn 05 ngày làm việc",
-      "Tùy vào quy mô, tính chất của gói thầu"
+      "Yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản làm cơ sở xem xét, đánh giá E-HSDT của nhà thầu",
+      "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
+      "Không tiếp tục xem xét, đánh giá E-HSDT của nhà thầu",
+      "Tiếp tục xem xét, đánh giá E-HSDT của nhà thầu và yêu cầu nhà thầu thực hiện các thủ tục để mở khóa tài khoản trước khi phê duyệt kết quả lựa chọn nhà thầu"
     ],
-    "correct_answer_index": 1,
-    "source": ""
-  },
-  {
-    "id": 145,
-    "question": "Đối với đấu thầu qua mạng, việc công khai thông tin về đấu thầu được thực hiện như thế nào?",
-    "options": [
-      "Đăng tải trên Hệ thống mạng đấu thầu quốc gia",
-      "Đăng tải trên Báo đấu thầu",
-      "Đăng tải trên Hệ thống mạng đấu thầu quốc gia và Báo đấu thầu",
-      "Tùy vào quy mô, tính chất của gói thầu"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K1 Điều 8 Luật 22)"
+    "correct_answer_index": 2,
+    "source": "(K32 Điều 140 NĐ214)"
   },
   {
     "id": 146,
-    "question": "Đối với đấu thầu qua mạng, việc xử lý tình huống trong đấu thầu được thực hiện như thế nào?",
+    "question": "Trường hợp nhà thầu trúng thầu không tiến hành hoàn thiện, ký kết hợp đồng hoặc tại thời điểm ký kết hợp đồng, nhà thầu trúng thầu không đáp ứng yêu cầu về năng lực kỹ thuật, tài chính quy định tại khoản 2 Điều 66 của Luật Đấu thầu thì chủ đầu tư xử lý như thế nào trong trường hợp này?",
     "options": [
-      "Theo quy định của pháp luật về đấu thầu",
-      "Theo quy định của pháp luật về đấu thầu và quy định của Hệ thống mạng đấu thầu quốc gia",
-      "Theo quy định của pháp luật về đấu thầu, quy định của Hệ thống mạng đấu thầu quốc gia và quy định của Bộ Kế hoạch và Đầu tư",
-      "Tùy vào quy mô, tính chất của gói thầu"
+      "Hủy quyết định phê duyệt kết quả lựa chọn nhà thầu trúng thầu",
+      "Hủy thầu",
+      "Không công nhận kết quả lựa chọn nhà thầu",
+      "Đình chỉ cuộc thầu"
     ],
-    "correct_answer_index": 1,
-    "source": "(K2 Điều 61 Luật 22)"
+    "correct_answer_index": 0,
+    "source": "(K19a Điều 140 ND214)"
   },
   {
     "id": 147,
-    "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu dịch vụ tư vấn đấu thầu rộng rãi, đấu thầu hạn chế qua mạng là bao lâu?",
+    "question": "Trường hợp nào dưới đây, chủ đầu tư và nhà thầu liên danh được thỏa thuận điều chỉnh phạm vi công việc giữa các thành viên liên danh?",
     "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
+      "Khi một thành viên liên danh không muốn tiếp tục thực hiện phần việc đã cam kết",
+      "Khi chủ đầu tư thấy một thành viên trong liên danh thực hiện tốt nên muốn điều chuyển toàn bộ phần việc cho thành viên liên danh đó",
+      "Khi cần đẩy nhanh tiến độ thực hiện hợp đồng hoặc do điều kiện khách quan không phải lỗi của nhà thầu làm ảnh hưởng tiến độ",
+      "Khi một thành viên liên danh đề nghị chuyển nhượng phần việc để tiết kiệm chi phí"
     ],
-    "correct_answer_index": 1,
-    "source": ""
-  },
-  {
-    "id": 148,
-    "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu mua sắm hàng hóa đấu thầu rộng rãi, đấu thầu hạn chế qua mạng là bao lâu?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 0,
-    "source": ""
+    "correct_answer_index": 2,
+    "source": "(K24 Điều 140 ND214)"
   },
   {
     "id": 149,
-    "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu xây lắp đấu thầu rộng rãi, đấu thầu hạn chế qua mạng là bao lâu?",
+    "question": "Đối với gói thầu hỗn hợp, có yêu cầu đặc thù về kỹ thuật chỉ có một số nhà thầu đáp ứng yêu cầu của gói thầu áp dụng bước thương thảo hợp đồng, trường hợp nhà thầu xếp hạng thứ nhất (danh sách xếp hạng có 03 nhà thầu) không tiến hành thương thảo, không ký biên bản thương thảo, thương thảo không thành công thì chủ đầu tư thực hiện bước tiếp theo như thế nào?",
     "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
+      "Mời nhà thầu xếp hạng tiếp theo vào thương thảo hợp đồng",
+      "Hủy thầu",
+      "Cho phép các nhà thầu còn lại chào lại giá dự thầu",
+      "Mời nhà thầu xếp hạng tiếp theo vào hoàn thiện hợp đồng"
     ],
     "correct_answer_index": 0,
-    "source": ""
+    "source": "(k16 đ 140 NĐ 214)"
   },
   {
     "id": 150,
-    "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu dịch vụ phi tư vấn đấu thầu rộng rãi, đấu thầu hạn chế qua mạng là bao lâu?",
+    "question": "Nhận định nào sau đây đúng về văn bản điện tử trên Hệ thống mạng đấu thầu quốc gia?",
     "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
+      "Văn bản điện tử trên Hệ thống có giá trị theo quy định của pháp luật về giao dịch điện tử, làm cơ sở đối chiếu, so sánh, xác thực thông tin phục vụ công tác đánh giá, thẩm định, thanh tra, kiểm tra, kiểm toán và giải ngân",
+      "Thời điểm gửi, nhận văn bản điện tử được xác định căn cứ theo thời gian thực ghi lại trên Hệ thống",
+      "Khi gửi hồ sơ thanh quyết toán đến Kho bạc Nhà nước, nhà thầu không phải cung cấp thông tin, tài liệu cho Kho bạc Nhà nước đối với các thông tin, tài liệu là văn bản điện tử trên Hệ thống",
+      "Cả 3 phương án trên đều đúng"
     ],
-    "correct_answer_index": 0,
-    "source": ""
-  },
-  {
-    "id": 151,
-    "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn áp dụng chào hàng cạnh tranh qua mạng là bao lâu?",
-    "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
-    ],
-    "correct_answer_index": 2,
-    "source": ""
+    "correct_answer_index": 3,
+    "source": "(Điều 8, Điều 10 TT79)"
   },
   {
     "id": 152,
-    "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy trình thông thường đối với gói thầu xây lắp áp dụng chào hàng cạnh tranh qua mạng là bao lâu?",
+    "question": "Nhà thầu có trách nhiệm kê khai thông tin nào trên Hệ thống mạng đấu thầu quốc gia?",
     "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
+      "Thông tin về uy tín của nhà thầu trong việc tham dự thầu",
+      "Thông tin về vi phạm của nhà thầu",
+      "Thông tin về năng lực, kinh nghiệm của nhà thầu",
+      "Cả 3 phương án trên đều đúng"
     ],
     "correct_answer_index": 2,
-    "source": ""
+    "source": "(K1c Điều 8 Luật 22)"
   },
   {
     "id": 153,
-    "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy trình rút gọn đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn áp dụng chào hàng cạnh tranh qua mạng là bao lâu?",
+    "question": "Ai chịu trách nhiệm đăng tải thông tin chủ yếu của hợp đồng trên Hệ thống mạng đấu thầu quốc gia?",
     "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
+      "Bên mời thầu",
+      "Tổ chuyên gia",
+      "Tư vấn đấu thầu",
+      "Chủ đầu tư"
     ],
     "correct_answer_index": 3,
-    "source": ""
+    "source": "(K1a Điều 8 Luật 22)"
   },
   {
     "id": 154,
-    "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy trình rút gọn đối với gói thầu xây lắp áp dụng chào hàng cạnh tranh qua mạng là bao lâu?",
+    "question": "Trong đấu thầu qua mạng, nhà thầu tư vấn đấu thầu bị khoá tài khoản trong vòng 06 tháng khi thực hiện hành vi nào sau đây?",
     "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
+      "Tham gia vào quá trình lập và đánh giá E-HSMT",
+      "Tham gia vào quá trình thẩm định hồ sơ mời thầu và kết quả lựa chọn nhà thầu",
+      "Thay chủ đầu tư đăng tải các nội dung thuộc trách nhiệm đăng tải của chủ đầu tư",
+      "Đăng tải thông tin về năng lực, kinh nghiệm của mình trên Hệ thống mạng đấu thầu quốc gia"
     ],
-    "correct_answer_index": 3,
-    "source": ""
+    "correct_answer_index": 2,
+    "source": "(K5 Điều 23 NĐ214)"
   },
   {
     "id": 155,
-    "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy trình rút gọn đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn áp dụng chỉ định thầu qua mạng là bao lâu?",
+    "question": "Chủ đầu tư có trách nhiệm đăng tải thông tin chủ yếu của hợp đồng trên Hệ thống đấu thầu qua mạng quốc gia chậm nhất là?",
     "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
+      "05 ngày làm việc kể từ ngày ký kết hợp đồng",
+      "05 ngày làm việc kể từ ngày hợp đồng có hiệu lực",
+      "05 ngày kể từ ngày hợp đồng có hiệu lực",
+      "05 ngày làm việc kể từ ngày nhà thầu nộp bảo đảm thực hiện hợp đồng"
     ],
-    "correct_answer_index": 3,
-    "source": ""
+    "correct_answer_index": 1,
+    "source": "(K4 Điều 8 Luật 22)"
   },
   {
     "id": 156,
-    "question": "Thời gian tổ chức lựa chọn nhà thầu theo quy trình rút gọn đối với gói thầu xây lắp áp dụng chỉ định thầu qua mạng là bao lâu?",
+    "question": "Danh sách nhà thầu có hành vi vi phạm và bị đánh giá về uy tín được đăng tải trên Hệ thống mạng đấu thầu quốc gia như thế nào?",
     "options": [
-      "120 ngày",
-      "90 ngày",
-      "60 ngày",
-      "45 ngày"
+      "Tổ chuyên gia đăng tải trong thời hạn 03 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm",
+      "Bên mời thầu đăng tải trong thời hạn 05 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm",
+      "Chủ đầu tư đăng tải trong thời hạn 07 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm",
+      "Người có thẩm quyền đăng tải trong thời hạn 05 ngày làm việc kể từ ngày nhà thầu có hành vi vi phạm"
     ],
-    "correct_answer_index": 3,
-    "source": ""
+    "correct_answer_index": 2,
+    "source": "(K2 Điều 20 NĐ214)"
   },
   {
     "id": 157,
-    "question": "Trường hợp nào không bắt buộc phải áp dụng đấu thầu qua mạng?",
+    "question": "Chủ thể nào sau đây được gia hạn thời điểm đóng thầu trên Hệ thống mạng đấu thầu quốc gia?",
     "options": [
-      "Đấu thầu rộng rãi",
-      "Đấu thầu hạn chế",
-      "Chào hàng cạnh tranh",
-      "Tất cả các phương án trên đều sai"
+      "Người có thẩm quyền",
+      "Chủ đầu tư",
+      "Tổ chuyên gia",
+      "Tư vấn đấu thầu"
     ],
-    "correct_answer_index": 3,
-    "source": ""
+    "correct_answer_index": 1,
+    "source": "(K4-5 Điều 140 NĐ214)"
   },
-  {
+{
     "id": 158,
-    "question": "Trường hợp nào bắt buộc phải áp dụng đấu thầu qua mạng?",
+    "question": "Chọn phương án đúng về \"thời gian áp dụng mua sắm trực tuyến đối với các hạng mục trong danh mục hàng hóa, dịch vụ mua sắm tập trung?\"",
     "options": [
-      "Đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh đối với gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn, xây lắp",
-      "Đấu thầu rộng rãi, đấu thầu hạn chế, chào hàng cạnh tranh đối với gói thầu dịch vụ tư vấn",
-      "Chỉ định thầu, mua sắm trực tiếp",
-      "Tất cả các phương án trên đều sai"
-    ],
-    "correct_answer_index": 3,
-    "source": ""
-  },
-  {
-    "id": 159,
-    "question": "Cơ quan nào có trách nhiệm quản lý, vận hành Hệ thống mạng đấu thầu quốc gia?",
-    "options": [
-      "Bộ Kế hoạch và Đầu tư",
-      "Bộ Tài chính",
-      "Cục Quản lý Đấu thầu",
-      "Chính phủ"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K1 Điều 59 Luật 22)"
-  },
-  {
-    "id": 160,
-    "question": "Kinh phí sử dụng Hệ thống mạng đấu thầu quốc gia được thu từ nguồn nào?",
-    "options": [
-      "Ngân sách nhà nước",
-      "Nguồn thu từ hoạt động đấu thầu",
-      "Nguồn thu từ hoạt động lựa chọn nhà thầu",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K2 Điều 59 Luật 22)"
-  },
-  {
-    "id": 161,
-    "question": "Trường hợp nào sau đây không được áp dụng đấu thầu quốc tế?",
-    "options": [
-      "Gói thầu mua sắm hàng hóa mà hàng hóa đó trong nước không sản xuất được hoặc sản xuất được nhưng không đáp ứng một trong các yêu cầu về kỹ thuật, chất lượng, giá",
-      "Gói thầu tư vấn cần sự tham gia của chuyên gia nước ngoài để thực hiện",
-      "Gói thầu xây lắp cần áp dụng công nghệ, kỹ thuật tiên tiến, phức tạp mà trong nước chưa đủ năng lực thực hiện",
-      "Gói thầu mua sắm hàng hóa thông thường, sẵn có trên thị trường"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K1 Điều 11 Luật 22)"
-  },
-  {
-    "id": 162,
-    "question": "Ngôn ngữ sử dụng đối với đấu thầu quốc tế là gì?",
-    "options": [
-      "Tiếng Việt",
-      "Tiếng Anh",
-      "Tiếng Việt hoặc tiếng Anh",
-      "Tiếng Anh hoặc tiếng Việt và tiếng Anh"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K2 Điều 12 Luật 22)"
-  },
-  {
-    "id": 163,
-    "question": "Đối với đấu thầu quốc tế, trường hợp ngôn ngữ sử dụng trong hồ sơ mời thầu là tiếng Việt và tiếng Anh thì khi tham dự thầu, nhà thầu sử dụng ngôn ngữ gì?",
-    "options": [
-      "Chỉ tiếng Việt",
-      "Chỉ tiếng Anh",
-      "Tiếng Việt hoặc tiếng Anh",
-      "Bắt buộc cả tiếng Việt và tiếng Anh"
-    ],
-    "correct_answer_index": 2,
-    "source": "(K2 Điều 12 Luật 22)"
-  },
-  {
-    "id": 164,
-    "question": "Trường hợp nào sau đây bắt buộc phải áp dụng đấu thầu quốc tế?",
-    "options": [
-      "Gói thầu thuộc dự án sử dụng vốn ODA",
-      "Gói thầu thuộc dự án sử dụng vốn vay ưu đãi của các tổ chức tài chính quốc tế",
-      "Gói thầu thuộc dự án sử dụng vốn vay ưu đãi của Chính phủ nước ngoài",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K1 Điều 11 Luật 22)"
-  },
-  {
-    "id": 165,
-    "question": "Trường hợp nào sau đây không bắt buộc phải áp dụng đấu thầu quốc tế?",
-    "options": [
-      "Gói thầu thuộc dự án sử dụng vốn ODA",
-      "Gói thầu thuộc dự án sử dụng vốn vay ưu đãi của các tổ chức tài chính quốc tế",
-      "Gói thầu thuộc dự án sử dụng vốn vay ưu đãi của Chính phủ nước ngoài",
-      "Tất cả các phương án trên đều sai"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K1 Điều 11 Luật 22)"
-  },
-  {
-    "id": 166,
-    "question": "Nội dung nào không thuộc nội dung quản lý nhà nước về đấu thầu?",
-    "options": [
-      "Ban hành, hướng dẫn và tổ chức thực hiện các văn bản quy phạm pháp luật về đấu thầu",
-      "Quản lý Hệ thống mạng đấu thầu quốc gia",
-      "Thanh tra, kiểm tra, giám sát hoạt động đấu thầu",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K1 Điều 57 Luật 22)"
-  },
-  {
-    "id": 167,
-    "question": "Cơ quan nào có trách nhiệm quản lý nhà nước về đấu thầu trên phạm vi cả nước?",
-    "options": [
-      "Chính phủ",
-      "Bộ Kế hoạch và Đầu tư",
-      "Bộ Tài chính",
-      "Bộ Xây dựng"
-    ],
-    "correct_answer_index": 1,
-    "source": "(K2 Điều 57 Luật 22)"
-  },
-  {
-    "id": 168,
-    "question": "Cơ quan nào có trách nhiệm quản lý nhà nước về đấu thầu tại địa phương?",
-    "options": [
-      "Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương",
-      "Sở Kế hoạch và Đầu tư",
-      "Sở Tài chính",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K3 Điều 57 Luật 22)"
-  },
-  {
-    "id": 169,
-    "question": "Cơ quan nào có trách nhiệm thanh tra, kiểm tra, giám sát hoạt động đấu thầu?",
-    "options": [
-      "Cơ quan quản lý nhà nước về đấu thầu",
-      "Cơ quan quản lý nhà nước về chuyên ngành",
-      "Cơ quan quản lý nhà nước về tài chính",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K4 Điều 57 Luật 22)"
-  },
-  {
-    "id": 170,
-    "question": "Thời hạn thanh tra, kiểm tra hoạt động đấu thầu là bao lâu?",
-    "options": [
-      "Tối đa 30 ngày làm việc, kể từ ngày công bố quyết định thanh tra, kiểm tra",
-      "Tối đa 45 ngày làm việc, kể từ ngày công bố quyết định thanh tra, kiểm tra",
-      "Tối đa 60 ngày làm việc, kể từ ngày công bố quyết định thanh tra, kiểm tra",
-      "Tùy vào quy mô, tính chất của gói thầu"
-    ],
-    "correct_answer_index": 1,
-    "source": "(K2 Điều 142 NĐ214)"
-  },
-  {
-    "id": 171,
-    "question": "Thẩm quyền xử phạt vi phạm hành chính trong lĩnh vực đấu thầu thuộc về cơ quan nào?",
-    "options": [
-      "Chủ tịch Ủy ban nhân dân các cấp",
-      "Thanh tra chuyên ngành",
-      "Người có thẩm quyền xử phạt theo quy định của pháp luật về xử lý vi phạm hành chính",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(Điều 143 NĐ214)"
-  },
-  {
-    "id": 172,
-    "question": "Hình thức xử phạt chính đối với hành vi vi phạm pháp luật về đấu thầu là gì?",
-    "options": [
-      "Cảnh cáo",
-      "Phạt tiền",
-      "Cấm tham gia hoạt động đấu thầu",
+      "Thời gian áp dụng là thời gian thực hiện hợp đồng trong trường hợp không ký thỏa thuận khung nhưng không quá 24 tháng kể từ ngày hợp đồng có hiệu lực hoặc thời gian có hiệu lực của thỏa thuận khung",
+      "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong trường hợp hợp đồng, thỏa thuận khung chưa được công khai",
+      "Thời gian áp dụng là 24 tháng kể từ ngày kết quả lựa chọn nhà thầu được đăng tải trên Hệ thống mạng đấu thầu quốc gia",
       "Phương án A và B đều đúng"
     ],
     "correct_answer_index": 3,
-    "source": "(Điều 144 NĐ214)"
+    "source": "(K2 Điều 103 NĐ214)"
+  },
+  {
+    "id": 159,
+    "question": "Công việc nào sau đây phải thực hiện trên Hệ thống mạng đấu thầu quốc gia?",
+    "options": [
+      "Lập E-HSMT",
+      "Trình phê duyệt E-HSMT, phê duyệt E-HSMT",
+      "Phê duyệt kết quả lựa chọn nhà thầu",
+      "Tất cả các phương án trên đều đúng"
+    ],
+    "correct_answer_index": 3,
+    "source": ""
+  },
+  {
+    "id": 160,
+    "question": "Đối với đấu thầu qua mạng, việc trả lời yêu cầu làm rõ E-HSMT được thực hiện theo phương án nào?",
+    "options": [
+      "Do tổ chuyên gia thực hiện bằng văn bản",
+      "Do tổ chuyên gia thực hiện trên Hệ thống mạng đấu thầu quốc gia",
+      "Do tư vấn đấu thầu thực hiện bằng tài khoản của đơn vị tư vấn",
+      "Do Chủ đầu tư thực hiện trên Hệ thống mạng đấu thầu quốc gia"
+    ],
+    "correct_answer_index": 1,
+    "source": "(K1a Điều 78 Luật 22-57-90)"
+  },
+  {
+    "id": 161,
+    "question": "Đối với gói thầu đấu thầu qua mạng, trường hợp sửa đổi E-HSMT sau khi phát hành, chủ đầu tư phải đăng tải tài liệu nào sau đây trên Hệ thống?",
+    "options": [
+      "Quyết định sửa đổi kèm theo những nội dung sửa đổi E-HSMT",
+      "E-HSMT đã được sửa đổi",
+      "Báo cáo thẩm định E-HSMT sửa đổi",
+      "Phương án A và B đều đúng"
+    ],
+    "correct_answer_index": 3,
+    "source": "(K2b Điều 18 TT79)"
+  },
+  {
+    "id": 162,
+    "question": "Nhà thầu không phải đính kèm thư bảo lãnh (hoặc giấy chứng nhận bảo hiểm bảo lãnh) mà chỉ phải cam kết trong đơn dự thầu đối với gói thầu xây lắp khi?",
+    "options": [
+      "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 40 triệu đồng",
+      "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 50 triệu đồng",
+      "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 60 triệu đồng",
+      "E-HSMT yêu cầu giá trị bảo đảm dự thầu là 100 triệu đồng"
+    ],
+    "correct_answer_index": 0,
+    "source": ""
+  },
+  {
+    "id": 163,
+    "question": "Bản gốc thư bảo lãnh dự thầu, giấy chứng nhận bảo hiểm bảo lãnh trong đấu thầu qua mạng được nộp như thế nào?",
+    "options": [
+      "Gửi qua email đến Tổ trưởng Tổ chuyên gia",
+      "Gửi cho Chủ đầu tư khi nhà thầu được mời vào đối chiếu tài liệu",
+      "Gửi bản gốc đến địa chỉ bên mời thầu theo quy định trong E-HSMT",
+      "Gửi cho Đơn vị tư vấn đấu thầu đánh giá E-HSDT"
+    ],
+    "correct_answer_index": 2,
+    "source": ""
+  },
+  {
+    "id": 164,
+    "question": "Đối với đấu thầu qua mạng, quy định nào về việc mở thầu và công khai biên bản mở thầu trên Hệ thống mạng đấu thầu quốc gia là đúng?",
+    "options": [
+      "Hệ thống tự động mở thầu và công khai biên bản mở thầu trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.",
+      "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 04 giờ kể từ thời điểm đóng thầu.",
+      "Tổ chuyên gia phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu.",
+      "Chủ đầu tư phải mở thầu và công khai biên bản mở thầu trên Hệ thống trong thời hạn không quá 02 giờ kể từ thời điểm đóng thầu."
+    ],
+    "correct_answer_index": 0,
+    "source": "(K1 Điều 29 TT79)"
+  },
+  {
+    "id": 165,
+    "question": "Đối với gói thầu tổ chức lựa chọn nhà thầu qua mạng, trong quá trình đánh giá E-HSDT, Chủ đầu tư nhận thấy nhà thầu có tên trong biên bản mở thầu đang bị \"khóa tài khoản theo quy định của pháp luật về đấu thầu, E-HSDT của nhà thầu bị đánh giá như thế nào?\"",
+    "options": [
+      "E-HSDT của nhà thầu được tiếp tục xem xét, đánh giá mà không cần phải mở khóa tài khoản trước khi ký hợp đồng",
+      "E-HSDT của nhà thầu được tiếp tục xem xét, đánh giá nhưng chỉ được đề nghị trúng thầu khi thực hiện mở khóa tài khoản trước khi ký hợp đồng",
+      "E-HSDT của nhà thầu không được tiếp tục xem xét, đánh giá",
+      "Nhà thầu bị cấm tham gia hoạt động đấu thầu do có hành vi gian lận"
+    ],
+    "correct_answer_index": 2,
+    "source": "(K32 Điều 140 NĐ214)"
+  },
+  {
+    "id": 166,
+    "question": "Đối với đấu thầu qua mạng, sau thời điểm đóng thầu, nhận định nào sau đây là đúng?",
+    "options": [
+      "Nhà thầu có thể thay đổi nội dung E-HSDT nếu phát hiện sai sót",
+      "Nhà thầu có thể tự làm rõ E-HSDT trên Hệ thống",
+      "Nhà thầu không được rút E-HSDT trên Hệ thống",
+      "Chủ đầu tư không được phép mở thầu khi chỉ có 01 nhà thầu tham dự"
+    ],
+    "correct_answer_index": 2,
+    "source": ""
+  },
+  {
+    "id": 167,
+    "question": "Đối với đấu thầu qua mạng, trường hợp Hệ thống gặp sự cố thì trường hợp nào được Hệ thống tự động gia hạn thời điểm đóng thầu?",
+    "options": [
+      "Các gói thầu có thời điểm đóng thầu, thời điểm kết thúc chào giá trực tuyến trong thời gian từ khi Hệ thống gặp sự cố cho đến thời điểm sau hoàn thành khắc phục sự cố 02 giờ",
+      "Các gói thầu có thời điểm đóng thầu, thời điểm kết thúc chào giá trực tuyến, thời điểm đăng tải kết quả lựa chọn nhà thầu trong thời gian từ khi Hệ thống gặp sự cố cho đến thời điểm sau hoàn thành khắc phục sự cố 02 giờ",
+      "Các gói thầu có thời điểm đóng thầu trong thời gian từ khi Hệ thống gặp sự cố cho đến thời điểm sau hoàn thành khắc phục sự cố 04 giờ",
+      "Các đáp án trên đều sai"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K1 Điều 6 TT79)"
+  },
+  {
+    "id": 168,
+    "question": "Đối với đấu thầu qua mạng, khi tham dự thầu, nhà thầu….?",
+    "options": [
+      "Chịu trách nhiệm về tính chính xác của các thông tin kê khai trên webform và file tài liệu đính kèm",
+      "Chỉ nộp một bộ E-HSDT đối với một E-TBMT",
+      "Chỉ được rút, sửa đổi, nộp lại E-HSDT trước thời điểm đóng thầu",
+      "Cả 3 đáp án trên đều đúng"
+    ],
+    "correct_answer_index": 3,
+    "source": ""
+  },
+  {
+    "id": 169,
+    "question": "Khi nào nhà thầu phải nộp lại E-HSDT đã nộp?",
+    "options": [
+      "Khi Tổ chuyên gia phát hiện E-HSDT bị lỗi kỹ thuật không mở được",
+      "Khi Hệ thống mạng đấu thầu quốc gia gặp sự cố phải tự động gia hạn",
+      "Khi E-HSMT được sửa đổi",
+      "Các phương án trên đều đúng"
+    ],
+    "correct_answer_index": 2,
+    "source": ""
+  },
+  {
+    "id": 170,
+    "question": "Đối với gói thầu tổ chức đấu thầu rộng rãi qua mạng, trường hợp tại thời điểm đóng thầu mà không có nhà thầu nộp E-HSDT thì chủ đầu tư quyết định theo phương án nào sau đây?",
+    "options": [
+      "Huỷ E-TBMT",
+      "Chuyển sang hình thức đấu thầu rộng rãi không qua mạng",
+      "Cho phép gia hạn thời điểm đóng thầu tối thiểu 05 ngày đối với gói thầu xây lắp, hỗn hợp có giá gói thầu không quá 20 tỷ đồng, gói thầu mua sắm hàng hoá, dịch vụ phi tư vấn có giá không quá 10 tỷ đồng",
+      "Phương án A và C đều đúng"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K4 Điều 140 Đ214)"
+  },
+  {
+    "id": 171,
+    "question": "Khi đánh giá E-HSDT gói thầu xây lắp đấu thầu rộng rãi qua mạng, trường hợp có sự không thống nhất giữa thông tin về hợp đồng tương tự kê khai trên webform và file tài liệu chứng minh các thông tin về hợp đồng đó thì xử lý như nào?",
+    "options": [
+      "Đánh giá nhà thầu không đạt yêu cầu về hợp đồng tương tự",
+      "Yêu cầu nhà thầu làm rõ E-HSDT trên Hệ thống mạng đấu thầu quốc gia",
+      "Yêu cầu nhà thầu gửi bổ sung hợp đồng tương tự bằng bản giấy để đánh giá",
+      "Các phương án trên đều sai"
+    ],
+    "correct_answer_index": 0,
+    "source": ""
+  },
+  {
+    "id": 172,
+    "question": "Đối với đấu thầu qua mạng, việc làm rõ E-HSDT giữa Chủ đầu tư và nhà thầu có E-HSDT cần phải làm rõ được thực hiện như thế nào?",
+    "options": [
+      "Chủ đầu tư được làm rõ đối với các nội dung về tư cách hợp lệ, năng lực, kinh nghiệm, không được làm rõ đối với yêu cầu về kỹ thuật, tài chính",
+      "Chủ đầu tư được làm rõ đối với yêu cầu về kỹ thuật, tài chính, không được làm rõ đối với các nội dung về tư cách hợp lệ, năng lực, kinh nghiệm",
+      "Chủ đầu tư dành cho nhà thầu tối đa 03 ngày để nhà thầu thực hiện việc làm rõ E-HSDT",
+      "Chủ đầu tư dành cho nhà thầu tối thiểu 03 ngày làm việc để nhà thầu thực hiện việc làm rõ E-HSDT"
+    ],
+    "correct_answer_index": 0,
+    "source": ""
   },
   {
     "id": 173,
-    "question": "Hình thức xử phạt bổ sung đối với hành vi vi phạm pháp luật về đấu thầu là gì?",
+    "question": "File đính kèm nào sau đây của nhà thầu nộp trên Hệ thống mạng đấu thầu quốc gia không được xem xét, đánh giá?",
     "options": [
-      "Tước quyền sử dụng giấy phép, chứng chỉ hành nghề",
-      "Tịch thu tang vật, phương tiện vi phạm hành chính",
-      "Cấm tham gia hoạt động đấu thầu",
-      "Tất cả các phương án trên đều đúng"
+      "Các file mở, đọc được bằng các phần mềm thông dụng như: các phần mềm đọc, soạn thảo văn bản MS Office hoặc Open Office; các phần mềm đọc file PDF; các phần mềm thiết kế thông dụng như AutoCad, Photoshop; phần mềm đọc file ảnh tích hợp sẵn trên Hệ điều hành Windows",
+      "Các file sử dụng phông chữ thuộc bảng mã Unicode",
+      "Các file nén mở được bằng các phần mềm giải nén thông dụng như phần mềm giải nén ZIP tích hợp sẵn trên hệ điều hành Windows hoặc phần mềm giải nén Rar hoặc 7Zip",
+      "Các file bị nhiễm virus, bị lỗi, hỏng"
     ],
     "correct_answer_index": 3,
-    "source": "(Điều 144 NĐ214)"
+    "source": "(K3 Điều 5 TT79)"
   },
   {
     "id": 174,
-    "question": "Thời hiệu xử phạt vi phạm hành chính trong lĩnh vực đấu thầu là bao lâu?",
+    "question": "Đối với đấu thầu qua mạng, nội dung nào sau đây do Hệ thống tự động đánh giá?",
     "options": [
-      "01 năm",
-      "02 năm",
-      "03 năm",
-      "05 năm"
+      "Bảo đảm dự thầu",
+      "Thoả thuận liên danh đối với nhà thầu liên danh",
+      "Doanh thu bình quân 3 năm gần nhất của nhà thầu",
+      "Các đáp án trên đều đúng"
     ],
-    "correct_answer_index": 0,
-    "source": "(Điều 145 NĐ214)"
+    "correct_answer_index": 2,
+    "source": ""
   },
   {
     "id": 175,
-    "question": "Hành vi nào sau đây là hành vi vi phạm nghiêm trọng trong đấu thầu?",
+    "question": "Đối với đấu thầu qua mạng, nội dung đánh giá kết quả hoạt động tài chính nào sau đây là đúng?",
     "options": [
-      "Cản trở hoạt động đấu thầu",
-      "Vi phạm quy định về bảo đảm cạnh tranh",
-      "Gian lận trong đấu thầu",
-      "Tất cả các phương án trên đều đúng"
+      "Đối với số liệu về kết quả hoạt động tài chính từ 2021 trở đi, Hệ thống đánh giá căn cứ thông tin được trích xuất hoặc thông tin do nhà thầu cập nhật",
+      "Đối với số liệu về kết quả hoạt động tài chính trước năm 2021, hệ thống đánh giá căn cứ thông tin do nhà thầu kê khai",
+      "Đối với nhà thầu là hộ kinh doanh, không đánh giá tiêu chí kết quả hoạt động tài chính",
+      "Tất cả phương án trên đều đúng"
     ],
     "correct_answer_index": 3,
-    "source": "(Điều 16 Luật 22)"
+    "source": ""
   },
   {
     "id": 176,
-    "question": "Trường hợp nào sau đây nhà thầu bị cấm tham dự thầu vĩnh viễn?",
+    "question": "Đối với đấu thầu rộng rãi qua mạng, một số nội dung do Hệ thống mạng đấu thầu quốc gia đánh giá \"không đạt\" thì Tổ chuyên gia không thể sửa đổi kết quả đánh giá từ \"không đạt\" thành \"đạt\". Phương án nào sau đây là đúng?",
     "options": [
-      "Vi phạm quy định về bảo đảm cạnh tranh",
-      "Gian lận trong đấu thầu",
-      "Cản trở hoạt động đấu thầu",
-      "Không có trường hợp nào"
+      "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, trạng thái bị tạm ngừng, chấm dứt tham gia Hệ thống mạng đấu thầu quốc gia, doanh thu bình quân hằng năm.",
+      "Tư cách hợp lệ, bảo đảm dự thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm",
+      "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, trạng thái bị tạm ngừng, chấm dứt tham gia Hệ thống mạng đấu thầu quốc gia, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm",
+      "Tư cách hợp lệ, nhà thầu không có nhân sự bị tòa án kết án có hành vi vi phạm quy định về đấu thầu gây hậu quả nghiêm trọng, lịch sử không hoàn thành hợp đồng do lỗi của nhà thầu, thực hiện nghĩa vụ kê khai thuế và nộp thuế, kết quả hoạt động tài chính, doanh thu bình quân hằng năm"
     ],
-    "correct_answer_index": 3,
+    "correct_answer_index": 2,
     "source": ""
   },
   {
     "id": 177,
-    "question": "Hành vi nào sau đây nhà thầu bị cấm tham dự thầu từ 03 năm đến 05 năm?",
+    "question": "Quy trình 02 trong đánh giá E-HSDT được áp dụng đối với gói thầu nào sau đây?",
     "options": [
-      "Gian lận trong đấu thầu",
-      "Thông thầu",
-      "Cản trở hoạt động đấu thầu",
-      "Tất cả các phương án trên đều đúng"
+      "Gói thầu mua sắm hàng hóa áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
+      "Gói thầu dịch vụ phi tư vấn áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá đánh giá” và các nhà thầu, E-HSDT chào ưu đãi như nhau",
+      "Gói thầu xây lắp áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT đều không có bất kỳ ưu đãi nào",
+      "Gói thầu máy đặt, máy mượn áp dụng phương thức một giai đoạn một túi hồ sơ, sử dụng phương pháp “giá thấp nhất” và các nhà thầu, E-HSDT chào ưu đãi như nhau"
     ],
-    "correct_answer_index": 3,
-    "source": "(K3, K4 Điều 16 Luật 22)"
+    "correct_answer_index": 0,
+    "source": "(K1b Điều 30 TT79)"
   },
   {
     "id": 178,
-    "question": "Hành vi nào sau đây nhà thầu bị cấm tham dự thầu từ 01 năm đến 03 năm?",
+    "question": "Chủ đầu tư yêu cầu gia hạn hiệu lực hồ sơ dự thầu, bảo đảm dự thầu trong trường hợp nào sau đây?",
     "options": [
-      "Vi phạm quy định về bảo đảm cạnh tranh",
-      "Không ký hợp đồng",
-      "Không thực hiện biện pháp bảo đảm thực hiện hợp đồng",
-      "Tất cả các phương án trên đều đúng"
+      "Trước khi hết hạn hiệu lực hồ sơ dự thầu",
+      "Trường hợp hồ sơ dự thầu của nhà thầu xếp hạng tiếp theo hết hiệu lực thì Chủ đầu tư phải yêu cầu nhà thầu gia hạn hiệu lực của hồ sơ dự thầu, bảo đảm dự thầu trước khi thương thảo hợp đồng",
+      "Trước khi có kết quả lựa chọn nhà thầu",
+      "Phương án A và B đều đúng"
     ],
     "correct_answer_index": 3,
-    "source": "(K3, K4 Điều 16 Luật 22)"
-  },
-  {
-    "id": 179,
-    "question": "Hình thức lựa chọn nhà thầu nào được áp dụng đối với gói thầu mua sắm hàng hóa thông dụng, có sẵn trên thị trường có giá gói thầu 01 tỷ đồng?",
-    "options": [
-      "Chỉ định thầu",
-      "Chào hàng cạnh tranh",
-      "Đấu thầu rộng rãi",
-      "Tất cả các phương án trên đều đúng"
-    ],
-    "correct_answer_index": 2,
     "source": ""
   },
   {
-    "id": 180,
-    "question": "Hình thức lựa chọn nhà thầu nào được áp dụng đối với gói thầu dịch vụ tư vấn có giá gói thầu 05 tỷ đồng?",
+    "id": 179,
+    "question": "Trong quá trình đánh giá, Tổ chuyên gia phát hiện nhà thầu tham dự thầu trên Hệ thống mạng đấu thầu quốc gia đính kèm tệp tin có thiết lập mật khẩu thì xử lý thế nào?",
     "options": [
-      "Chỉ định thầu",
-      "Chào hàng cạnh tranh",
-      "Đấu thầu rộng rãi",
-      "Tất cả các phương án trên đều đúng"
+      "Yêu cầu nhà thầu nộp lại tệp tin không có thiết lập mật khẩu trên Hệ thống mạng đấu thầu quốc gia để xem xét, đánh giá",
+      "Yêu cầu nhà thầu cung cấp mật khẩu để xem xét, đánh giá",
+      "Tệp tin này không được xem xét, đánh giá",
+      "Phương án A và B đều đúng"
     ],
     "correct_answer_index": 2,
+    "source": "(K3 Điều 5 TT79)"
+  },
+  {
+    "id": 180,
+    "question": "Theo quy định tại Thông tư 79/2025/TT-BTC, quy định về thời điểm bắt đầu và kết thúc chào giá trực tuyến theo quy trình rút gọn?",
+    "options": [
+      "Thời điểm bắt đầu và kết thúc phải trong giờ hành chính.",
+      "Thời điểm bắt đầu không bắt buộc trong giờ hành chính nhưng kết thúc phải trong giờ hành chính.",
+      "Thời điểm bắt đầu và kết thúc không bắt buộc trong giờ hành chính.",
+      "Tất cả phương án trên đều sai"
+    ],
+    "correct_answer_index": 0,
     "source": ""
   },
   {
     "id": 181,
-    "question": "Hình thức lựa chọn nhà thầu nào được áp dụng đối với gói thầu xây lắp có giá gói thầu 20 tỷ đồng?",
+    "question": "Đối với gói thầu chào giá trực tuyến rút gọn, nhà thầu xác nhận về việc chấp thuận được trao hợp đồng trong thời gian tối đa bao lâu kể từ ngày chủ đầu tư mời nhà thầu xác nhận trên Hệ thống mạng đấu thầu quốc gia?",
     "options": [
-      "Chỉ định thầu",
-      "Chào hàng cạnh tranh",
-      "Đấu thầu rộng rãi",
-      "Tất cả các phương án trên đều đúng"
+      "03 ngày",
+      "03 ngày làm việc",
+      "05 ngày",
+      "05 ngày làm việc"
     ],
-    "correct_answer_index": 2,
-    "source": ""
+    "correct_answer_index": 1,
+    "source": "(K5c Điều 102 NĐ214)"
   },
   {
     "id": 182,
-    "question": "Hình thức lựa chọn nhà thầu nào được áp dụng đối với gói thầu dịch vụ phi tư vấn có giá gói thầu 03 tỷ đồng?",
+    "question": "Gói thầu chào giá trực tuyến rút gọn, trường hợp nhà thầu từ chối hoặc không xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia thì nội dung nào sau đây không đúng?",
     "options": [
-      "Chỉ định thầu",
-      "Chào hàng cạnh tranh",
-      "Đấu thầu rộng rãi",
-      "Tất cả các phương án trên đều đúng"
+      "Công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
+      "Khoá tài khoản trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của chủ đầu tư",
+      "Khóa chức năng chào giá trực tuyến trong thời hạn 06 tháng kể từ ngày chủ đầu tư công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
+      "Bị đánh giá về uy tín trong việc tham dự thầu"
+    ],
+    "correct_answer_index": 2,
+    "source": "(K5c Điều 102 NĐ214)"
+  },
+  {
+    "id": 183,
+    "question": "Chào giá trực tuyến theo quy trình thông thường áp dụng đối với gói thầu nào sau đây?",
+    "options": [
+      "Dịch vụ phi tư vấn thông dụng, đơn giản",
+      "Xây lắp",
+      "Dịch vụ tư vấn",
+      "Hỗn hợp"
+    ],
+    "correct_answer_index": 0,
+    "source": "(K2a Điều 99 NĐ214)"
+  },
+  {
+    "id": 184,
+    "question": "Nhà thầu phải thực hiện xác nhận về việc chấp thuận được trao hợp đồng trên Hệ thống mạng đấu thầu quốc gia đối với các hình thức lựa chọn nhà thầu qua mạng nào?",
+    "options": [
+      "Đấu thầu rộng rãi, chào hàng cạnh tranh, đấu thầu hạn chế.",
+      "Chào giá trực tuyến theo quy trình thông thường",
+      "Chào giá trực tuyến theo quy trình rút gọn",
+      "Các phương án trên đều đúng"
     ],
     "correct_answer_index": 2,
     "source": ""
   },
   {
-    "id": 183,
-    "question": "Trong mọi trường hợp, nhà thầu có được yêu cầu Chủ đầu tư chuyển giao công nghệ kèm theo khi bàn giao hàng hóa không?",
-    "options": [
-      "Được",
-      "Không được",
-      "Chỉ được trong trường hợp chuyển giao công nghệ trong nước",
-      "Việc chuyển giao công nghệ do các bên thỏa thuận, ký kết trong hợp đồng"
-    ],
-    "correct_answer_index": 3,
-    "source": "(K4 Điều 64 Luật 22)"
-  },
-  {
-    "id": 184,
-    "question": "Bảo đảm cạnh tranh trong đấu thầu thuộc nội dung đánh giá về?",
-    "options": [
-      "Tư cách hợp lệ",
-      "Năng lực, kinh nghiệm",
-      "Kỹ thuật",
-      "Tài chính"
-    ],
-    "correct_answer_index": 0,
-    "source": "(K1đ Điều 5 Luật 22)"
-  },
-  {
     "id": 185,
-    "question": "Nhà thầu tham gia đấu thầu gói thầu hàng hóa phải độc lập với chủ thể nào sau đây?",
+    "question": "Đối với chào giá trực tuyến rút gọn, kể từ lượt chào giá thứ hai, giá chào của nhà thầu không được thấp hơn giá thấp nhất hiển thị trên Hệ thống mạng đấu thầu quốc gia là bao nhiêu %?",
     "options": [
-      "Phải độc lập với nhà thầu tư vấn lập hồ sơ mời thầu gói thầu hàng hóa",
-      "Phải độc lập với nhà thầu khác khi tham gia đấu thầu rộng rãi",
-      "Phải độc lập với nhà thầu tư vấn lập kế hoạch tổng thể lựa chọn nhà thầu",
-      "Phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu"
+      "80%",
+      "85%",
+      "90%",
+      "95%"
     ],
-    "correct_answer_index": 0,
-    "source": "(K1a Điều 6 Luật 22-57-90)"
+    "correct_answer_index": 2,
+    "source": "(K3 Điều 102 NĐ214)"
   },
   {
     "id": 186,
-    "question": "Nhận định nào sau đây không phù hợp với quy định về bảo đảm cạnh tranh trong đấu thầu?",
+    "question": "Đối với chào giá trực tuyến rút gọn, giá trị bảo đảm dự thầu tối đa là giá trị nào sau đây?",
     "options": [
-      "Nhà thầu tham dự thầu phải độc lập với chủ đầu tư",
-      "Nhà thầu tham dự thầu phải độc lập với nhà thầu tư vấn quản lý dự án, tư vấn giám sát",
-      "Nhà thầu tham dự thầu phải độc lập với nhà thầu tư vấn lập, thẩm tra, thẩm định hồ sơ thiết kế, dự toán",
-      "Nhà thầu thực hiện hợp đồng phải độc lập với nhà thầu tư vấn lập kế hoạch lựa chọn nhà thầu."
+      "5% giá gói thầu",
+      "10% giá gói thầu",
+      "1-3% giá gói thầu",
+      "Không yêu cầu về bảo đảm dự thầu"
     ],
     "correct_answer_index": 3,
-    "source": "(K3 Điều 6 Luật 22)"
+    "source": "(K1c Điều 102 NĐ214)"
   },
   {
     "id": 187,
-    "question": "Nội dung nào sau đây không thuộc quy định về bảo đảm cạnh tranh trong đấu thầu khi nhà thầu tham dự thầu đấu thầu rộng rãi gói thầu EPC, EP, EC?",
+    "question": "Đối với gói thầu áp dụng chào giá trực tuyến theo quy trình thông thường, trường hợp nhà thầu được mời tham gia chào giá trực tuyến nhưng nhà thầu từ chối tham gia thì xử lý thế nào?",
     "options": [
-      "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra thiết kế FEED",
-      "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra báo cáo nghiên cứu khả thi trong trường hợp không lập thiết kế FEED",
-      "Nhà thầu tham dự thầu phải độc lập với nhà thầu lập, thẩm tra báo cáo kinh tế kỹ thuật trong trường hợp không lập báo cáo nghiên cứu khả thi, không lập thiết kế FEED theo quy định của pháp luật về xây dựng",
-      "Nhà thầu tham dự thầu phải độc lập với nhà thầu khác cùng tham dự đấu thầu rộng rãi"
+      "Đề xuất về tài chính của nhà thầu sẽ bị đánh giá là không đạt",
+      "Nhà thầu sẽ bị loại và bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong vòng 06 tháng",
+      "Hồ sơ dự thầu của nhà thầu sẽ tiếp tục được đánh giá về tài chính căn cứ theo hồ sơ dự thầu đã nộp trước thời điểm đóng thầu",
+      "Phương án A và B đều đúng"
     ],
-    "correct_answer_index": 3,
-    "source": "(K3 Điều 4 NĐ214)"
+    "correct_answer_index": 2,
+    "source": "(K5c Điều 101 ND214)"
   },
   {
     "id": 188,
-    "question": "Đấu thầu quốc tế là gì?",
+    "question": "Mua sắm trực tuyến được áp dụng đối với hàng hoá, dịch vụ của gói thầu thuộc dự toán mua sắm với giá gói thầu có hạn mức tối đa là bao nhiêu?",
     "options": [
-      "Là hoạt động đấu thầu mà nhà thầu trong nước, nước ngoài được tham dự thầu",
-      "Là hoạt động đấu thầu mà nhà thầu trong nước, nước ngoài được tham dự thầu, trong đó nhà thầu trong nước bắt buộc phải liên danh với nhà thầu nước ngoài",
-      "Là hoạt động đấu thầu chỉ nhà thầu quốc tế được phép tham dự thầu",
-      "Là hoạt động đấu thầu chỉ nhà thầu trong nước được phép tham dự thầu"
+      "100 triệu đồng",
+      "300 triệu đồng",
+      "500 triệu đồng",
+      "01 tỷ đồng"
     ],
-    "correct_answer_index": 0,
-    "source": "(K10 Điều 4 Luật 22)"
+    "correct_answer_index": 2,
+    "source": "(K1 Điều 103 NĐ214)"
   },
   {
     "id": 189,
-    "question": "Theo quy định tại Nghị định số 09/2022/NĐ-CP, hoạt động đấu thầu nào sau đây thuộc phạm vi áp dụng của các Hiệp định thương mại tự do (FTA)?",
+    "question": "Trong mua sắm tập trung, hợp đồng điện tử có thể được ký kết giữa các đối tượng nào?",
     "options": [
-      "Đấu thầu cho các dự án trong khối CPTPP",
-      "Đấu thầu giữa các nước thành viên EVFTA, UKVFTA",
-      "Đấu thầu trong nước",
-      "Phương án A và B đều đúng"
+      "Đơn vị mua sắm tập trung và các nhà thầu trúng thầu (trong trường hợp không ký thỏa thuận khung)",
+      "Đơn vị có nhu cầu mua sắm với các nhà thầu trúng thầu",
+      "Phương án A và B đều đúng",
+      "Phương án A và B đều sai"
     ],
-    "correct_answer_index": 3,
-    "source": "(K1 Điều 4 NĐ95)"
+    "correct_answer_index": 2,
+    "source": "(K1g Điều 91 NĐ214)"
   },
   {
     "id": 190,
-    "question": "Theo quy định tại Nghị định số 09/2022/NĐ-CP, gói thầu nào sau đây không được tổ chức đấu thầu quốc tế?",
+    "question": "Hiện nay, Việt Nam đã mở cửa thị trường mua sắm chính phủ (đấu thầu) trong những hiệp định nào?",
     "options": [
-      "Gói thầu mua sắm hàng hóa thông thường, sẵn có trên thị trường",
-      "Gói thầu mua sắm hàng hóa mà hàng hóa đó trong nước không sản xuất được hoặc sản xuất được nhưng không đáp ứng một trong các yêu cầu về kỹ thuật, chất lượng, giá",
-      "Gói thầu xây lắp cần áp dụng công nghệ, kỹ thuật tiên tiến, phức tạp mà trong nước chưa đủ năng lực thực hiện",
-      "Gói thầu tư vấn cần sự tham gia của chuyên gia nước ngoài để thực hiện"
+      "Chỉ Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
+      "Hiệp định CPTPP và Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA)",
+      "Hiệp định CPTPP, Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
+      "Tất cả các hiệp định mà Việt Nam là thành viên"
     ],
-    "correct_answer_index": 0,
-    "source": "(K1 Điều 11 Luật 22)"
+    "correct_answer_index": 2,
+    "source": ""
   },
   {
     "id": 191,
-    "question": "Theo quy định tại Nghị định số 09/2022/NĐ-CP, trường hợp nào sau đây bắt buộc phải tổ chức đấu thầu nội khối (giữa các nước thành viên FTA)?",
+    "question": "Số lượng các nước thành viên Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP) ký kết hiệp định ban đầu là bao nhiêu nước?",
     "options": [
-      "Gói thầu mua sắm hàng hóa thông thường, sẵn có trên thị trường",
-      "Gói thầu mua sắm hàng hóa mà hàng hóa đó trong nước không sản xuất được hoặc sản xuất được nhưng không đáp ứng một trong các yêu cầu về kỹ thuật, chất lượng, giá",
-      "Gói thầu xây lắp cần áp dụng công nghệ, kỹ thuật tiên tiến, phức tạp mà trong nước chưa đủ năng lực thực hiện",
-      "Tất cả các phương án trên đều đúng"
+      "8 nước",
+      "9 nước",
+      "11 nước",
+      "12 nước"
     ],
-    "correct_answer_index": 0,
+    "correct_answer_index": 2,
     "source": ""
   },
   {
     "id": 192,
-    "question": "Theo quy định tại Nghị định số 09/2022/NĐ-CP, trường hợp nào sau đây không được tổ chức đấu thầu nội khối (giữa các nước thành viên FTA)?",
+    "question": "Trong các hiệp định dưới đây, hiệp định nào không có quy định về các trường hợp chỉ định thầu?",
     "options": [
-      "Gói thầu mua sắm hàng hóa thông thường, sẵn có trên thị trường",
-      "Gói thầu mua sắm hàng hóa mà hàng hóa đó trong nước không sản xuất được hoặc sản xuất được nhưng không đáp ứng một trong các yêu cầu về kỹ thuật, chất lượng, giá",
-      "Gói thầu xây lắp cần áp dụng công nghệ, kỹ thuật tiên tiến, phức tạp mà trong nước chưa đủ năng lực thực hiện",
-      "Tất cả các phương án trên đều đúng"
+      "Hiệp định Đối tác Toàn diện và Tiến bộ Xuyên Thái Bình Dương (CPTPP)",
+      "Hiệp định thương mại tự do giữa Cộng hòa xã hội chủ nghĩa Việt Nam và Liên minh Châu Âu (EVFTA)",
+      "Hiệp định EVFTA và Hiệp định Thương mại Tự do giữa Việt Nam và Liên hiệp Vương quốc Anh và Bắc Ailen (UKVFTA)",
+      "Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP)"
     ],
     "correct_answer_index": 3,
     "source": ""
   },
   {
     "id": 193,
-    "question": "Theo quy định tại Nghị định số 09/2022/NĐ-CP, việc đánh giá hồ sơ dự thầu nội khối được thực hiện như thế nào?",
+    "question": "Hoạt động nào sau đây không thuộc phạm vi điều chỉnh của Nghị định số 95/2020/NĐ-CP?",
     "options": [
-      "Theo quy định của pháp luật về đấu thầu",
-      "Theo quy định của pháp luật về đấu thầu và quy định của Hiệp định thương mại tự do",
-      "Theo quy định của Hiệp định thương mại tự do",
-      "Tùy vào quy mô, tính chất của gói thầu"
+      "Mua sắm thiết bị văn phòng",
+      "Thuê dịch vụ tư vấn",
+      "Thuê quyền sử dụng đất",
+      "Mua sắm vật tư y tế"
     ],
-    "correct_answer_index": 1,
-    "source": ""
+    "correct_answer_index": 2,
+    "source": "(K2a Điều 1 NĐ95)"
   },
   {
     "id": 194,
-    "question": "Theo quy định tại Nghị định số 09/2022/NĐ-CP, việc giải quyết kiến nghị trong đấu thầu nội khối được thực hiện như thế nào?",
+    "question": "Theo các hiệp định mà Việt Nam có mở cửa thị trường mua sắm chính phủ (đấu thầu), nhà thầu nước ngoài được tham gia đấu thầu tại Việt Nam trong trường hợp nào?",
     "options": [
-      "Theo quy định của pháp luật về đấu thầu",
-      "Theo quy định của pháp luật về đấu thầu và quy định của Hiệp định thương mại tự do",
-      "Theo quy định của Hiệp định thương mại tự do",
-      "Tùy vào quy mô, tính chất của gói thầu"
+      "Tất cả các gói thầu",
+      "Chỉ gói thầu ODA",
+      "Gói thầu thuộc phạm vi điều chỉnh của hiệp định",
+      "Gói thầu có giá trị lớn, phức tạp"
     ],
-    "correct_answer_index": 1,
+    "correct_answer_index": 2,
     "source": ""
   },
   {
     "id": 195,
-    "question": "Theo quy định tại Nghị định số 09/2022/NĐ-CP, trường hợp nào sau đây không bắt buộc phải tổ chức đấu thầu nội khối (giữa các nước thành viên FTA)?",
+    "question": "Theo quy định tại Nghị định số 95/2020/NĐ-CP, đấu thầu nội khối là?",
     "options": [
-      "Gói thầu mua sắm hàng hóa thông thường, sẵn có trên thị trường",
-      "Gói thầu mua sắm hàng hóa mà hàng hóa đó trong nước không sản xuất được hoặc sản xuất được nhưng không đáp ứng một trong các yêu cầu về kỹ thuật, chất lượng, giá",
-      "Gói thầu xây lắp cần áp dụng công nghệ, kỹ thuật tiên tiến, phức tạp mà trong nước chưa đủ năng lực thực hiện",
-      "Tất cả các phương án trên đều đúng"
+      "Đấu thầu mà chỉ có nhà thầu nội khối được tham dự",
+      "Đấu thầu cho các dự án trong khối CPTPP",
+      "Đấu thầu giữa các nước thành viên EVFTA, UKVFTA",
+      "Đấu thầu trong nước"
     ],
-    "correct_answer_index": 3,
-    "source": ""
+    "correct_answer_index": 0,
+    "source": "(K1 Điều 4 NĐ95)"
   },
   {
     "id": 196,
@@ -2345,7 +2215,7 @@
     "options": [
       "Không có nhà thầu trong nước tham gia",
       "Giá gói thầu quá lớn",
-      "Người có thẩm quyền xét thấy cần tổ chức đấu thầu quốc tế để mang lại hiệu quả cao hơn cho dự án, gói thầu (K3 Điều 1 NĐ90)",
+      "Người có thẩm quyền xét thấy cần tổ chức đấu thầu quốc tế để mang lại hiệu quả cao hơn cho dự án, gói thầu",
       "Hàng hóa thuộc gói thầu quá phức tạp mà nhà thầu trong nước không đáp ứng được"
     ],
     "correct_answer_index": 2,
@@ -2379,24 +2249,24 @@
     "id": 199,
     "question": "Đàm phán giá được áp dụng trong trường hợp nào sau đây?",
     "options": [
-      "Mua vật tư tiêu hao thông thường",
-      "Mua sắm hàng hóa, dịch vụ theo thỏa thuận khung",
-      "Lựa chọn nhà thầu cung cấp dịch vụ tư vấn",
-      "Tất cả các phương án trên đều đúng"
+      "Mua vật tư tiêu hao",
+      "Mua thuốc, thiết bị y tế, vật tư xét nghiệm chỉ có 01 hoặc 02 hãng sản xuất",
+      "Mua hàng hóa chỉ có 01 hãng sản xuất",
+      "Mua hàng hóa chỉ có 01 hoặc 02 hãng sản xuất"
     ],
     "correct_answer_index": 1,
-    "source": ""
+    "source": "(K1b Điều 28 Luật 22-57-90)"
   },
   {
     "id": 200,
-    "question": "Trường hợp áp dụng đàm phán giá, cơ quan, tổ chức nào được đàm phán giá?",
+    "question": "Thời gian có hiệu lực thi hành của Luật số 90/2025/QH15?",
     "options": [
-      "Chủ đầu tư",
-      "Bên mời thầu",
-      "Đơn vị mua sắm tập trung",
-      "Tất cả các phương án trên đều đúng"
+      "Từ ngày 01 tháng 7 năm 2025",
+      "Từ ngày 04 tháng 8 năm 2025",
+      "Từ ngày 08 tháng 8 năm 2025",
+      "Tất cả các đáp án trên đều sai"
     ],
-    "correct_answer_index": 2,
-    "source": ""
+    "correct_answer_index": 0,
+    "source": "(K1 Điều 9 Luật 90)"
   }
 ]
