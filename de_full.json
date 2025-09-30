@@ -1,8 +1,7 @@
 [
   {
     "id": 1,
-    "question": "Trường hợp nào sau đây bắt buộc phải lựa chọn nhà thầu theo quy định tại Luật Đấu
-thầu?",
+    "question": "Trường hợp nào sau đây bắt buộc phải lựa chọn nhà thầu theo quy định tại Luật Đấu thầu?",
     "options": [
       "Gói thầu thuộc dự án sử dụng vốn ngân sách nhà nước của cơ quan nhà nước (K1 Điều 2 Luật 22-57-90)",
       "Lựa chọn nhà thầu của doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước",
@@ -2270,3 +2269,4 @@ thầu?",
     "source": "(K1 Điều 9 Luật 90)"
   }
 ]
+
