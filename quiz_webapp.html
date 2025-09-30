@@ -5,30 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ôn Luyện Trắc Nghiệm</title>
     
-    <!-- 💖 THÊM CÁC THẺ META PWA ĐỂ TỐI ƯU TRÊN DI ĐỘNG 💖 -->
-    <!-- Màu sắc cho thanh tiêu đề trình duyệt (chỉ Android) -->
     <meta name="theme-color" content="#2563EB"> 
-    <!-- Chế độ xem độc lập (ẩn thanh URL) cho iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="Quiz App">
 
-    <!-- Tải Tailwind CSS để đảm bảo giao diện đẹp và responsive trên di động -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
     <style>
         /* Tùy chỉnh font cho toàn bộ ứng dụng */
         body {
             font-family: 'Inter', sans-serif;
             background-color: #f4f7f9;
         }
-        /* Custom scrollbar cho các nội dung dài trên thiết bị di động */
+        /* Custom scrollbar cho các nội dung dài trên thiết bị di động (chủ yếu cho Options Container) */
         .custom-scroll::-webkit-scrollbar {
             width: 6px;
         }
         .custom-scroll::-webkit-scrollbar-thumb {
             background: #cbd5e1;
             border-radius: 3px;
+        }
+        .custom-scroll {
+             /* Ẩn scrollbar trên Firefox */
+            scrollbar-width: thin; 
+            scrollbar-color: #cbd5e1 transparent;
         }
         /* Hiệu ứng chọn đáp án */
         .option-item {
@@ -38,51 +39,56 @@
             background-color: #f0f4f7;
             cursor: pointer;
         }
-        /* Icon placeholder cho PWA (không dùng ảnh thật) */
+        /* Icon placeholder cho PWA */
         .app-icon {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             font-size: 2.5rem;
             line-height: 1;
-            text-align: center;
             width: 64px;
             height: 64px;
             border-radius: 16px;
             background-color: #2563EB;
             color: white;
-            padding-top: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 <body class="min-h-screen flex flex-col">
 
-    <!-- 🌟 MANIFEST.JSON MÔ PHỎNG (Inline Script) 🌟 -->
-    <!-- Trong môi trường 1 file HTML, chúng ta không thể tạo file manifest.json, 
-         nhưng các thẻ meta PWA ở trên đã giúp trình duyệt nhận diện được các thông tin cơ bản. -->
-    
     <div id="app" class="flex-grow flex flex-col items-center justify-start p-4 sm:p-6">
-        <!-- Nội dung sẽ được render tại đây -->
-    </div>
+        </div>
 
-    <!-- Modal thông báo tùy chỉnh (Thay thế cho alert/confirm) -->
-    <div id="modal-backdrop" class="hidden fixed inset-0 bg-black bg-opacity-50 z-40 items-center justify-center">
-        <div class="bg-white rounded-xl p-6 max-w-sm w-full shadow-2xl">
+    <div id="modal-backdrop" class="hidden fixed inset-0 bg-black bg-opacity-50 z-40 items-center justify-center" 
+         role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="bg-white rounded-xl p-6 max-w-sm w-full shadow-2xl transition-transform transform scale-100 duration-300">
             <h3 id="modal-title" class="text-xl font-bold text-gray-800 mb-4">Thông báo</h3>
-            <p id="modal-message" class="text-gray-700 mb-6"></p>
+            <p id="modal-message" class="text-gray-700 mb-6 whitespace-pre-line"></p>
             <div class="flex justify-end space-x-3">
-                <button id="modal-cancel-btn" class="hidden px-4 py-2 text-gray-600 bg-gray-200 rounded-lg font-semibold hover:bg-gray-300 transition duration-150">Hủy</button>
-                <button id="modal-confirm-btn" class="px-4 py-2 text-white bg-blue-600 rounded-lg font-semibold hover:bg-blue-700 transition duration-150">Đồng ý</button>
+                <button id="modal-cancel-btn" class="hidden px-4 py-2 text-gray-600 bg-gray-200 rounded-lg font-semibold hover:bg-gray-300 transition duration-150" aria-label="Hủy bỏ">Hủy</button>
+                <button id="modal-confirm-btn" class="px-4 py-2 text-white bg-blue-600 rounded-lg font-semibold hover:bg-blue-700 transition duration-150" aria-label="Đồng ý">Đồng ý</button>
             </div>
         </div>
     </div>
 
     <script>
-        // --- CẤU HÌNH ỨNG DỤNG (Giống file Python) ---
+        // --- CẤU HÌNH ỨNG DỤNG (ĐÃ CẬP NHẬT THEO YÊU CẦU) ---
         const NUM_QUESTIONS = 70;
         const TIME_LIMIT_MINUTES = 60;
-        const PASS_SCORE = 7.0; 
+
+        // 💡 CẤU HÌNH XẾP LOẠI: Ngưỡng % câu đúng để đạt mỗi mức độ
+        // Key là tên xếp loại, Value là ngưỡng % TỐI THIỂU cần đạt
+        const RATING_THRESHOLDS = {
+            'Xuất sắc': 90, // >= 90% (tương đương 63/70 câu)
+            'Giỏi': 80,     // >= 80% (tương đương 56/70 câu)
+            'Khá': 70,      // >= 70% (tương đương 49/70 câu)
+            'Trung bình': 50, // >= 50% (tương đương 35/70 câu - mức Đạt tối thiểu)
+        };
+        const FAIL_RATING = 'Không Đạt'; // Dưới mức thấp nhất (dưới 50%)
         
-        const COLOR_CORRECT = "text-green-700"; // Xanh lá đậm
-        const COLOR_INCORRECT = "text-red-700"; // Đỏ đậm
+        const COLOR_CORRECT = "text-green-700";
+        const COLOR_INCORRECT = "text-red-700";
         const COLOR_ACCENT = "text-blue-600";
         // ---------------------------------------------
 
@@ -90,13 +96,34 @@
         let username = "";
         let questions = [];
         let currentQuestion = 0;
-        let userAnswers = []; // Lưu index đáp án đã chọn (0, 1, 2, 3) hoặc -1
-        let isAnswered = []; // True/False: Câu hỏi đã được phản hồi (trong chế độ luyện tập)
+        let userAnswers = [];
+        let isAnswered = []; 
         let timeLimit = TIME_LIMIT_MINUTES * 60;
         let timeLeft = timeLimit;
         let timerInterval;
-        let allQuestions = []; // Dữ liệu câu hỏi gốc
+        let allQuestions = [];
         
+        // Hàm mới: Xác định xếp loại dựa trên số câu đúng
+        function getRating(correctCount, totalQuestions) {
+            if (totalQuestions === 0) return FAIL_RATING;
+
+            // Tính tỷ lệ % câu đúng
+            const correctPercent = (correctCount / totalQuestions) * 100;
+            
+            // Sắp xếp các ngưỡng từ cao xuống thấp để kiểm tra
+            // Điều này đảm bảo 63/70 (90%) sẽ được xếp là 'Xuất sắc' chứ không phải 'Giỏi'
+            const sortedRatings = Object.entries(RATING_THRESHOLDS)
+                .sort(([, a], [, b]) => b - a); 
+            
+            for (const [rating, threshold] of sortedRatings) {
+                if (correctPercent >= threshold) {
+                    return rating;
+                }
+            }
+            
+            return FAIL_RATING;
+        }
+
         // Hàm hiển thị Modal (thay thế messagebox)
         function showModal(title, message, isConfirm = false, onConfirm = null) {
             const backdrop = document.getElementById('modal-backdrop');
@@ -108,6 +135,9 @@
             titleEl.textContent = title;
             messageEl.textContent = message;
 
+            // Đảm bảo Modal được focus đúng
+            backdrop.focus();
+
             backdrop.classList.remove('hidden');
             backdrop.classList.add('flex');
 
@@ -115,6 +145,8 @@
                 backdrop.classList.add('hidden');
                 backdrop.classList.remove('flex');
                 if (isConfirm && onConfirm) {
+                    // Cần xóa timer sau khi nộp bài
+                    if (timerInterval) clearInterval(timerInterval);
                     onConfirm();
                 }
             };
@@ -126,9 +158,13 @@
                     backdrop.classList.remove('flex');
                 };
                 confirmBtn.textContent = "Nộp bài";
+                confirmBtn.classList.remove('bg-blue-600', 'hover:bg-blue-700');
+                confirmBtn.classList.add('bg-red-600', 'hover:bg-red-700');
             } else {
                 cancelBtn.classList.add('hidden');
                 confirmBtn.textContent = "Đóng";
+                confirmBtn.classList.remove('bg-red-600', 'hover:bg-red-700');
+                confirmBtn.classList.add('bg-blue-600', 'hover:bg-blue-700');
             }
         }
 
@@ -136,23 +172,21 @@
         async function loadQuestions() {
             if (allQuestions.length > 0) return allQuestions;
             try {
-                // Tên file JSON đã được tải lên trong Canvas
+                // SỬ DỤNG FILE TỪ KHO LƯU TRỮ CỦA NGƯỜI DÙNG
                 const response = await fetch('de_full.json'); 
                 if (!response.ok) {
-                    showModal("Lỗi dữ liệu", "Không thể tải file 'de_full.json'. Vui lòng đảm bảo file đã được tải lên đúng.");
-                    return [];
+                    throw new Error(`Tải lỗi. Status: ${response.status}`);
                 }
                 allQuestions = await response.json();
                 return allQuestions;
             } catch (error) {
-                showModal("Lỗi hệ thống", `Lỗi khi tải câu hỏi: ${error.message}`);
+                showModal("Lỗi hệ thống", `Lỗi khi tải câu hỏi: Vui lòng kiểm tra file de_full.json của bạn:\n${error.message}`);
                 return [];
             }
         }
 
         // Ghi kết quả (trong Web App, chúng ta chỉ hiển thị, không lưu vào CSV)
         function saveResult(name, correct, total, score, status) {
-            // Trong môi trường Web App đơn giản, chúng ta không có quyền ghi file
             console.log(`Kết quả của ${name}: Đúng ${correct}/${total}, Điểm: ${score.toFixed(2)}, Xếp loại: ${status}`);
         }
 
@@ -165,10 +199,17 @@
         function updateTimerDisplay() {
             const minutes = Math.floor(timeLeft / 60);
             const seconds = timeLeft % 60;
-            const timeText = `⏰ Thời gian còn lại: ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            const timeText = `⏰ ${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
             const timerEl = document.getElementById('timer-label');
             if (timerEl) {
                 timerEl.textContent = timeText;
+                if (timeLeft <= 60) {
+                    timerEl.classList.remove('text-red-600');
+                    timerEl.classList.add('text-red-800', 'font-extrabold', 'animate-pulse');
+                } else {
+                    timerEl.classList.remove('text-red-800', 'font-extrabold', 'animate-pulse');
+                    timerEl.classList.add('text-red-600');
+                }
             }
         }
 
@@ -180,7 +221,7 @@
                     updateTimerDisplay();
                 } else {
                     clearInterval(timerInterval);
-                    showModal("Hết giờ", "Bạn đã hết thời gian làm bài. Bài làm sẽ được tự động nộp.", false, submitQuiz);
+                    showModal("Hết giờ", "Bạn đã hết thời gian làm bài. Bài làm sẽ được tự động nộp.", false); // Không cần callback, vì submitQuiz() sẽ được gọi ngay
                     submitQuiz();
                 }
             }, 1000);
@@ -190,15 +231,14 @@
         function handleAnswerSelection(selectedOptionIndex) {
             const qIndex = currentQuestion;
             
+            // Trong chế độ Luyện tập (chế độ mặc định), phản hồi ngay.
             if (isAnswered[qIndex]) {
-                return; // Đã trả lời, không làm gì nữa
+                return; 
             }
 
-            // BƯỚC 1: Xử lý dữ liệu
             userAnswers[qIndex] = selectedOptionIndex;
             isAnswered[qIndex] = true;
             
-            // BƯỚC 2: PHẢN HỒI TRỰC QUAN
             showQuestion(); // VẼ LẠI để áp dụng màu sắc phản hồi
         }
 
@@ -209,17 +249,17 @@
             if (timerInterval) clearInterval(timerInterval);
 
             const content = `
-                <div class="max-w-xl w-full text-center bg-white p-8 rounded-xl shadow-lg mt-10">
-                    <span class="app-icon mb-4">📝</span>
-                    <h1 class="text-2xl sm:text-3xl font-bold ${COLOR_ACCENT} mb-3">ÔN LUYỆN TRẮC NGHIỆM</h1>
-                    <h2 class="text-lg sm:text-xl font-semibold text-gray-700 mb-6 italic">Chế độ Luyện tập (Phản hồi ngay)</h2>
+                <div class="max-w-xl w-full text-center bg-white p-6 sm:p-8 rounded-xl shadow-2xl mt-8 flex flex-col items-center">
+                    <span class="app-icon mb-6">📝</span>
+                    <h1 class="text-3xl sm:text-4xl font-extrabold ${COLOR_ACCENT} mb-2">ÔN LUYỆN TRẮC NGHIỆM</h1>
+                    <h2 class="text-xl sm:text-2xl font-semibold text-gray-700 mb-8 italic">Chế độ Luyện tập (Phản hồi ngay)</h2>
                     
-                    <label for="name-entry" class="block text-left text-gray-700 font-semibold mb-2 text-lg">Nhập tên của bạn:</label>
+                    <label for="name-entry" class="block text-left w-full text-gray-700 font-semibold mb-2 text-lg">Nhập tên của bạn:</label>
                     <input type="text" id="name-entry" placeholder="Ví dụ: Nguyễn Văn A"
-                           class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 text-lg mb-8" />
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500 text-lg mb-8" />
                     
                     <button id="start-quiz-btn"
-                            class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg text-xl transition duration-300 shadow-md">
+                                class="w-full bg-green-600 hover:bg-green-700 text-white font-extrabold py-4 px-6 rounded-xl text-xl transition duration-300 shadow-lg transform hover:scale-[1.01]">
                         Bắt đầu làm bài (${NUM_QUESTIONS} câu, ${TIME_LIMIT_MINUTES} phút)
                     </button>
                     <p class="text-sm text-gray-500 mt-4">Dữ liệu được lấy từ file de_full.json</p>
@@ -244,13 +284,13 @@
             allQuestions = await loadQuestions();
 
             if (allQuestions.length === 0) return;
-             
+              
             if (allQuestions.length < NUM_QUESTIONS) {
-                showModal("Lỗi", `Ngân hàng câu hỏi phải có ít nhất ${NUM_QUESTIONS} câu. Hiện có ${allQuestions.length} câu.`);
+                showModal("Lỗi", `Ngân hàng câu hỏi phải có ít nhất ${NUM_QUESTIONS} câu. Hiện có ${allQuestions.length} câu. Vui lòng kiểm tra lại file JSON.`);
                 return;
             }
 
-            // Lấy ngẫu nhiên câu hỏi (Sử dụng Fisher-Yates shuffle để đảm bảo tính ngẫu nhiên)
+            // Lấy ngẫu nhiên câu hỏi (Fisher-Yates shuffle)
             const shuffledQuestions = [...allQuestions];
             for (let i = shuffledQuestions.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
@@ -259,6 +299,7 @@
 
             questions = shuffledQuestions.slice(0, NUM_QUESTIONS);
 
+            // Khởi tạo trạng thái
             userAnswers = Array(questions.length).fill(-1); 
             isAnswered = Array(questions.length).fill(false); 
             currentQuestion = 0;
@@ -278,28 +319,29 @@
             const alphabet = 'ABCD';
 
             const header = `
-                <div class="fixed top-0 left-0 w-full bg-white shadow-md p-4 flex justify-between items-center z-10">
-                    <div class="text-sm sm:text-base font-medium text-gray-600">Thí sinh: ${username}</div>
-                    <div id="timer-label" class="text-sm sm:text-base font-bold text-red-600"></div>
+                <div class="fixed top-0 left-0 w-full bg-white shadow-md p-3 sm:p-4 flex justify-between items-center z-10">
+                    <div class="text-xs sm:text-base font-medium text-gray-600">Thí sinh: <span class="font-bold text-gray-800">${username}</span></div>
+                    <div id="timer-label" class="text-sm sm:text-lg font-bold text-red-600 transition-colors duration-500"></div>
                 </div>
-                <div class="h-16 w-full"></div> <!-- Khoảng đệm cho header fixed -->
-            `;
+                <div class="h-12 sm:h-16 w-full"></div> `;
 
             const questionContent = `
-                <div class="w-full max-w-2xl bg-white p-6 rounded-xl shadow-lg flex-grow flex flex-col mb-4">
-                    <h2 class="text-xl sm:text-2xl font-extrabold ${COLOR_ACCENT} mb-4">
-                        Câu ${currentQuestion + 1}/${questions.length}
-                    </h2>
+                <div class="w-full max-w-2xl bg-white p-5 sm:p-6 rounded-xl shadow-lg flex-grow flex flex-col mb-4">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-xl sm:text-2xl font-extrabold ${COLOR_ACCENT}">
+                            Câu ${currentQuestion + 1}/${questions.length}
+                        </h2>
+                        <span class="text-sm font-medium text-gray-500">ID: ${question.id}</span>
+                    </div>
                     
-                    <p class="text-gray-800 text-lg sm:text-xl font-semibold mb-6">
+                    <p class="text-gray-800 text-lg sm:text-xl font-semibold mb-6 leading-relaxed">
                         ${question.question}
                     </p>
 
-                    <!-- Khung chứa các lựa chọn -->
                     <div id="options-container" class="space-y-4 flex-grow custom-scroll overflow-y-auto pb-4">
                         ${question.options.map((option, i) => {
-                            let optionClasses = 'option-item p-4 rounded-lg border border-gray-200 shadow-sm transition duration-150';
-                            let icon = '<span class="text-gray-400 font-bold mr-3 text-lg">◻</span>'; // Mặc định là ô vuông
+                            let optionClasses = 'option-item p-4 rounded-lg border shadow-sm transition duration-150';
+                            let icon = '<span class="text-gray-400 font-bold mr-3 text-lg">○</span>'; // Mặc định chưa chọn
 
                             if (isCurrentQAnswered) {
                                 // Nếu đã trả lời và ĐÚNG
@@ -314,23 +356,23 @@
                                 } 
                                 // Các đáp án còn lại (đã trả lời)
                                 else {
-                                     optionClasses += ` bg-gray-50 text-gray-600 answered`;
+                                    optionClasses += ` bg-gray-50 text-gray-600 answered`;
                                 }
                             } else {
-                                // Chưa trả lời
+                                // Chưa trả lời (Chỉ tô màu lựa chọn hiện tại)
                                 optionClasses += ' hover:bg-blue-50';
                                 if (i === selectedAnswer) {
-                                     optionClasses += ' bg-blue-100 border-blue-400 font-bold';
-                                     icon = '<span class="text-blue-600 font-extrabold mr-3 text-lg">●</span>';
+                                    optionClasses += ' bg-blue-100 border-blue-400 font-bold';
+                                    icon = '<span class="text-blue-600 font-extrabold mr-3 text-lg">●</span>';
                                 } else {
-                                    icon = '<span class="text-gray-500 font-bold mr-3 text-lg">○</span>'; // Chưa chọn
+                                    icon = '<span class="text-gray-500 font-bold mr-3 text-lg">○</span>'; 
                                 }
                             }
 
                             return `
                                 <div id="option-${i}" data-index="${i}" 
-                                     class="${optionClasses} flex items-start text-base sm:text-lg"
-                                     onclick="handleAnswerSelection(${i})">
+                                      class="${optionClasses} flex items-start text-base sm:text-lg"
+                                      onclick="handleAnswerSelection(${i})">
                                     ${icon}
                                     <span class="font-bold mr-2 text-gray-700">${alphabet[i]}.</span>
                                     <span class="flex-grow text-gray-800">${option}</span>
@@ -342,20 +384,20 @@
             `;
 
             const footer = `
-                <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 p-4 flex justify-center items-center space-x-4 z-10 shadow-md">
+                <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 p-3 sm:p-4 flex justify-center items-center space-x-3 sm:space-x-4 z-10 shadow-lg">
                     <button id="prev-btn" 
-                            class="flex-1 max-w-[150px] bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-lg transition duration-150 text-base sm:text-lg">
+                                class="flex-1 max-w-[150px] bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-lg transition duration-150 text-sm sm:text-lg">
                         ← Quay lại
                     </button>
                     
                     ${currentQuestion < questions.length - 1 ? 
                         `<button id="next-btn" 
-                                 class="flex-1 max-w-[150px] bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-150 text-base sm:text-lg">
+                                     class="flex-1 max-w-[150px] bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-150 text-sm sm:text-lg">
                             Tiếp theo →
                         </button>`
                         :
                         `<button id="submit-btn" 
-                                 class="flex-1 max-w-[150px] bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg transition duration-150 text-base sm:text-lg">
+                                     class="flex-1 max-w-[150px] bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg transition duration-150 text-sm sm:text-lg">
                             Nộp bài
                         </button>`
                     }
@@ -419,25 +461,36 @@
                 }
             }
 
+            // Vẫn tính điểm để hiển thị trên thang 10
             const score = correct / total * 10; 
-            const status = score >= PASS_SCORE ? "ĐẠT" : "KHÔNG ĐẠT";
+            
+            // 💡 LOGIC XẾP LOẠI MỚI: Xếp loại chi tiết theo % câu đúng
+            const status = getRating(correct, total); 
 
-            saveResult(username, correct, total, score, status); // Lưu kết quả vào console log
+            saveResult(username, correct, total, score, status); 
             showResult(correct, total, score, status);
         }
 
         function showResult(correct, total, score, status) {
             clearWindow();
             
-            const statusColor = status === "ĐẠT" ? COLOR_CORRECT : COLOR_INCORRECT;
-            const statusBg = status === "ĐẠT" ? "bg-green-50" : "bg-red-50";
+            // Kiểm tra xem trạng thái có phải là "Không Đạt" hay không
+            const isPassing = status !== FAIL_RATING; 
+            
+            const statusColor = isPassing ? COLOR_CORRECT : COLOR_INCORRECT;
+            const statusBg = isPassing ? "bg-green-50" : "bg-red-50";
+
+            // Thay đổi màu điểm dựa trên kết quả
+            const scoreColor = isPassing ? COLOR_CORRECT : COLOR_INCORRECT;
+            
+            // Lấy ngưỡng % của mức Trung bình (mức Đạt tối thiểu) để hiển thị thông tin
+            const passThresholdPercent = RATING_THRESHOLDS['Trung bình'];
 
             const content = `
-                <div class="w-full max-w-md text-center bg-white p-8 rounded-xl shadow-2xl mt-10">
-                    <h1 class="text-3xl font-bold ${COLOR_ACCENT} mb-2">🎉 KẾT QUẢ BÀI THI 🎉</h1>
-                    <p class="text-lg text-gray-600 mb-6">Thí sinh: <span class="font-semibold text-gray-800">${username}</span></p>
+                <div class="w-full max-w-md text-center bg-white p-8 rounded-xl shadow-2xl mt-8">
+                    <h1 class="text-3xl font-extrabold ${COLOR_ACCENT} mb-4">🎉 KẾT QUẢ BÀI THI 🎉</h1>
+                    <p class="text-lg text-gray-600 mb-6">Thí sinh: <span class="font-bold text-gray-800">${username}</span></p>
 
-                    <!-- Khung chi tiết điểm -->
                     <div class="border-2 border-dashed border-gray-300 rounded-xl p-5 mb-8 space-y-3">
                         <div class="flex justify-between text-xl">
                             <span class="font-medium text-gray-700">Tổng số câu:</span>
@@ -445,26 +498,28 @@
                         </div>
                         <div class="flex justify-between text-xl border-b pb-3">
                             <span class="font-medium text-gray-700">Số câu trả lời đúng:</span>
-                            <span class="font-bold ${COLOR_CORRECT}">${correct}</span>
+                            <span class="font-bold ${COLOR_CORRECT}">${correct}/${total}</span>
                         </div>
                         <div class="flex justify-between items-center pt-3">
-                            <span class="text-2xl font-bold text-gray-800">Điểm số:</span>
-                            <span class="text-3xl font-extrabold ${COLOR_INCORRECT}">${score.toFixed(2)}/10</span>
+                            <span class="text-2xl font-extrabold text-gray-800">Điểm số (Thang 10):</span>
+                            <span class="text-4xl font-black ${scoreColor}">${score.toFixed(2)}/10</span>
                         </div>
                     </div>
                     
-                    <!-- Xếp loại -->
                     <div class="p-3 rounded-lg ${statusBg} ${statusColor} text-2xl font-black mb-8 border border-dashed border-current">
-                        XẾP LOẠI: ${status}
+                        XẾP LOẠI: ${status.toUpperCase()}
+                        <div class="text-base font-medium text-gray-600 mt-1">
+                            (Đạt: $\ge ${passThresholdPercent}\%$ câu đúng)
+                        </div>
                     </div>
 
                     <button onclick="showReview()"
-                            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 shadow-md mb-4">
+                                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 shadow-md mb-4">
                         XEM LẠI BÀI THI CHI TIẾT
                     </button>
                     
                     <button onclick="showHome()"
-                            class="w-full bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-bold py-3 px-6 rounded-lg text-lg transition duration-300">
+                                class="w-full bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-bold py-3 px-6 rounded-lg text-lg transition duration-300">
                         Về trang chủ
                     </button>
                 </div>
@@ -483,10 +538,12 @@
                 const isCorrect = (userChoice !== -1 && userChoice === correctIndex);
                 const statusText = isCorrect ? "✅ ĐÚNG" : "❌ SAI";
                 const statusColor = isCorrect ? "text-green-700" : "text-red-700";
+                const borderLeftColor = isCorrect ? "border-l-green-600" : "border-l-red-600";
+
 
                 const optionsHtml = q.options.map((option, j) => {
                     let optionClasses = 'p-3 rounded-lg border text-base flex items-start';
-                    let icon = '<span class="mr-2 text-gray-500">○</span>'; // Mặc định chưa chọn
+                    let icon = '<span class="mr-2 text-gray-500">○</span>'; 
 
                     if (j === correctIndex) {
                         // Đáp án đúng
@@ -511,20 +568,21 @@
                 }).join('');
 
                 return `
-                    <div class="bg-white p-6 rounded-xl shadow-lg mb-6 border-l-4 border-gray-400">
+                    <div class="bg-white p-6 rounded-xl shadow-lg mb-6 border-l-4 ${borderLeftColor}">
                         <h3 class="text-xl font-bold mb-3 flex justify-between items-center">
-                            <span>Câu ${i + 1}:</span>
-                            <span class="${statusColor} text-lg">${statusText}</span>
+                            <span>Câu ${i + 1}: (ID: ${q.id})</span>
+                            <span class="${statusColor} text-lg font-extrabold">${statusText}</span>
                         </h3>
-                        <p class="text-gray-800 text-lg mb-4">${q.question}</p>
+                        <p class="text-gray-800 text-lg mb-4 font-semibold leading-relaxed">${q.question}</p>
                         <div class="space-y-3">
                             ${optionsHtml}
                         </div>
+                        ${q.source ? `<p class="text-sm italic text-gray-500 mt-4">Nguồn: ${q.source}</p>` : ''}
                     </div>
                 `;
             }).join('');
 
-            // Tính lại điểm để đảm bảo tính chính xác
+            // Tính lại điểm
             let correctCount = 0;
             const total = questions.length;
             for (let i = 0; i < total; i++) {
@@ -535,19 +593,21 @@
                 }
             }
             const score = correctCount / total * 10;
-            const status = score >= PASS_SCORE ? "ĐẠT" : "KHÔNG ĐẠT";
+            
+            // 💡 LOGIC XẾP LOẠI MỚI cho màn hình Xem lại: Xếp loại chi tiết
+            const status = getRating(correctCount, total);
 
             const content = `
                 <div class="w-full max-w-3xl flex-grow flex flex-col pt-4 pb-20">
-                    <h1 class="text-2xl sm:text-3xl font-bold ${COLOR_ACCENT} mb-6 text-center">XEM LẠI BÀI THI</h1>
+                    <h1 class="text-2xl sm:text-3xl font-extrabold ${COLOR_ACCENT} mb-6 text-center">XEM LẠI BÀI THI CHI TIẾT</h1>
                     
                     <div class="flex-grow custom-scroll overflow-y-auto space-y-6">
                         ${reviewContent}
                     </div>
 
-                    <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 p-4 flex justify-center z-10 shadow-md">
+                    <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 p-4 flex justify-center z-10 shadow-lg">
                         <button onclick="showResult(${correctCount}, ${total}, ${score}, '${status}')"
-                                class="w-full max-w-md bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-bold py-3 px-6 rounded-lg text-lg transition duration-300">
+                                class="w-full max-w-md bg-yellow-500 hover:bg-yellow-600 text-gray-800 font-bold py-3 px-6 rounded-lg text-lg transition duration-300 shadow-md">
                             Về màn hình kết quả
                         </button>
                     </div>
