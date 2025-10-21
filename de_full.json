@@ -138,7 +138,7 @@
       "Thực hiện gói thầu thuộc dự án sử dụng vốn đầu tư công của cơ quan nhà nước",
       "Thực hiện gói thầu thuộc dự án sử dụng vốn đầu tư công của đơn vị sự nghiệp công lập bảo đảm một phần chi thường xuyên",
       "Thực hiện gói thầu thuộc dự án sử dụng vốn ngân sách nhà nước của doanh nghiệp nhà nước",
-      "Lựa chọn nhà thầu của doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước, đơn vị sự nghiệp công lập tự bảo đảm chi thườngxuyên và chi đầu tư, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên không sử dụng ngân sách nhà nước"
+      "Lựa chọn nhà thầu của doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên và chi đầu tư, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên không sử dụng ngân sách nhà nước"
     ],
     "correct_answer_index": 3,
     "source": ""
@@ -424,7 +424,7 @@
     "question": "Kế hoạch lựa chọn nhà thầu của dự án thuộc đối tượng áp dụng của Luật Đấu thầu bắt buộc phải đăng tải ở đâu?",
     "options": [
       "Hệ thống mạng đấu thầu quốc gia",
-      "Báo Tài chính-Đầu tư",
+      "Báo Tài chính - Đầu tư",
       "Cổng Thông tin điện tử của Bộ, ngành",
       "Phương án A và B đều đúng"
     ],
@@ -882,7 +882,7 @@
       "Hồ sơ dự thầu của nhà thầu bị loại, không được xem xét, đánh giá",
       "Chủ đầu tư yêu cầu nhà thầu làm rõ, bổ sung tài liệu trong một khoảng thời gian phù hợp nhưng không ít hơn 03 ngày làm việc để làm cơ sở đánh giá E-HSDT",
       "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu trên cơ sở bảo đảm các mục tiêu của công tác đấu thầu",
-      "Tiếp tục đánh giá E-HSDT, trường hơp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
+      "Tiếp tục đánh giá E-HSDT, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
     ],
     "correct_answer_index": 1,
     "source": ""
@@ -894,7 +894,7 @@
       "Chủ đầu tư yêu cầu nhà thầu làm rõ các thông tin này để làm cơ sở đánh giá trên cơ sở không được thay đổi giá dự thầu",
       "Tổ chuyên gia căn cứ theo cataloge, đề xuất kỹ thuật kèm theo để làm cơ sở đánh giá",
       "Hồ sơ dự thầu của nhà thầu không được xem xét, đánh giá",
-      "Tiếp tục đánh giá hồ sơ dự thầu, trường hơp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
+      "Tiếp tục đánh giá hồ sơ dự thầu, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
     ],
     "correct_answer_index": 2,
     "source": ""
@@ -963,7 +963,7 @@
     "id": 81,
     "question": "Trường hợp nào sau đây phải áp dụng bảo đảm thực hiện hợp đồng?",
     "options": [
-      "Nhà thầu cung dịch vụ phi tư vấn",
+      "Nhà thầu cung cấp dịch vụ phi tư vấn",
       "Nhà thầu thực hiện gói thầu có giá gói thầu thuộc hạn mức chỉ định thầu",
       "Nhà thầu cung cấp dịch vụ tư vấn",
       "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
@@ -1169,8 +1169,8 @@
     "options": [
       "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị có nhu cầu mua sắm công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
       "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia, trừ trường hợp bất khả kháng",
-      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
-      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
+      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
+      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
     ],
     "correct_answer_index": 1,
     "source": ""
@@ -1194,7 +1194,7 @@
       "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách dự bị (nhà thầu xếp thứ 2 trở đi)",
       "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách nhà thầu không đáp ứng yêu cầu của hồ sơ mời thầu",
       "Danh sách các nhà thầu đáp ứng yêu cầu về năng lực và kinh nghiệm theo yêu cầu của hồ sơ mời thầu",
-      "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi"
+      "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi)"
     ],
     "correct_answer_index": 0,
     "source": ""
@@ -3101,7 +3101,7 @@
     "options": [
       "Báo cáo đánh giá E-HSDT có chữ ký của tất cả thành viên trong tổ chuyên gia",
       "Báo cáo đánh giá E-HSDT chỉ cần có chữ ký của tổ trưởng tổ chuyên gia",
-      "Báo cáo đánh giá E-HSDT (đăng tải báo cáo đánh giá tổng hợp, không cần kèm theo các phiếu chấm của thành viên trong tổ chuyên gia)",
+      "Báo cáo đánh giá E-HSDT (đăng tải báo cáo đánh giá tổng hợp, không cần kèm theo các phiếu chấm của thành viên trong tổchuyên gia)",
       "Phương án B và C đều đúng"
     ],
     "correct_answer_index": 0,
@@ -3181,11 +3181,7 @@
   },
   {
     "id": 266,
-    "question": "Có 4 nhà thầu tham dự thầu gói thầu mua sắm hàng hóa áp dụng phương pháp giá thấp nhất, trong đó:
-- Nhà thầu A, B, D là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ.
-- Nhà thầu A, B, C và D có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá lần lượt là: 95 tỷ đồng, 100 tỷ đồng, 100 tỷ đồng và 105 tỷ đồng.
-- Nhà thầu A, B, C và D chứng minh được hàng hóa mình tham dự có tỷ lệ chi phí sản xuất trong nước lần lượt là: 20%, 40%, 45% và 60%.
-Trong trường hợp tất cả nhà thầu đều đáp ứng về kỹ thuật thì nhà thầu nào được xét duyệt trúng thầu?",
+    "question": "Có 4 nhà thầu tham dự thầu gói thầu mua sắm hàng hóa áp dụng phương pháp giá thấp nhất, trong đó:- Nhà thầu A, B, D là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ.- Nhà thầu A, B, C và D có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá lần lượt là: 95 tỷ đồng, 100 tỷ đồng, 100 tỷ đồng và 105 tỷ đồng.- Nhà thầu A, B, C và D chứng minh được hàng hóa mình tham dự có tỷ lệ chi phí sản xuất trong nước lần lượt là: 20%, 40%, 45% và 60%. Trong trường hợp tất cả nhà thầu đều đáp ứng về kỹ thuật thì nhà thầu nào được xét duyệt trúng thầu?",
     "options": [
       "Nhà thầu A được xét duyệt trúng thầu",
       "Nhà thầu B được xét duyệt trúng thầu",
@@ -3202,7 +3198,7 @@ Trong trường hợp tất cả nhà thầu đều đáp ứng về kỹ thuậ
       "Chủ đầu tư chấp nhận do đây là lỗi vận chuyển theo bưu điện",
       "Chủ đầu tư không chấp nhận vì thư giảm giá của nhà thầu nộp sau thời điểm đóng thầu",
       "Chủ đầu tư tạm thời ghi nhận nội dung trong thư giảm giá của nhà thầu và trình Người có thẩm quyền quyết định",
-      "Chủ đầu tư coi là tình huống trong đấu thầu và xử lý trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế và trách nhiệm giải trình"
+      "Chủ đầu tư coi là tình huống trong đấu thầu và xử lý trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế vàtrách nhiệm giải trình"
     ],
     "correct_answer_index": 1,
     "source": ""
@@ -3233,13 +3229,7 @@ Trong trường hợp tất cả nhà thầu đều đáp ứng về kỹ thuậ
   },
   {
     "id": 270,
-    "question": "Gói thầu mua sắm hàng hóa có:
-- Thời điểm đóng thầu theo E-TBMT là: 8h00 ngày 25/9/2025
-- Hiệu lực của bảo đảm dự thầu theo yêu cầu của E-HSMT là: 90 ngày
-- Do lỗi hệ thống nên Hệ thống tự động gia hạn thời điểm đóng thầu mới là: 11h ngày 26/9/2025
-- Nhà thầu A đã nộp E-HSDT trước thời điểm Hệ thống xảy ra sự cố với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 25/9/2025;
-Nhà thầu B nộp E-HSDT sau thời điểm Hệ thống xảy ra sự cố và trước thời điểm đóng thầu mới với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 26/9/2025
-Bảo đảm dự thầu của nhà thầu A và nhà thầu B được đánh giá như thế nào?",
+    "question": "Gói thầu mua sắm hàng hóa có:- Thời điểm đóng thầu theo E-TBMT là: 8h00 ngày 25/9/2025- Hiệu lực của bảo đảm dự thầu theo yêu cầu của E-HSMT là: 90 ngày- Do lỗi hệ thống nên Hệ thống tự động gia hạn thời điểm đóng thầu mới là: 11h ngày 26/9/2025- Nhà thầu A đã nộp E-HSDT trước thời điểm Hệ thống xảy ra sự cố với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 25/9/2025; Nhà thầu B nộp E-HSDT sau thời điểm Hệ thống xảy ra sự cố và trước thời điểm đóng thầu mới với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 26/9/2025Bảo đảm dự thầu của nhà thầu A và nhà thầu B được đánh giá như thế nào?",
     "options": [
       "Bảo đảm dự thầu của nhà thầu A được đánh giá là không hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là hợp lệ",
       "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là hợp lệ",
