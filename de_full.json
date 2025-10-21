@@ -138,7 +138,7 @@
       "Thực hiện gói thầu thuộc dự án sử dụng vốn đầu tư công của cơ quan nhà nước",
       "Thực hiện gói thầu thuộc dự án sử dụng vốn đầu tư công của đơn vị sự nghiệp công lập bảo đảm một phần chi thường xuyên",
       "Thực hiện gói thầu thuộc dự án sử dụng vốn ngân sách nhà nước của doanh nghiệp nhà nước",
-      "Lựa chọn nhà thầu của doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên và chi đầu tư, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên không sử dụng ngân sách nhà nước"
+      "Lựa chọn nhà thầu của doanh nghiệp nhà nước không sử dụng vốn ngân sách nhà nước, đơn vị sự nghiệp công lập tự bảo đảm chi thườngxuyên và chi đầu tư, đơn vị sự nghiệp công lập tự bảo đảm chi thường xuyên không sử dụng ngân sách nhà nước"
     ],
     "correct_answer_index": 3,
     "source": ""
@@ -424,7 +424,7 @@
     "question": "Kế hoạch lựa chọn nhà thầu của dự án thuộc đối tượng áp dụng của Luật Đấu thầu bắt buộc phải đăng tải ở đâu?",
     "options": [
       "Hệ thống mạng đấu thầu quốc gia",
-      "Báo Tài chính - Đầu tư",
+      "Báo Tài chính-Đầu tư",
       "Cổng Thông tin điện tử của Bộ, ngành",
       "Phương án A và B đều đúng"
     ],
@@ -748,7 +748,7 @@
     "question": "Đối với gói thầu mua sắm hàng hóa áp dụng hình thức chào hàng cạnh tranh, trường hợp hồ sơ mời thầu không yêu cầu về năng lực, kinh nghiệm thì việc đánh giá được thực hiện như thế nào?",
     "options": [
       "Không phải đánh giá về năng lực, kinh nghiệm nhưng nhà thầu phải cam kết đáp ứng năng lực, kinh nghiệm trong đơn dự thầu",
-      "Trường hợp nhà thầu đính kèm tài liệu về năng lực, kinh nghiệm thì chủ đầu tư bắt buộc phải đánh giá về năng lực, kinh nghiệm của nhà thầu",
+      "Trường hợp nhà thầu đính kèm tài liệu về năng lực, kinh nghiệm thì chủ đầu tư bắt buộc phải đánh giá về năng lực, kinh nghiệm của nhàthầu",
       "Bắt buộc phải đánh giá năng lực, kinh nghiệm của nhà thầu",
       "Phương án A và B đều đúng"
     ],
@@ -882,7 +882,7 @@
       "Hồ sơ dự thầu của nhà thầu bị loại, không được xem xét, đánh giá",
       "Chủ đầu tư yêu cầu nhà thầu làm rõ, bổ sung tài liệu trong một khoảng thời gian phù hợp nhưng không ít hơn 03 ngày làm việc để làm cơ sở đánh giá E-HSDT",
       "Xin ý kiến người có thẩm quyền để xử lý tình huống trong đấu thầu trên cơ sở bảo đảm các mục tiêu của công tác đấu thầu",
-      "Tiếp tục đánh giá E-HSDT, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
+      "Tiếp tục đánh giá E-HSDT, trường hơp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ tài liệu"
     ],
     "correct_answer_index": 1,
     "source": ""
@@ -894,7 +894,7 @@
       "Chủ đầu tư yêu cầu nhà thầu làm rõ các thông tin này để làm cơ sở đánh giá trên cơ sở không được thay đổi giá dự thầu",
       "Tổ chuyên gia căn cứ theo cataloge, đề xuất kỹ thuật kèm theo để làm cơ sở đánh giá",
       "Hồ sơ dự thầu của nhà thầu không được xem xét, đánh giá",
-      "Tiếp tục đánh giá hồ sơ dự thầu, trường hợp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
+      "Tiếp tục đánh giá hồ sơ dự thầu, trường hơp nhà thầu trúng thầu thì yêu cầu nhà thầu bổ sung, làm rõ các thông tin này"
     ],
     "correct_answer_index": 2,
     "source": ""
@@ -904,9 +904,9 @@
     "question": "Hồ sơ mời thầu của gói thầu xây lắp có quy định cho phép sử dụng nhà thầu phụ, trường hợp nhà thầu đề xuất sử dụng thầu phụ thì việc đánh giá năng lực kinh nghiệm của nhà thầu phụ được thực hiện như thế nào?",
     "options": [
       "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu không phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
-      "Không đánh giá năng lực, kinh nghiệm của nhà thầu phụ, nhà thầu tham dự thầu vẫn phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận",
+      "Không đánh giá năng lực, kinh nghiệm của nhà thầu phụ, nhà thầu tham dự thầu vẫn phải đáp ứng về năng lực, kinh nghiệm đối với phầncông việc mà nhà thầu phụ đảm nhận",
       "Do chủ đầu tư quyết định có đánh giá hoặc không đánh giá năng lực, kinh nghiệm nhà thầu phụ",
-      "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu cũng phải đáp ứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận"
+      "Đánh giá năng lực, kinh nghiệm của nhà thầu phụ căn cứ theo phần công việc nhà thầu phụ đảm nhận, nhà thầu tham dự thầu cũng phải đápứng về năng lực, kinh nghiệm đối với phần công việc mà nhà thầu phụ đảm nhận"
     ],
     "correct_answer_index": 1,
     "source": ""
@@ -963,7 +963,7 @@
     "id": 81,
     "question": "Trường hợp nào sau đây phải áp dụng bảo đảm thực hiện hợp đồng?",
     "options": [
-      "Nhà thầu cung cấp dịch vụ phi tư vấn",
+      "Nhà thầu cung dịch vụ phi tư vấn",
       "Nhà thầu thực hiện gói thầu có giá gói thầu thuộc hạn mức chỉ định thầu",
       "Nhà thầu cung cấp dịch vụ tư vấn",
       "Nhà thầu được lựa chọn theo hình thức tự thực hiện"
@@ -1169,8 +1169,8 @@
     "options": [
       "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị có nhu cầu mua sắm công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia",
       "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày đơn vị mua sắm tập trung công khai tên nhà thầu trên Hệ thống mạng đấu thầu quốc gia, trừ trường hợp bất khả kháng",
-      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
-      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
+      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 03 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng",
+      "Nhà thầu sẽ bị khóa tài khoản trên Hệ thống mạng đấu thầu quốc gia trong thời hạn trong thời hạn 06 tháng kể từ ngày Bộ Tài chính nhận được văn bản đề nghị của đơn vị có nhu cầu mua sắm, trừ trường hợp bất khả kháng"
     ],
     "correct_answer_index": 1,
     "source": ""
@@ -1194,7 +1194,7 @@
       "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách dự bị (nhà thầu xếp thứ 2 trở đi)",
       "Danh sách chính (nhà thầu xếp thứ nhất) và danh sách nhà thầu không đáp ứng yêu cầu của hồ sơ mời thầu",
       "Danh sách các nhà thầu đáp ứng yêu cầu về năng lực và kinh nghiệm theo yêu cầu của hồ sơ mời thầu",
-      "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi)"
+      "Danh sách chính (nhà thầu xếp thứ nhất và nhà thầu xếp thứ 2) và danh sách dự bị (nhà thầu xếp thứ 3 trở đi"
     ],
     "correct_answer_index": 0,
     "source": ""
@@ -2403,7 +2403,7 @@
     "id": 201,
     "question": "Mua sắm trực tuyến được áp dụng đối với gói thầu nào sau đây?",
     "options": [
-      "Gói thầu mua sắm hàng hóa, dịch vụ thuộc dự toán mua sắm có giá gói thầu không quá 500 triệu đồng; gói thầu mua sắm hàng hóa, dịch vụ thuộc dự án có giá gói thầu không quá 01 tỷ đồng",
+      "Gói thầu mua sắm hàng hóa, dịch vụ thuộc dự toán mua sắm có giá gói thầu không quá 500 triệu đồng; gói thầu mua sắm hàng hóa, dịch vụ thuộc dự án có giá gói thầu không quá 01 tỷ đồng (k1, đ103 - 214)",
       "Gói thầu xây lắp thuộc dự toán mua sắm có giá gói thầu không quá 01 tỷ đồng; gói thầu xây lắp thuộc dự án có giá gói thầu không quá 02 tỷ đồng",
       "Gói thầu mua sắm hàng hóa, cung cấp dịch vụ phi tư vấn thuộc dự án có giá gói thầu không quá 05 tỷ đồng",
       "Phương án B và C đều đúng"
@@ -2487,7 +2487,7 @@
     "id": 208,
     "question": "Đối với đấu thầu không qua mạng, quy định về việc công khai biên bản mở thầu trên Hệ thống nào sau đây là đúng?",
     "options": [
-      "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 24 giờ kể từ thời điểm mở thầu",
+      "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 24 giờ kể từ thời điểm mở thầu (k4b, đ28 - 214)",
       "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 02 giờ kể từ thời điểm mở thầu",
       "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 04 giờ kể từ thời điểm mở thầu",
       "Được đăng tải trên Hệ thống mạng đấu thầu quốc gia trong thời hạn 03 ngày làm việc kể từ thời điểm mở thầu"
@@ -2514,7 +2514,7 @@
       "Được thực hiện tại thời điểm đóng thầu trong trường hợp không có nhà thầu tham dự thầu",
       "Được thực hiện sau thời điểm mở thầu",
       "Được thực hiện trước thời điểm đóng thầu",
-      "Phương án A và C đều đúng"
+      "Phương án A và C đều đúng (đ17 - TT79)"
     ],
     "correct_answer_index": 3,
     "source": ""
@@ -2572,7 +2572,7 @@
     "question": "Gói thầu hàng hóa có giá gói thầu 02 tỷ đồng thực hiện chào giá trực tuyến theo quy trình rút gọn, trường hợp chủ đầu tư đăng tải thông báo mời thầu vào 11h00 ngày Thứ 2 (08/9/2025), thời điểm nào sau đây là thời điểm kết thúc chào giá trực tuyến sớm nhất?",
     "options": [
       "11h00 ngày thứ 6 (12/9/2025)",
-      "08h00 ngày thứ 3 (16/9/2025)",
+      "08h00 ngày thứ 3 (16/9/2025) (k2, đ102 - 214)",
       "11h00 ngày thứ 3 (16/9/2025)",
       "08h00 ngày thứ 4 (17/9/2025)"
     ],
@@ -2595,7 +2595,7 @@
     "id": 217,
     "question": "Đối với đấu thầu qua mạng, gói thầu mua sắm hàng hóa, dịch vụ phi tư vấn có giá gói thầu không quá 10 tỷ đồng. Trường hợp tại thời điểm đóng thầu không có nhà thầu tham dự thầu, chủ đầu tư quyết định xử lý tình huống theo cách gia hạn thời điểm đóng thầu thì thời gian gia hạn tối thiểu là bao nhiêu ngày?",
     "options": [
-      "05 ngày làm việc",
+      "05 ngày làm việc (k4, đ 140 - 214)",
       "05 ngày",
       "03 ngày",
       "03 ngày làm việc"
@@ -2607,7 +2607,7 @@
     "id": 218,
     "question": "Phương thức lựa chọn nhà thầu nào sau đây áp dụng cho đấu thầu qua mạng?",
     "options": [
-      "01 giai đoạn, 01 túi hồ sơ",
+      "01 giai đoạn, 01 túi hồ sơ (k10, đ 98 - 214)",
       "02 giai đoạn, 01 túi hồ sơ",
       "02 giai đoạn, 02 túi hồ sơ",
       "Các phương án trên đều đúng"
@@ -2622,7 +2622,7 @@
       "Có giá gói thầu không quá 500 triệu đồng",
       "Có giá gói thầu không quá 02 tỷ đồng",
       "Có giá gói thầu không quá 05 tỷ đồng",
-      "Không có quy định về hạn mức áp dụng"
+      "Không có quy định về hạn mức áp dụng (k2 đ99 - 214)"
     ],
     "correct_answer_index": 3,
     "source": ""
@@ -2631,7 +2631,7 @@
     "id": 220,
     "question": "Gói thầu hàng hóa có giá gói thầu 01 tỷ đồng thực hiện chào giá trực tuyến theo quy trình rút gọn, trường hợp chủ đầu tư đăng tải thông báo mời thầu vào 11h00 ngày Thứ 2 (08/9/2025), thời điểm nào sau đây là thời điểm kết thúc chào giá trực tuyến sớm nhất?",
     "options": [
-      "08h00 ngày thứ 6 (12/9/2025)",
+      "08h00 ngày thứ 6 (12/9/2025) (k2, đ102 - 214)",
       "08h00 ngày thứ bẩy (13/9/2025)",
       "11h00 ngày thứ 6 (12/9/2025)",
       "08h00 ngày thứ 2 (15/9/2025)"
@@ -2644,7 +2644,7 @@
     "question": "Đối với đấu thầu rộng rãi qua mạng, trường hợp gói thầu có giá trị bảo đảm dự thầu nhỏ hơn 50 triệu đồng, thời gian có hiệu lực của thư bảo lãnh dự thầu hoặc giấy chứng nhận bảo hiểm bảo lãnh được quy định tại đâu?",
     "options": [
       "Trong E-HSMT",
-      "Trong thông báo mời đối chiếu tài liệu",
+      "Trong thông báo mời đối chiếu tài liệu (CDNT - Mẫu HSMT TT79)",
       "Trong thông báo mời thương thảo hợp đồng",
       "Các phương án trên đều sai"
     ],
@@ -2657,7 +2657,7 @@
     "options": [
       "Ngày có thời điểm đóng thầu",
       "Ngày phê duyệt kết quả lựa chọn nhà thầu",
-      "Ngày thực hiện đối chiếu tài liệu",
+      "Ngày thực hiện đối chiếu tài liệu (CDNT - Mẫu HSMT TT79)",
       "Các phương án trên đều sai"
     ],
     "correct_answer_index": 2,
@@ -2765,7 +2765,7 @@
     "options": [
       "Yêu cầu về năng lực",
       "Yêu cầu về kinh nghiệm",
-      "Yêu cầu nhà thầu phải có kinh nghiệm cung cấp dịch vụ trong lãnh thổ của một quốc gia cụ thể",
+      "Yêu cầu nhà thầu phải có kinh nghiệm cung cấp dịch vụ trong lãnh thổ của một quốc gia cụ thể (k1, đ4)",
       "Yêu cầu về chất lượng dịch vụ"
     ],
     "correct_answer_index": 2,
@@ -2813,7 +2813,7 @@
     "options": [
       "Xác định tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để mời nhận hồ sơ yêu cầu",
       "Chuẩn bị và gửi dự thảo hợp đồng cho tối thiểu 03 nhà thầu có đủ năng lực, kinh nghiệm để đàm phán hợp đồng",
-      "Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu",
+      "Đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu (k3c, đ79 - 214)",
       "Phương án A và C đều đúng"
     ],
     "correct_answer_index": 2,
@@ -2825,7 +2825,7 @@
     "options": [
       "Báo cáo người có thẩm quyền để giao đơn vị khác thực hiện việc lựa chọn nhà thầu",
       "Phải thực hiện theo nhiệm vụ được giao, không được đi thuê đơn vị tư vấn để thực hiện việc lựa chọn nhà thầu",
-      "Được phép thuê đơn vị tư vấn đấu thầu có kinh nghiệm để thực hiện việc lựa chọn nhà thầu",
+      "Được phép thuê đơn vị tư vấn đấu thầu có kinh nghiệm để thực hiện việc lựa chọn nhà thầu (k1, đ89 - 214)",
       "Phương án A và C đều đúng"
     ],
     "correct_answer_index": 2,
@@ -2837,7 +2837,7 @@
     "options": [
       "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; thương thảo, hoàn thiện hợp đồng; trình, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết hợp đồng",
       "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; thương thảo hợp đồng; trình, phê duyệt kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng",
-      "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; hoàn thiện hợp đồng, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng",
+      "Chuẩn bị và gửi dự thảo hợp đồng cho nhà thầu; hoàn thiện hợp đồng, phê duyệt và công khai kết quả lựa chọn nhà thầu; ký kết và quản lý thực hiện hợp đồng (k3, đ80 - 214)",
       "Lập, phê duyệt hồ sơ yêu cầu; xác định nhà thầu dự kiến được mời nhận hồ sơ yêu cầu; đánh giá hồ sơ đề xuất và thương thảo về các đề xuất của nhà thầu; phê duyệt và công khai kết quả lựa chọn nhà thầu; hoàn thiện, ký kết và quản lý thực hiện hợp đồng"
     ],
     "correct_answer_index": 2,
@@ -2848,7 +2848,7 @@
     "question": "Phương án nào xác định quy mô của hợp đồng tương tự đối với gói thầu áp dụng mua sắm tập trung là phù hợp?",
     "options": [
       "Trong mọi trường hợp có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét)",
-      "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu",
+      "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu (Mẫu 4A - TT79)",
       "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn thì có thể điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,5 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu",
       "Trường hợp mua sắm tập trung hoặc mua sắm hàng hóa có số lượng, khối lượng mời thầu lớn, chủ đầu tư báo cáo người có thẩm quyền để điều chỉnh giảm yêu cầu về quy mô của hợp đồng tương tự xuống còn Y/1,25 (Y thông thường khoảng 50% giá trị của gói thầu đang xét) và/hoặc chia gói thầu thành các phần (lô) để tăng tính cạnh tranh cho gói thầu"
     ],
@@ -2859,7 +2859,7 @@
     "id": 239,
     "question": "Đối với gói thầu cung cấp dịch vụ tư vấn không qua mạng, trường hợp hồ sơ đề xuất về tài chính của nhà thầu không vượt qua bước đánh giá về kỹ thuật sẽ được xử lý như thế nào theo quy định của pháp luật về đấu thầu?",
     "options": [
-      "Trả lại nguyên trạng cho nhà thầu trong thời hạn 10 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn",
+      "Trả lại nguyên trạng cho nhà thầu trong thời hạn 10 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn (k1a, đ9 LĐT)",
       "Trả lại nguyên trạng cho nhà thầu trong thời hạn 05 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn",
       "Trả lại nguyên trạng cho nhà thầu trong thời hạn 15 ngày kể từ ngày ký hợp đồng với nhà thầu được lựa chọn",
       "Hồ sơ được lưu trữ theo quy định của Pháp luật về lưu trữ"
@@ -2897,7 +2897,7 @@
     "options": [
       "Trong thời hạn 07 ngày làm việc kể từ ngày nhận được đơn kiến nghị của nhà thầu, chủ đầu tư phải có văn bản giải quyết kiến nghị gửi đến nhà thầu, cơ quan, tổ chức và đăng tải trên Hệ thống mạng đấu thầu quốc gia",
       "Người có thẩm quyền phải có văn bản giải quyết kiến nghị gửi đến nhà thầu, cơ quan, tổ chức trong thời hạn 07 ngày làm việc kể từ ngày nhận được đơn kiến nghị của nhà thầu và gửi đến chủ đầu tư để đăng tải trên Hệ thống mạng đấu thầu quốc gia",
-      "Thực hiện theo quy trình về giải quyết kiến nghị do người đứng đầu Trung tâm X ban hành trong đơn vị mình",
+      "Thực hiện theo quy trình về giải quyết kiến nghị do người đứng đầu Trung tâm X ban hành trong đơn vị mình. (k7, đ138 - 214)",
       "Phương án A và B đều đúng"
     ],
     "correct_answer_index": 2,
@@ -2907,7 +2907,7 @@
     "id": 243,
     "question": "Ông A là người đại diện hợp pháp của nhà thầu B ký đơn kiến nghị về kết quả lựa chọn nhà thầu. Trong trường hợp này, anh C là con đẻ của ông A có được tham gia là thành viên Hội đồng giải quyết kiến nghị hay không?",
     "options": [
-      "Không được tham gia",
+      "Không được tham gia (k2a đ139 - 214)",
       "Được tham gia nếu đủ năng lực, kinh nghiệm",
       "Được tham gia khi Chủ tịch Hội đồng giải quyết kiến nghị chấp thuận",
       "Được tham gia khi người có thẩm quyền chấp thuận"
@@ -2944,7 +2944,7 @@
     "question": "Trường hợp xí nghiệp được tách ra khỏi pháp nhân theo quy định của pháp luật về dân sự thì nhà thầu tiếp nhận có được kế thừa năng lực, kinh nghiệm của xí nghiệp hay không?",
     "options": [
       "Không được kế thừa năng lực, kinh nghiệm của xí nghiệp",
-      "Được kế thừa năng lực, kinh nghiệm của xí nghiệp",
+      "Được kế thừa năng lực, kinh nghiệm của xí nghiệp (k15,đ140 - 214)",
       "Chỉ được kế thừa về kinh nghiệm của xí nghiệp",
       "Chỉ được kế thừa về năng lực của xí nghiệp"
     ],
@@ -2957,7 +2957,7 @@
     "options": [
       "Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm và khi tham dự thầu phải thực hiện biện pháp bảo đảm dự thầu với giá trị gấp 03 lần giá trị yêu cầu trong thời hạn 02 năm",
       "Khi tham dự thầu phải thực hiện biện pháp bảo đảm dự thầu với giá trị gấp 03 lần giá trị yêu cầu trong thời hạn 02 năm",
-      "Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm",
+      "Bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm (k1, đ133 - 214)",
       "Không bị xử lý vi phạm"
     ],
     "correct_answer_index": 2,
@@ -2970,7 +2970,7 @@
       "02 năm",
       "Từ trên 02 năm đến 03 năm",
       "Từ trên 01 năm đến 02 năm",
-      "Từ 06 tháng đến 01 năm"
+      "Từ 06 tháng đến 01 năm (k1, đ133 - 214)"
     ],
     "correct_answer_index": 3,
     "source": ""
@@ -2979,7 +2979,7 @@
     "id": 249,
     "question": "Nhà thầu liên danh A-B gồm 2 thanh viên là nhà thầu A và nhà thầu B. Nhà thầu A làm giả thông tin, hồ sơ, tài liệu về hợp đồng tương tự của mình để tham dự thầu sẽ bị xử lý như thế nào?",
     "options": [
-      "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm",
+      "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm (k1, đ133 - 214)",
       "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm",
       "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm",
       "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm"
@@ -2992,7 +2992,7 @@
     "question": "Nhà thầu liên danh A-B gồm 2 thanh viên là nhà thầu A và nhà thầu B. Nhà thầu A dàn xếp, thỏa thuận với các bên rút hồ sơ dự thầu để liên danh A-B trúng thầu sẽ bị xử lý như thế nào?",
     "options": [
       "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm",
-      "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm",
+      "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 03 năm đến 05 năm (k1, đ133 - 214)",
       "Thành viên liên danh A bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm",
       "Tất cả thành viên trong liên danh A-B bị cấm tham gia hoạt động đấu thầu từ 01 năm đến 03 năm"
     ],
@@ -3171,9 +3171,9 @@
     "id": 265,
     "question": "Nhà thầu có được tham dự thầu với tư cách nhà thầu liên danh trong trường hợp phạm vi công việc của gói thầu mua sắm hàng hóa chỉ gồm 01 hạng mục là hệ thống máy chủ không?",
     "options": [
-      "Được liên danh nếu nhà thầu phân chia công việc trong liên danh theo các công việc thuộc quá trình sản xuất hạng mục trong bảng giá dự thầu",
+      "Được liên danh nếu nhà thầu phân chia công việc trong liên danh theo các công việc thuộc quá trình sản xuất hạng mục trongbảng giá dự thầu",
       "Không được liên danh, nhà thầu chỉ được tham dự với tư cách độc lập do phạm vi công việc chỉ gồm 01 hạng mục",
-      "Được liên danh trong trường hợp 01 thành viên thực hiện toàn bộ hạng mục hệ thống máy chủ, thành viên còn lại thực hiện thu xếp tài chính cho gói thầu",
+      "Được liên danh trong trường hợp 01 thành viên thực hiện toàn bộ hạng mục hệ thống máy chủ, thành viên còn lại thực hiện thuxếp tài chính cho gói thầu",
       "Tùy thuộc vào quy định của hồ sơ mời thầu"
     ],
     "correct_answer_index": 1,
@@ -3181,7 +3181,7 @@
   },
   {
     "id": 266,
-    "question": "Có 4 nhà thầu tham dự thầu gói thầu mua sắm hàng hóa áp dụng phương pháp giá thấp nhất, trong đó:- Nhà thầu A, B, D là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ.- Nhà thầu A, B, C và D có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá lần lượt là: 95 tỷ đồng, 100 tỷ đồng, 100 tỷ đồng và 105 tỷ đồng.- Nhà thầu A, B, C và D chứng minh được hàng hóa mình tham dự có tỷ lệ chi phí sản xuất trong nước lần lượt là: 20%, 40%, 45% và 60%. Trong trường hợp tất cả nhà thầu đều đáp ứng về kỹ thuật thì nhà thầu nào được xét duyệt trúng thầu?",
+    "question": "Có 4 nhà thầu tham dự thầu gói thầu mua sắm hàng hóa áp dụng phương pháp giá thấp nhất, trong đó:- Nhà thầu A, B, D là doanh nghiệp nhỏ và vừa do phụ nữ làm chủ.- Nhà thầu A, B, C và D có giá dự thầu sau sửa lỗi, hiệu chỉnh sai lệch, trừ đi giá trị giảm giá lần lượt là: 95 tỷ đồng, 100 tỷ đồng, 100 tỷ đồng và 105 tỷ đồng.- Nhà thầu A, B, C và D chứng minh được hàng hóa mình tham dự có tỷ lệ chi phí sản xuất trong nước lần lượt là: 20%, 40%, 45% và 60%.Trong trường hợp tất cả nhà thầu đều đáp ứng về kỹ thuật thì nhà thầu nào được xét duyệt trúng thầu?",
     "options": [
       "Nhà thầu A được xét duyệt trúng thầu",
       "Nhà thầu B được xét duyệt trúng thầu",
@@ -3196,7 +3196,7 @@
     "question": "Trong lễ mở thầu đối với gói thầu đấu thầu quốc tế không qua mạng, chủ đầu tư xử lý như thế nào khi nhà thầu đề nghị bổ sung thư giảm giá do bị thất lạc trong quá trình nộp hồ sơ dự thầu theo đường bưu điện?",
     "options": [
       "Chủ đầu tư chấp nhận do đây là lỗi vận chuyển theo bưu điện",
-      "Chủ đầu tư không chấp nhận vì thư giảm giá của nhà thầu nộp sau thời điểm đóng thầu",
+      "Chủ đầu tư không chấp nhận vì thư giảm giá của nhà thầu nộp sau thời điểm đóng thầu (Điều 40 LĐT)",
       "Chủ đầu tư tạm thời ghi nhận nội dung trong thư giảm giá của nhà thầu và trình Người có thẩm quyền quyết định",
       "Chủ đầu tư coi là tình huống trong đấu thầu và xử lý trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch, hiệu quả kinh tế vàtrách nhiệm giải trình"
     ],
@@ -3207,10 +3207,10 @@
     "id": 268,
     "question": "Nhận định nào sau đây là đúng ?",
     "options": [
-      "Gói thầu xây lắp, hàng hóa và dịch vụ phi tư vấn áp dụng hình thức chào hàng cạnh tranh và sử dụng phương pháp dựa trên kỹ thuật để đánh giá về tài chính và có giá đề nghị trúng thầu vượt giá gói thầu được phép thương thảo về chi phí",
-      "Gói thầu mua thuốc áp dụng phương thức một giai đoạn hai túi hồ sơ và sử dụng phương pháp kết hợp giữa kỹ thuật và giá được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng",
-      "Gói thầu dịch vụ tư vấn áp dụng hình thức đấu thầu rộng rãi được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng",
-      "Không được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng đối với tất cả các gói thầu, trừ trường hợp nhà thầu tự nguyện giảm giá"
+      "Gói thầu xây lắp, hàng hóa và dịch vụ phi tư vấn áp dụng hình thức chào hàng cạnh tranh và sử dụng phương pháp dựa trên kỹthuật để đánh giá về tài chính và có giá đề nghị trúng thầu vượt giá gói thầu được phép thương thảo về chi phí",
+      "Gói thầu mua thuốc áp dụng phương thức một giai đoạn hai túi hồ sơ và sử dụng phương pháp kết hợp giữa kỹ thuật và giáđược phép thương thảo về chi phí trong quá trình thương thảo hợp đồng",
+      "Gói thầu dịch vụ tư vấn áp dụng hình thức đấu thầu rộng rãi được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng (Đ 44 LĐT)",
+      "Không được phép thương thảo về chi phí trong quá trình thương thảo hợp đồng đối với tất cả các gói thầu, trừ trường hợp nhàthầu tự nguyện giảm giá"
     ],
     "correct_answer_index": 2,
     "source": ""
@@ -3232,7 +3232,7 @@
     "question": "Gói thầu mua sắm hàng hóa có:- Thời điểm đóng thầu theo E-TBMT là: 8h00 ngày 25/9/2025- Hiệu lực của bảo đảm dự thầu theo yêu cầu của E-HSMT là: 90 ngày- Do lỗi hệ thống nên Hệ thống tự động gia hạn thời điểm đóng thầu mới là: 11h ngày 26/9/2025- Nhà thầu A đã nộp E-HSDT trước thời điểm Hệ thống xảy ra sự cố với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 25/9/2025; Nhà thầu B nộp E-HSDT sau thời điểm Hệ thống xảy ra sự cố và trước thời điểm đóng thầu mới với hiệu lực của bảo đảm dự thầu là 90 ngày kể từ ngày 26/9/2025Bảo đảm dự thầu của nhà thầu A và nhà thầu B được đánh giá như thế nào?",
     "options": [
       "Bảo đảm dự thầu của nhà thầu A được đánh giá là không hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là hợp lệ",
-      "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là hợp lệ",
+      "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là hợp lệ (k3, đ6 TT79)",
       "Bảo đảm dự thầu của nhà thầu A được đánh giá là hợp lệ; Bảo đảm dự thầu của nhà thầu B được đánh giá là không hợp lệ",
       "Bảo đảm dự thầu của nhà thầu A và nhà thầu B đều được đánh giá là không hợp lệ"
     ],
